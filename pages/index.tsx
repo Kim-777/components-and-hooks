@@ -6,8 +6,19 @@ import styles from "../styles/Home.module.css";
 import utilStyles from "../styles/utils.module.css";
 import { siteTitle } from "../components/layout";
 import Link from "next/link";
+import { getSortedPostsData } from "../lib/posts";
 
-const Home: NextPage = () => {
+type PostData = {
+  id: any;
+  date: any;
+  title: string;
+};
+
+type HomeProps = {
+  allPostsData: PostData[];
+};
+
+const Home: NextPage<HomeProps> = ({ allPostsData }) => {
   return (
     <Layout home>
       <Head>
@@ -19,8 +30,31 @@ const Home: NextPage = () => {
           <a>강아지 보러가기!</a>
         </Link>
       </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <ul className={utilStyles.list}>
+          {allPostsData.map(({ id, date, title }) => (
+            <li className={utilStyles.listItem} key={id}>
+              {title}
+              <br />
+              {id}
+              <br />
+              {date}
+            </li>
+          ))}
+        </ul>
+      </section>
     </Layout>
   );
 };
 
 export default Home;
+
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData();
+  return {
+    props: {
+      allPostsData,
+    },
+  };
+}
