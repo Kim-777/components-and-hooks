@@ -10,7 +10,7 @@ const Dogs: NextPage = () => {
       </Head>
       <div>
         <p>dogs!</p>
-        <p>wal!!!</p>
+        <p>wal!!! wal!!! wal!!!</p>
         <Image
           src="/images/among.jpeg"
           height={144}
