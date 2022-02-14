@@ -8,7 +8,7 @@ import { siteTitle } from "../components/layout";
 import Link from "next/link";
 import { getSortedPostsData } from "../lib/posts";
 
-type PostData = {
+export type PostData = {
   id: any;
   date: any;
   title: string;
