@@ -6,7 +6,7 @@ import Image from "next/image";
 import Head from "next/head";
 
 const name = "Kim ye chan";
-export const siteTitle: string = "Next 샘플 웹사이트";
+export const siteTitle: string = "Next로 만들어보는 웹사이트";
 
 export type LayoutProps = {
   home?: boolean;
