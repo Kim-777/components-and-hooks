@@ -12,6 +12,7 @@ export type PostData = {
   id: any;
   date: any;
   title: string;
+  contentHtml?: any;
 };
 
 type HomeProps = {
