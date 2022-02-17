@@ -31,6 +31,10 @@ const Home: NextPage<HomeProps> = ({ allPostsData }) => {
         <Link href="/animal/dogs">
           <a>강아지 보러가기!</a>
         </Link>
+        <br />
+        <Link href="/date">
+          <a>시간이랑 놀러가기!</a>
+        </Link>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
