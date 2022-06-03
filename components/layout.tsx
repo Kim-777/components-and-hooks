@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React, { FC, ReactNode } from "react";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
@@ -10,6 +10,7 @@ export const siteTitle: string = "Next로 만들어보는 웹사이트";
 
 export type LayoutProps = {
   home?: boolean;
+  children?: ReactNode;
 };
 
 const Layout: FC<LayoutProps> = ({ children, home }) => {
