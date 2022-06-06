@@ -13,7 +13,8 @@ const MapPage: NextPage = () => {
         zoom: 10,
       };
       new naver.maps.Map("map", mapOptions);
-`}
+      console.log('maps ::: ', naver.maps.Map)
+      `}
       </Script>
       <Layout>
         <div id="map" style={{ width: "100%", height: "400px" }}></div>

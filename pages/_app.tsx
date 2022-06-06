@@ -4,8 +4,8 @@ import Script from "next/script";
 import firebase from "../firebase";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  console.log("MyApp :::");
-  console.log("firebase ::: ", firebase);
+  // console.log("MyApp :::");
+  // console.log("firebase ::: ", firebase);
 
   return (
     <>
