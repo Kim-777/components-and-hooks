@@ -1,3 +1,4 @@
+import React from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
@@ -9,6 +10,7 @@ import Link from "next/link";
 import { getSortedPostsData } from "../lib/posts";
 import Date from "../components/date";
 import Script from "next/script";
+import axios from "axios";
 
 export type PostData = {
   id: any;
@@ -22,6 +24,14 @@ type HomeProps = {
 };
 
 const Home: NextPage<HomeProps> = ({ allPostsData }) => {
+  React.useEffect(() => {
+    axios
+      .get("https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita")
+      .then((response) => {
+        console.log("response :::: ", response);
+      });
+  }, []);
+
   return (
     <>
       <Layout home>
