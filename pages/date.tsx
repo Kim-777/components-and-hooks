@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import Layout from "../components/layout";
+import Layout from "../components/Layouts/layout";
 import dateStyles from "./date.module.css";
 import classNames from "classnames/bind";
 import { format, compareAsc, formatDistance } from "date-fns";

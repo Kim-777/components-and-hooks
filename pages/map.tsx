@@ -2,7 +2,7 @@ import { NextPage } from "next";
 import Head from "next/head";
 import Script from "next/script";
 import React from "react";
-import Layout from "../components/layout";
+import Layout from "../components/Layouts/layout";
 
 const MapPage: NextPage = () => {
   return (
