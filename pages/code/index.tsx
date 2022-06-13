@@ -2,6 +2,7 @@ import React from "react";
 import classNames from "classnames/bind";
 import styles from "./code.module.css";
 import Link from "next/link";
+import AntdMenu from "../../components/menu/AntdMenu";
 
 const CodesPage = () => {
   return (
@@ -19,6 +20,7 @@ const CodesPage = () => {
           <a>어드민 페이지!</a>
         </Link>
       </nav>
+      <AntdMenu />
     </div>
   );
 };
