@@ -1,25 +1,16 @@
 import React from "react";
 import classNames from "classnames/bind";
-import styles from "./code.module.css";
+import styles from "./code.module.less";
 import Link from "next/link";
 import AntdMenu from "../../components/menu/AntdMenu";
 
+const cx = classNames.bind(styles);
+
 const CodesPage = () => {
+  const [SelectedCode, setSelectedCode] = React.useState("AntdMenu");
+
   return (
-    <div>
-      <nav>
-        <Link href="/code/tables/react_table">
-          <a>리액트 테이블</a>
-        </Link>
-        <br />
-        <Link href="/code/tables/material_table">
-          <a>MUI 테이블</a>
-        </Link>
-        <br />
-        <Link href="/code/tables/antd_table">
-          <a>어드민 페이지!</a>
-        </Link>
-      </nav>
+    <div className={cx({ hi: true })}>
       <AntdMenu />
     </div>
   );
