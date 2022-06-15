@@ -3,6 +3,8 @@ import Head from "next/head";
 import Image from "next/image";
 
 const Dogs: NextPage = () => {
+  console.log("cat comp!!!!");
+
   return (
     <>
       <Head>

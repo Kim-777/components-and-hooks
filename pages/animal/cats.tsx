@@ -1,9 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import Layout from "../../components/Layouts/layout";
+import Layout from "../../components/Layouts/BasicLayout";
 
 const Cats: NextPage = () => {
+  console.log("cat comp!!!!");
   return (
     <Layout>
       <Head>
