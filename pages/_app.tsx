@@ -24,6 +24,7 @@ const MyApp: NextComponentType<AppContext, AppInitialProps, AppProps> = ({
       <Hydrate state={pageProps.dehydratedState}>
         <Component {...pageProps} />
       </Hydrate>
+      <ReactQueryDevtools />
     </QueryClientProvider>
   );
 };

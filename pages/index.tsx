@@ -60,6 +60,9 @@ const Home: NextPage<HomeProps> = ({ allPostsData }) => {
         <Link href="/admin">
           <a>어드민 보러가기!</a>
         </Link>
+        <Link href="/pokemons">
+          <a>포켓몬 보러가기!</a>
+        </Link>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
