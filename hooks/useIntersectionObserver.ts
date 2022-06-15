@@ -9,11 +9,11 @@ export default function useIntersectionObserver({
   enabled = true,
 }: {
   root: any;
-  target: React.RefObject<any>;
-  onIntersect: Function;
-  threshold: number;
-  rootMargin: string;
-  enabled: boolean;
+  target: React.MutableRefObject<any>;
+  onIntersect: any;
+  threshold?: number;
+  rootMargin?: string;
+  enabled: boolean | undefined;
 }) {
   React.useEffect(() => {
     if (!enabled) {

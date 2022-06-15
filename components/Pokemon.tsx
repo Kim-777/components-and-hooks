@@ -1,9 +1,10 @@
 import React from "react";
 import { useInfiniteQuery, useQuery } from "react-query";
 import { getPoke } from "../apis";
+import useIntersectionObserver from "../hooks/useIntersectionObserver";
 
 const Pokemon = () => {
-  const { data, fetchNextPage } = useInfiniteQuery(
+  const { data, hasNextPage, fetchNextPage } = useInfiniteQuery(
     "poke",
     ({ pageParam = "" }) => getPoke(pageParam),
     {
@@ -20,6 +21,15 @@ const Pokemon = () => {
     }
   );
 
+  const loadMoreButtonRef = React.useRef<HTMLDivElement | undefined>();
+
+  useIntersectionObserver({
+    root: null,
+    target: loadMoreButtonRef,
+    onIntersect: fetchNextPage,
+    enabled: hasNextPage,
+  });
+
   return (
     <>
       <ul>
@@ -32,6 +42,7 @@ const Pokemon = () => {
         )}
       </ul>
       <button onClick={() => fetchNextPage()}>Load More</button>
+      <div ref={loadMoreButtonRef} />
     </>
   );
 };

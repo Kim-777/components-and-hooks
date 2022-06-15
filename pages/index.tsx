@@ -48,6 +48,7 @@ const Home: NextPage<HomeProps> = ({ allPostsData }) => {
         <Link href="/admin">
           <a>어드민 보러가기!</a>
         </Link>
+        <br />
         <Link href="/pokemons">
           <a>포켓몬 보러가기!</a>
         </Link>
