@@ -8,7 +8,7 @@ const Pokemon = () => {
     ({ pageParam = "" }) => getPoke(pageParam),
     {
       getNextPageParam: (lastPage) => {
-        console.log("getNextPageParam");
+        console.log("lastPage in getNextPageParam ::: ", lastPage);
         const lastOffset =
           lastPage.results[lastPage.results.length - 1].url.split("/")[6];
         if (lastOffset > 1118) {
