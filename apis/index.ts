@@ -14,3 +14,5 @@ export const specialUri = async () => {
   const { data } = await axios.get("https://pokeapi.co/api/v2/pokemon/38");
   console.log("data :::: ", data);
 };
+
+// https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png pokemon image
