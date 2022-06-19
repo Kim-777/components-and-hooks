@@ -2,6 +2,7 @@ const limits = 100;
 let nowNum = 1;
 
 export type Todo = {
+  id: number;
   title: string;
   date: Date;
   contents: string;
@@ -16,6 +17,7 @@ export function MockTodo(): Todo {
   nowNum += nowNum;
 
   return {
+    id: nowNum,
     title: `title ${nowNum}`,
     date: new Date(),
     contents: `contents ${nowNum}`,

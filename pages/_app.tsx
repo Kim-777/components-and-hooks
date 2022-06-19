@@ -35,6 +35,10 @@ MyApp.getInitialProps = async ({
 }: AppContext): Promise<AppInitialProps> => {
   let pageProps = {};
 
+  console.log(
+    "나는 서버에서 찍히는게 맞을 거 같은데?? 왜냐면 여기 펑션은 서버에 있으니까 말이지!"
+  );
+
   if (Component.getInitialProps) {
     pageProps = await Component.getInitialProps(ctx);
   }

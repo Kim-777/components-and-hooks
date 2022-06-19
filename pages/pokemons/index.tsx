@@ -4,6 +4,7 @@ import { QueryClient, useInfiniteQuery } from "react-query";
 import { getPoke } from "../../apis/index";
 import { dehydrate } from "react-query";
 import useIntersectionObserver from "../../hooks/useIntersectionObserver";
+import useTest from "../../hooks/testhook";
 
 const Pokemons = () => {
   const { data, hasNextPage, fetchNextPage } = useInfiniteQuery(
@@ -24,6 +25,9 @@ const Pokemons = () => {
     }
   );
 
+  const [num, setNum] = React.useState<number>(0);
+  const [test, setTest] = useTest(num);
+
   const loadMoreButtonRef = React.useRef<HTMLDivElement | undefined>();
 
   useIntersectionObserver({
@@ -32,6 +36,8 @@ const Pokemons = () => {
     onIntersect: fetchNextPage,
     enabled: hasNextPage,
   });
+
+  // console.log("number in test :::: ", test);
 
   return (
     <>
@@ -45,7 +51,14 @@ const Pokemons = () => {
           ))
         )}
       </ul>
-      <button onClick={() => fetchNextPage()}>Load More</button>
+      <button
+        onClick={() => {
+          setNum((prev) => prev + 1);
+          fetchNextPage();
+        }}
+      >
+        Load More
+      </button>
       <div ref={loadMoreButtonRef as any} />
     </>
   );
