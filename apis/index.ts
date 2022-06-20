@@ -5,7 +5,7 @@ export const getPoke = async (offset: number = 0) => {
     `https://pokeapi.co/api/v2/pokemon?limit=20&offset=${offset}`
   );
 
-  console.log("data in getPoke :::: ", data);
+  // console.log("data in getPoke :::: ", data);
 
   return data;
 };
