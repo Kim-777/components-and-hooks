@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { FC } from "react";
-
+import { PokemonNames } from "../constants";
 interface PokemonProps {
   name: string;
   url: string;
@@ -17,7 +17,11 @@ const Pokemon: FC<PokemonProps> = ({ name, url }) => {
     router.push(`/pokemons/${PokemonNumber}`);
   }, [PokemonNumber, router]);
 
-  return <div onClick={handleGoToDetail}>{name}</div>;
+  return (
+    <div onClick={handleGoToDetail}>
+      {name} {PokemonNames[name]?.ko}
+    </div>
+  );
 };
 
 export default Pokemon;

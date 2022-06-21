@@ -1,4 +1,14 @@
-export const PokemonNames = {
+interface NationalPokeName {
+  ko: string;
+  jp: string;
+  fr: string;
+  de: string;
+  ch: string;
+  sp: string;
+  it: string;
+}
+
+export const PokemonNames: { [pokename: string]: NationalPokeName } = {
   bulbasaur: {
     ko: "이상해씨",
     jp: "フシギダネ",
