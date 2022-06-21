@@ -4,8 +4,11 @@ import { QueryClient, useInfiniteQuery, useQueries } from "react-query";
 import { getPoke } from "../../apis/index";
 import { dehydrate } from "react-query";
 import useIntersectionObserver from "../../hooks/useIntersectionObserver";
+import classNames from "classnames/bind";
 import useTest from "../../hooks/testhook";
-import Link from "next/link";
+import styles from "./pokemons.module.less";
+
+const cx = classNames.bind(styles);
 
 const Pokemons = () => {
   const { data, hasNextPage, fetchNextPage } = useInfiniteQuery(
@@ -42,18 +45,11 @@ const Pokemons = () => {
 
   return (
     <>
-      <Link href="/pokemons/1">
-        <a>고투 디테일</a>
-      </Link>
-      <ul>
+      <div className={`${styles.wrapper}`}>
         {(data as any).pages.map((page: any) =>
-          page.results.map((poke: any) => (
-            <li key={poke.name} style={{ padding: "20px", fontWeight: "bold" }}>
-              {poke.name}
-            </li>
-          ))
+          page.results.map((poke: any) => <Pokemon key={poke.name} {...poke} />)
         )}
-      </ul>
+      </div>
       <button
         onClick={() => {
           setNum((prev) => prev + 1);

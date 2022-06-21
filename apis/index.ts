@@ -1,11 +1,12 @@
 import axios from "axios";
 
+// async는 호출 시 자동으로 promise return 합니다.
 export const getPoke = async (offset: number = 0) => {
   const { data } = await axios.get(
     `https://pokeapi.co/api/v2/pokemon?limit=20&offset=${offset}`
   );
 
-  // console.log("data in getPoke :::: ", data);
+  console.log("data in getPoke :::: ", data);
 
   return data;
 };

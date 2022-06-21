@@ -1,50 +1,23 @@
-import React from "react";
-import { useInfiniteQuery, useQuery } from "react-query";
-import { getPoke } from "../apis";
-import useIntersectionObserver from "../hooks/useIntersectionObserver";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import React, { FC } from "react";
 
-const Pokemon = () => {
-  const { data, hasNextPage, fetchNextPage } = useInfiniteQuery(
-    "poke",
-    ({ pageParam = "" }) => getPoke(pageParam),
-    {
-      getNextPageParam: (lastPage) => {
-        // console.log("lastPage in getNextPageParam ::: ", lastPage);
-        const lastOffset =
-          lastPage.results[lastPage.results.length - 1].url.split("/")[6];
-        if (lastOffset > 1118) {
-          return undefined;
-        }
-        return lastOffset;
-      },
-      staleTime: 1000,
-    }
-  );
+interface PokemonProps {
+  name: string;
+  url: string;
+}
 
-  const loadMoreButtonRef = React.useRef<HTMLDivElement | undefined>();
+const Pokemon: FC<PokemonProps> = ({ name, url }) => {
+  const router = useRouter();
 
-  useIntersectionObserver({
-    root: null,
-    target: loadMoreButtonRef,
-    onIntersect: fetchNextPage,
-    enabled: hasNextPage,
-  });
+  const PokemonNumber = React.useMemo(() => url.split("/")[6], [url]);
 
-  return (
-    <>
-      <ul>
-        {(data as any).pages.map((page: any) =>
-          page.results.map((poke: any) => (
-            <li key={poke.name} style={{ padding: "20px", fontWeight: "bold" }}>
-              {poke.name}
-            </li>
-          ))
-        )}
-      </ul>
-      <button onClick={() => fetchNextPage()}>Load More</button>
-      <div ref={loadMoreButtonRef as any} />
-    </>
-  );
+  const handleGoToDetail = React.useCallback(() => {
+    console.log("handleGoToDetail clicked ! ", PokemonNumber);
+    router.push(`/pokemons/${PokemonNumber}`);
+  }, [PokemonNumber, router]);
+
+  return <div onClick={handleGoToDetail}>{name}</div>;
 };
 
 export default Pokemon;
