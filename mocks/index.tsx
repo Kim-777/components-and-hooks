@@ -50,3 +50,15 @@ export function MockTodos(
     resolve(response);
   });
 }
+
+export function fetchUserById(id = 1) {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve({
+        name: "테스트 유저 입니다.",
+        id,
+        description: "테스트를 위해 만들어진 객체입니다 저는.",
+      });
+    }, 3000);
+  });
+}

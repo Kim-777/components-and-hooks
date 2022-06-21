@@ -15,4 +15,12 @@ export const specialUri = async () => {
   console.log("data :::: ", data);
 };
 
+export const getPokemonImgById = async (id = 1) => {
+  const { data } = await axios.get(
+    `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`
+  );
+
+  return data;
+};
+
 // https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png pokemon image

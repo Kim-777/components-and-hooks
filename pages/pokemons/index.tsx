@@ -1,10 +1,11 @@
 import React from "react";
 import Pokemon from "../../components/Pokemon";
-import { QueryClient, useInfiniteQuery } from "react-query";
+import { QueryClient, useInfiniteQuery, useQueries } from "react-query";
 import { getPoke } from "../../apis/index";
 import { dehydrate } from "react-query";
 import useIntersectionObserver from "../../hooks/useIntersectionObserver";
 import useTest from "../../hooks/testhook";
+import Link from "next/link";
 
 const Pokemons = () => {
   const { data, hasNextPage, fetchNextPage } = useInfiniteQuery(
@@ -41,7 +42,9 @@ const Pokemons = () => {
 
   return (
     <>
-      <div>hui</div>
+      <Link href="/pokemons/1">
+        <a>고투 디테일</a>
+      </Link>
       <ul>
         {(data as any).pages.map((page: any) =>
           page.results.map((poke: any) => (
