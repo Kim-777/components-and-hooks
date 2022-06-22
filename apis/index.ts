@@ -11,8 +11,8 @@ export const getPoke = async (offset: number = 0) => {
   return data;
 };
 
-export const specialUri = async () => {
-  const { data } = await axios.get("https://pokeapi.co/api/v2/pokemon/38");
+export const getPokeDetailInfoById = async (id: string) => {
+  const { data } = await axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`);
   console.log("data :::: ", data);
 };
 

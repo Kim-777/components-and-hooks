@@ -45,7 +45,7 @@ const Pokemons = () => {
 
   return (
     <>
-      <div className={`${styles.wrapper}`}>
+      <div className={cx({ wrapper: true })}>
         {(data as any).pages.map((page: any) =>
           page.results.map((poke: any) => <Pokemon key={poke.name} {...poke} />)
         )}

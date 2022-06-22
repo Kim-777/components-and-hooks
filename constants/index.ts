@@ -1,4 +1,5 @@
 interface NationalPokeName {
+  no: string;
   ko: string;
   jp: string;
   fr: string;
@@ -10,6 +11,7 @@ interface NationalPokeName {
 
 export const PokemonNames: { [pokename: string]: NationalPokeName } = {
   bulbasaur: {
+    no: "001",
     ko: "이상해씨",
     jp: "フシギダネ",
     fr: "Bulbizarre",
@@ -19,6 +21,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bulbasaur",
   },
   ivysaur: {
+    no: "002",
     ko: "이상해풀",
     jp: "フシギソウ",
     fr: "Herbizarre",
@@ -28,6 +31,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ivysaur",
   },
   venusaur: {
+    no: "003",
     ko: "이상해꽃",
     jp: "フシギバナ",
     fr: "Florizarre",
@@ -37,6 +41,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Venusaur",
   },
   charmander: {
+    no: "004",
     ko: "파이리",
     jp: "ヒトカゲ",
     fr: "Salamèche",
@@ -46,6 +51,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Charmander",
   },
   charmeleon: {
+    no: "005",
     ko: "리자드",
     jp: "リザード",
     fr: "Reptincel",
@@ -55,6 +61,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Charmeleon",
   },
   charizard: {
+    no: "006",
     ko: "리자몽",
     jp: "リザードン",
     fr: "Dracaufeu",
@@ -64,6 +71,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Charizard",
   },
   squirtle: {
+    no: "007",
     ko: "꼬부기",
     jp: "ゼニガメ",
     fr: "Carapuce",
@@ -73,6 +81,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Squirtle",
   },
   wartortle: {
+    no: "008",
     ko: "어니부기",
     jp: "カメール",
     fr: "Carabaffe",
@@ -82,6 +91,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Wartortle",
   },
   blastoise: {
+    no: "009",
     ko: "거북왕",
     jp: "カメックス",
     fr: "Tortank",
@@ -91,6 +101,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Blastoise",
   },
   caterpie: {
+    no: "010",
     ko: "캐터피",
     jp: "キャタピー",
     fr: "Chenipan",
@@ -100,6 +111,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Caterpie",
   },
   metapod: {
+    no: "011",
     ko: "단데기",
     jp: "トランセル",
     fr: "Chrysacier",
@@ -109,6 +121,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Metapod",
   },
   butterfree: {
+    no: "012",
     ko: "버터플",
     jp: "バタフリー",
     fr: "Papilusion",
@@ -118,6 +131,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Butterfree",
   },
   weedle: {
+    no: "013",
     ko: "뿔충이",
     jp: "ビードル",
     fr: "Aspicot",
@@ -127,6 +141,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Weedle",
   },
   kakuna: {
+    no: "014",
     ko: "딱충이",
     jp: "コクーン",
     fr: "Coconfort",
@@ -136,6 +151,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kakuna",
   },
   beedrill: {
+    no: "015",
     ko: "독침붕",
     jp: "スピアー",
     fr: "Dardargnan",
@@ -145,6 +161,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Beedrill",
   },
   pidgey: {
+    no: "016",
     ko: "구구",
     jp: "ポッポ",
     fr: "Roucool",
@@ -154,6 +171,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pidgey",
   },
   pidgeotto: {
+    no: "017",
     ko: "피죤",
     jp: "ピジョン",
     fr: "Roucoups",
@@ -163,6 +181,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pidgeotto",
   },
   pidgeot: {
+    no: "018",
     ko: "피죤투",
     jp: "ピジョット",
     fr: "Roucarnage",
@@ -172,6 +191,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pidgeot",
   },
   rattata: {
+    no: "019",
     ko: "꼬렛",
     jp: "コラッタ",
     fr: "Rattata",
@@ -181,6 +201,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Rattata",
   },
   raticate: {
+    no: "020",
     ko: "레트라",
     jp: "ラッタ",
     fr: "Rattatac",
@@ -190,6 +211,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Raticate",
   },
   spearow: {
+    no: "021",
     ko: "깨비참",
     jp: "オニスズメ",
     fr: "Piafabec",
@@ -199,6 +221,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Spearow",
   },
   fearow: {
+    no: "022",
     ko: "깨비드릴조",
     jp: "オニドリル",
     fr: "Rapasdepic",
@@ -208,6 +231,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Fearow",
   },
   ekans: {
+    no: "023",
     ko: "아보",
     jp: "アーボ",
     fr: "Abo",
@@ -217,6 +241,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ekans",
   },
   arbok: {
+    no: "024",
     ko: "아보크",
     jp: "アーボック",
     fr: "Arbok",
@@ -226,6 +251,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Arbok",
   },
   pikachu: {
+    no: "025",
     ko: "피카츄",
     jp: "ピカチュウ",
     fr: "Pikachu",
@@ -235,6 +261,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pikachu",
   },
   raichu: {
+    no: "026",
     ko: "라이츄",
     jp: "ライチュウ",
     fr: "Raichu",
@@ -244,6 +271,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Raichu",
   },
   sandshrew: {
+    no: "027",
     ko: "모래두지",
     jp: "サンド",
     fr: "Sabelette",
@@ -253,6 +281,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sandshrew",
   },
   sandslash: {
+    no: "028",
     ko: "고지",
     jp: "サンドパン",
     fr: "Sablaireau",
@@ -262,6 +291,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sandslash",
   },
   "nidoran♀": {
+    no: "029",
     ko: "니드런♀",
     jp: "ニドラン♀",
     fr: "Nidoran♀",
@@ -271,6 +301,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Nidoran♀",
   },
   nidorina: {
+    no: "030",
     ko: "니드리나",
     jp: "ニドリーナ",
     fr: "Nidorina",
@@ -280,6 +311,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Nidorina",
   },
   nidoqueen: {
+    no: "031",
     ko: "니드퀸",
     jp: "ニドクイン",
     fr: "Nidoqueen",
@@ -289,6 +321,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Nidoqueen",
   },
   "nidoran♂": {
+    no: "032",
     ko: "니드런♂",
     jp: "ニドラン♂",
     fr: "Nidoran♂",
@@ -298,6 +331,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Nidoran♂",
   },
   nidorino: {
+    no: "033",
     ko: "니드리노",
     jp: "ニドリーノ",
     fr: "Nidorino",
@@ -307,6 +341,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Nidorino",
   },
   nidoking: {
+    no: "034",
     ko: "니드킹",
     jp: "ニドキング",
     fr: "Nidoking",
@@ -316,6 +351,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Nidoking",
   },
   clefairy: {
+    no: "035",
     ko: "삐삐",
     jp: "ピッピ",
     fr: "Mélofée",
@@ -325,6 +361,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Clefairy",
   },
   clefable: {
+    no: "036",
     ko: "픽시",
     jp: "ピクシー",
     fr: "Mélodelfe",
@@ -334,6 +371,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Clefable",
   },
   vulpix: {
+    no: "037",
     ko: "식스테일",
     jp: "ロコン",
     fr: "Goupix",
@@ -343,6 +381,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Vulpix",
   },
   ninetales: {
+    no: "038",
     ko: "나인테일",
     jp: "キュウコン",
     fr: "Feunard",
@@ -352,6 +391,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ninetales",
   },
   jigglypuff: {
+    no: "039",
     ko: "푸린",
     jp: "プリン",
     fr: "Rondoudou",
@@ -361,6 +401,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Jigglypuff",
   },
   wigglytuff: {
+    no: "040",
     ko: "푸크린",
     jp: "プクリン",
     fr: "Grodoudou",
@@ -370,6 +411,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Wigglytuff",
   },
   zubat: {
+    no: "041",
     ko: "주뱃",
     jp: "ズバット",
     fr: "Nosferapti",
@@ -379,6 +421,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Zubat",
   },
   golbat: {
+    no: "042",
     ko: "골뱃",
     jp: "ゴルバット",
     fr: "Nosferalto",
@@ -388,6 +431,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Golbat",
   },
   oddish: {
+    no: "043",
     ko: "뚜벅쵸",
     jp: "ナゾノクサ",
     fr: "Mystherbe",
@@ -397,6 +441,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Oddish",
   },
   gloom: {
+    no: "044",
     ko: "냄새꼬",
     jp: "クサイハナ",
     fr: "Ortide",
@@ -406,6 +451,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gloom",
   },
   vileplume: {
+    no: "045",
     ko: "라플레시아",
     jp: "ラフレシア",
     fr: "Rafflesia",
@@ -415,6 +461,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Vileplume",
   },
   paras: {
+    no: "046",
     ko: "파라스",
     jp: "パラス",
     fr: "Paras",
@@ -424,6 +471,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Paras",
   },
   parasect: {
+    no: "047",
     ko: "파라섹트",
     jp: "パラセクト",
     fr: "Parasect",
@@ -433,6 +481,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Parasect",
   },
   venonat: {
+    no: "048",
     ko: "콘팡",
     jp: "コンパン",
     fr: "Mimitoss",
@@ -442,6 +491,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Venonat",
   },
   venomoth: {
+    no: "049",
     ko: "도나리",
     jp: "モルフォン",
     fr: "Aéromite",
@@ -451,6 +501,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Venomoth",
   },
   diglett: {
+    no: "050",
     ko: "디그다",
     jp: "ディグダ",
     fr: "Taupiqueur",
@@ -460,6 +511,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Diglett",
   },
   dugtrio: {
+    no: "051",
     ko: "닥트리오",
     jp: "ダグトリオ",
     fr: "Triopikeur",
@@ -469,6 +521,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dugtrio",
   },
   meowth: {
+    no: "052",
     ko: "나옹",
     jp: "ニャース",
     fr: "Miaouss",
@@ -478,6 +531,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Meowth",
   },
   persian: {
+    no: "053",
     ko: "페르시온",
     jp: "ペルシアン",
     fr: "Persian",
@@ -487,6 +541,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Persian",
   },
   psyduck: {
+    no: "054",
     ko: "고라파덕",
     jp: "コダック",
     fr: "Psykokwak",
@@ -496,6 +551,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Psyduck",
   },
   golduck: {
+    no: "055",
     ko: "골덕",
     jp: "ゴルダック",
     fr: "Akwakwak",
@@ -505,6 +561,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Golduck",
   },
   mankey: {
+    no: "056",
     ko: "망키",
     jp: "マンキー",
     fr: "Férosinge",
@@ -514,6 +571,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mankey",
   },
   primeape: {
+    no: "057",
     ko: "성원숭",
     jp: "オコリザル",
     fr: "Colossinge",
@@ -523,6 +581,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Primeape",
   },
   growlithe: {
+    no: "058",
     ko: "가디",
     jp: "ガーディ",
     fr: "Caninos",
@@ -532,6 +591,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Growlithe",
   },
   arcanine: {
+    no: "059",
     ko: "윈디",
     jp: "ウインディ",
     fr: "Arcanin",
@@ -541,6 +601,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Arcanine",
   },
   poliwag: {
+    no: "060",
     ko: "발챙이",
     jp: "ニョロモ",
     fr: "Ptitard",
@@ -550,6 +611,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Poliwag",
   },
   poliwhirl: {
+    no: "061",
     ko: "슈륙챙이",
     jp: "ニョロゾ",
     fr: "Têtarte",
@@ -559,6 +621,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Poliwhirl",
   },
   poliwrath: {
+    no: "062",
     ko: "강챙이",
     jp: "ニョロボン",
     fr: "Tartard",
@@ -568,6 +631,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Poliwrath",
   },
   abra: {
+    no: "063",
     ko: "캐이시",
     jp: "ケーシィ",
     fr: "Abra",
@@ -577,6 +641,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Abra",
   },
   kadabra: {
+    no: "064",
     ko: "윤겔라",
     jp: "ユンゲラー",
     fr: "Kadabra",
@@ -586,6 +651,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kadabra",
   },
   alakazam: {
+    no: "065",
     ko: "후딘",
     jp: "フーディン",
     fr: "Alakazam",
@@ -595,6 +661,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Alakazam",
   },
   machop: {
+    no: "066",
     ko: "알통몬",
     jp: "ワンリキー",
     fr: "Machoc",
@@ -604,6 +671,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Machop",
   },
   machoke: {
+    no: "067",
     ko: "근육몬",
     jp: "ゴーリキー",
     fr: "Machopeur",
@@ -613,6 +681,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Machoke",
   },
   machamp: {
+    no: "068",
     ko: "괴력몬",
     jp: "カイリキー",
     fr: "Mackogneur",
@@ -622,6 +691,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Machamp",
   },
   bellsprout: {
+    no: "069",
     ko: "모다피",
     jp: "マダツボミ",
     fr: "Chétiflor",
@@ -631,6 +701,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bellsprout",
   },
   weepinbell: {
+    no: "070",
     ko: "우츠동",
     jp: "ウツドン",
     fr: "Boustiflor",
@@ -640,6 +711,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Weepinbell",
   },
   victreebel: {
+    no: "071",
     ko: "우츠보트",
     jp: "ウツボット",
     fr: "Empiflor",
@@ -649,6 +721,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Victreebel",
   },
   tentacool: {
+    no: "072",
     ko: "왕눈해",
     jp: "メノクラゲ",
     fr: "Tentacool",
@@ -658,6 +731,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tentacool",
   },
   tentacruel: {
+    no: "073",
     ko: "독파리",
     jp: "ドククラゲ",
     fr: "Tentacruel",
@@ -667,6 +741,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tentacruel",
   },
   geodude: {
+    no: "074",
     ko: "꼬마돌",
     jp: "イシツブテ",
     fr: "Racaillou",
@@ -676,6 +751,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Geodude",
   },
   graveler: {
+    no: "075",
     ko: "데구리",
     jp: "ゴローン",
     fr: "Gravalanch",
@@ -685,6 +761,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Graveler",
   },
   golem: {
+    no: "076",
     ko: "딱구리",
     jp: "ゴローニャ",
     fr: "Grolem",
@@ -694,6 +771,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Golem",
   },
   ponyta: {
+    no: "077",
     ko: "포니타",
     jp: "ポニータ",
     fr: "Ponyta",
@@ -703,6 +781,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ponyta",
   },
   rapidash: {
+    no: "078",
     ko: "날쌩마",
     jp: "ギャロップ",
     fr: "Galopa",
@@ -712,6 +791,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Rapidash",
   },
   slowpoke: {
+    no: "079",
     ko: "야돈",
     jp: "ヤドン",
     fr: "Ramoloss",
@@ -721,6 +801,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Slowpoke",
   },
   slowbro: {
+    no: "080",
     ko: "야도란",
     jp: "ヤドラン",
     fr: "Flagadoss",
@@ -730,6 +811,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Slowbro",
   },
   magnemite: {
+    no: "081",
     ko: "코일",
     jp: "コイル",
     fr: "Magnéti",
@@ -739,6 +821,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Magnemite",
   },
   magneton: {
+    no: "082",
     ko: "레어코일",
     jp: "レアコイル",
     fr: "Magnéton",
@@ -748,6 +831,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Magneton",
   },
   "farfetch'd": {
+    no: "083",
     ko: "파오리",
     jp: "カモネギ",
     fr: "Canarticho",
@@ -757,6 +841,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Farfetch'd",
   },
   doduo: {
+    no: "084",
     ko: "두두",
     jp: "ドードー",
     fr: "Doduo",
@@ -766,6 +851,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Doduo",
   },
   dodrio: {
+    no: "085",
     ko: "두트리오",
     jp: "ドードリオ",
     fr: "Dodrio",
@@ -775,6 +861,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dodrio",
   },
   seel: {
+    no: "086",
     ko: "쥬쥬",
     jp: "パウワウ",
     fr: "Otaria",
@@ -784,6 +871,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Seel",
   },
   dewgong: {
+    no: "087",
     ko: "쥬레곤",
     jp: "ジュゴン",
     fr: "Lamantine",
@@ -793,6 +881,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dewgong",
   },
   grimer: {
+    no: "088",
     ko: "질퍽이",
     jp: "ベトベター",
     fr: "Tadmorv",
@@ -802,6 +891,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Grimer",
   },
   muk: {
+    no: "089",
     ko: "질뻐기",
     jp: "ベトベトン",
     fr: "Grotadmorv",
@@ -811,6 +901,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Muk",
   },
   shellder: {
+    no: "090",
     ko: "셀러",
     jp: "シェルダー",
     fr: "Kokiyas",
@@ -820,6 +911,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Shellder",
   },
   cloyster: {
+    no: "091",
     ko: "파르셀",
     jp: "パルシェン",
     fr: "Crustabri",
@@ -829,6 +921,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cloyster",
   },
   gastly: {
+    no: "092",
     ko: "고오스",
     jp: "ゴース",
     fr: "Fantominus",
@@ -838,6 +931,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gastly",
   },
   haunter: {
+    no: "093",
     ko: "고우스트",
     jp: "ゴースト",
     fr: "Spectrum",
@@ -847,6 +941,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Haunter",
   },
   gengar: {
+    no: "094",
     ko: "팬텀",
     jp: "ゲンガー",
     fr: "Ectoplasma",
@@ -856,6 +951,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gengar",
   },
   onix: {
+    no: "095",
     ko: "롱스톤",
     jp: "イワーク",
     fr: "Onix",
@@ -865,6 +961,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Onix",
   },
   drowzee: {
+    no: "096",
     ko: "슬리프",
     jp: "スリープ",
     fr: "Soporifik",
@@ -874,6 +971,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Drowzee",
   },
   hypno: {
+    no: "097",
     ko: "슬리퍼",
     jp: "スリーパー",
     fr: "Hypnomade",
@@ -883,6 +981,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hypno",
   },
   krabby: {
+    no: "098",
     ko: "크랩",
     jp: "クラブ",
     fr: "Krabby",
@@ -892,6 +991,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Krabby",
   },
   kingler: {
+    no: "099",
     ko: "킹크랩",
     jp: "キングラー",
     fr: "Krabboss",
@@ -901,6 +1001,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kingler",
   },
   voltorb: {
+    no: "100",
     ko: "찌리리공",
     jp: "ビリリダマ",
     fr: "Voltorbe",
@@ -910,6 +1011,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Voltorb",
   },
   electrode: {
+    no: "101",
     ko: "붐볼",
     jp: "マルマイン",
     fr: "Électrode",
@@ -919,6 +1021,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Electrode",
   },
   exeggcute: {
+    no: "102",
     ko: "아라리",
     jp: "タマタマ",
     fr: "Noeunoeuf",
@@ -928,6 +1031,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Exeggcute",
   },
   exeggutor: {
+    no: "103",
     ko: "나시",
     jp: "ナッシー",
     fr: "Noadkoko",
@@ -937,6 +1041,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Exeggutor",
   },
   cubone: {
+    no: "104",
     ko: "탕구리",
     jp: "カラカラ",
     fr: "Osselait",
@@ -946,6 +1051,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cubone",
   },
   marowak: {
+    no: "105",
     ko: "텅구리",
     jp: "ガラガラ",
     fr: "Ossatueur",
@@ -955,6 +1061,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Marowak",
   },
   hitmonlee: {
+    no: "106",
     ko: "시라소몬",
     jp: "サワムラー",
     fr: "Kicklee",
@@ -964,6 +1071,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hitmonlee",
   },
   hitmonchan: {
+    no: "107",
     ko: "홍수몬",
     jp: "エビワラー",
     fr: "Tygnon",
@@ -973,6 +1081,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hitmonchan",
   },
   lickitung: {
+    no: "108",
     ko: "내루미",
     jp: "ベロリンガ",
     fr: "Excelangue",
@@ -982,6 +1091,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lickitung",
   },
   koffing: {
+    no: "109",
     ko: "또가스",
     jp: "ドガース",
     fr: "Smogo",
@@ -991,6 +1101,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Koffing",
   },
   weezing: {
+    no: "110",
     ko: "또도가스",
     jp: "マタドガス",
     fr: "Smogogo",
@@ -1000,6 +1111,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Weezing",
   },
   rhyhorn: {
+    no: "111",
     ko: "뿔카노",
     jp: "サイホーン",
     fr: "Rhinocorne",
@@ -1009,6 +1121,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Rhyhorn",
   },
   rhydon: {
+    no: "112",
     ko: "코뿌리",
     jp: "サイドン",
     fr: "Rhinoféros",
@@ -1018,6 +1131,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Rhydon",
   },
   chansey: {
+    no: "113",
     ko: "럭키",
     jp: "ラッキー",
     fr: "Leveinard",
@@ -1027,6 +1141,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Chansey",
   },
   tangela: {
+    no: "114",
     ko: "덩쿠리",
     jp: "モンジャラ",
     fr: "Saquedeneu",
@@ -1036,6 +1151,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tangela",
   },
   kangaskhan: {
+    no: "115",
     ko: "캥카",
     jp: "ガルーラ",
     fr: "Kangourex",
@@ -1045,6 +1161,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kangaskhan",
   },
   horsea: {
+    no: "116",
     ko: "쏘드라",
     jp: "タッツー",
     fr: "Hypotrempe",
@@ -1054,6 +1171,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Horsea",
   },
   seadra: {
+    no: "117",
     ko: "시드라",
     jp: "シードラ",
     fr: "Hypocéan",
@@ -1063,6 +1181,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Seadra",
   },
   goldeen: {
+    no: "118",
     ko: "콘치",
     jp: "トサキント",
     fr: "Poissirène",
@@ -1072,6 +1191,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Goldeen",
   },
   seaking: {
+    no: "119",
     ko: "왕콘치",
     jp: "アズマオウ",
     fr: "Poissoroy",
@@ -1081,6 +1201,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Seaking",
   },
   staryu: {
+    no: "120",
     ko: "별가사리",
     jp: "ヒトデマン",
     fr: "Stari",
@@ -1090,6 +1211,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Staryu",
   },
   starmie: {
+    no: "121",
     ko: "아쿠스타",
     jp: "スターミー",
     fr: "Staross",
@@ -1099,6 +1221,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Starmie",
   },
   "mr. mime": {
+    no: "122",
     ko: "마임맨",
     jp: "バリヤード",
     fr: "M. Mime",
@@ -1108,6 +1231,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mr. Mime",
   },
   scyther: {
+    no: "123",
     ko: "스라크",
     jp: "ストライク",
     fr: "Insécateur",
@@ -1117,6 +1241,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Scyther",
   },
   jynx: {
+    no: "124",
     ko: "루주라",
     jp: "ルージュラ",
     fr: "Lippoutou",
@@ -1126,6 +1251,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Jynx",
   },
   electabuzz: {
+    no: "125",
     ko: "에레브",
     jp: "エレブー",
     fr: "Élektek",
@@ -1135,6 +1261,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Electabuzz",
   },
   magmar: {
+    no: "126",
     ko: "마그마",
     jp: "ブーバー",
     fr: "Magmar",
@@ -1144,6 +1271,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Magmar",
   },
   pinsir: {
+    no: "127",
     ko: "쁘사이저",
     jp: "カイロス",
     fr: "Scarabrute",
@@ -1153,6 +1281,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pinsir",
   },
   tauros: {
+    no: "128",
     ko: "켄타로스",
     jp: "ケンタロス",
     fr: "Tauros",
@@ -1162,6 +1291,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tauros",
   },
   magikarp: {
+    no: "129",
     ko: "잉어킹",
     jp: "コイキング",
     fr: "Magicarpe",
@@ -1171,6 +1301,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Magikarp",
   },
   gyarados: {
+    no: "130",
     ko: "갸라도스",
     jp: "ギャラドス",
     fr: "Léviator",
@@ -1180,6 +1311,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gyarados",
   },
   lapras: {
+    no: "131",
     ko: "라프라스",
     jp: "ラプラス",
     fr: "Lokhlass",
@@ -1189,6 +1321,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lapras",
   },
   ditto: {
+    no: "132",
     ko: "메타몽",
     jp: "メタモン",
     fr: "Métamorph",
@@ -1198,6 +1331,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ditto",
   },
   eevee: {
+    no: "133",
     ko: "이브이",
     jp: "イーブイ",
     fr: "Évoli",
@@ -1207,6 +1341,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Eevee",
   },
   vaporeon: {
+    no: "134",
     ko: "샤미드",
     jp: "シャワーズ",
     fr: "Aquali",
@@ -1216,6 +1351,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Vaporeon",
   },
   jolteon: {
+    no: "135",
     ko: "쥬피썬더",
     jp: "サンダース",
     fr: "Voltali",
@@ -1225,6 +1361,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Jolteon",
   },
   flareon: {
+    no: "136",
     ko: "부스터",
     jp: "ブースター",
     fr: "Pyroli",
@@ -1234,6 +1371,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Flareon",
   },
   porygon: {
+    no: "137",
     ko: "폴리곤",
     jp: "ポリゴン",
     fr: "Porygon",
@@ -1243,6 +1381,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Porygon",
   },
   omanyte: {
+    no: "138",
     ko: "암나이트",
     jp: "オムナイト",
     fr: "Amonita",
@@ -1252,6 +1391,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Omanyte",
   },
   omastar: {
+    no: "139",
     ko: "암스타",
     jp: "オムスター",
     fr: "Amonistar",
@@ -1261,6 +1401,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Omastar",
   },
   kabuto: {
+    no: "140",
     ko: "투구",
     jp: "カブト",
     fr: "Kabuto",
@@ -1270,6 +1411,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kabuto",
   },
   kabutops: {
+    no: "141",
     ko: "투구푸스",
     jp: "カブトプス",
     fr: "Kabutops",
@@ -1279,6 +1421,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kabutops",
   },
   aerodactyl: {
+    no: "142",
     ko: "프테라",
     jp: "プテラ",
     fr: "Ptéra",
@@ -1288,6 +1431,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Aerodactyl",
   },
   snorlax: {
+    no: "143",
     ko: "잠만보",
     jp: "カビゴン",
     fr: "Ronflex",
@@ -1297,6 +1441,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Snorlax",
   },
   articuno: {
+    no: "144",
     ko: "프리져",
     jp: "フリーザー",
     fr: "Artikodin",
@@ -1306,6 +1451,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Articuno",
   },
   zapdos: {
+    no: "145",
     ko: "썬더",
     jp: "サンダー",
     fr: "Électhor",
@@ -1315,6 +1461,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Zapdos",
   },
   moltres: {
+    no: "146",
     ko: "파이어",
     jp: "ファイヤー",
     fr: "Sulfura",
@@ -1324,6 +1471,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Moltres",
   },
   dratini: {
+    no: "147",
     ko: "미뇽",
     jp: "ミニリュウ",
     fr: "Minidraco",
@@ -1333,6 +1481,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dratini",
   },
   dragonair: {
+    no: "148",
     ko: "신뇽",
     jp: "ハクリュー",
     fr: "Draco",
@@ -1342,6 +1491,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dragonair",
   },
   dragonite: {
+    no: "149",
     ko: "망나뇽",
     jp: "カイリュー",
     fr: "Dracolosse",
@@ -1351,6 +1501,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dragonite",
   },
   mewtwo: {
+    no: "150",
     ko: "뮤츠",
     jp: "ミュウツー",
     fr: "Mewtwo",
@@ -1360,6 +1511,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mewtwo",
   },
   mew: {
+    no: "151",
     ko: "뮤",
     jp: "ミュウ",
     fr: "Mew",
@@ -1369,6 +1521,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mew",
   },
   chikorita: {
+    no: "152",
     ko: "치코리타",
     jp: "チコリータ",
     fr: "Germignon",
@@ -1378,6 +1531,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Chikorita",
   },
   bayleef: {
+    no: "153",
     ko: "베이리프",
     jp: "ベイリーフ",
     fr: "Macronium",
@@ -1387,6 +1541,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bayleef",
   },
   meganium: {
+    no: "154",
     ko: "메가니움",
     jp: "メガニウム",
     fr: "Méganium",
@@ -1396,6 +1551,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Meganium",
   },
   cyndaquil: {
+    no: "155",
     ko: "브케인",
     jp: "ヒノアラシ",
     fr: "Héricendre",
@@ -1405,6 +1561,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cyndaquil",
   },
   quilava: {
+    no: "156",
     ko: "마그케인",
     jp: "マグマラシ",
     fr: "Feurisson",
@@ -1414,6 +1571,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Quilava",
   },
   typhlosion: {
+    no: "157",
     ko: "블레이범",
     jp: "バクフーン",
     fr: "Typhlosion",
@@ -1423,6 +1581,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Typhlosion",
   },
   totodile: {
+    no: "158",
     ko: "리아코",
     jp: "ワニノコ",
     fr: "Kaiminus",
@@ -1432,6 +1591,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Totodile",
   },
   croconaw: {
+    no: "159",
     ko: "엘리게이",
     jp: "アリゲイツ",
     fr: "Crocrodil",
@@ -1441,6 +1601,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Croconaw",
   },
   feraligatr: {
+    no: "160",
     ko: "장크로다일",
     jp: "オーダイル",
     fr: "Aligatueur",
@@ -1450,6 +1611,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Feraligatr",
   },
   sentret: {
+    no: "161",
     ko: "꼬리선",
     jp: "オタチ",
     fr: "Fouinette",
@@ -1459,6 +1621,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sentret",
   },
   furret: {
+    no: "162",
     ko: "다꼬리",
     jp: "オオタチ",
     fr: "Fouinar",
@@ -1468,6 +1631,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Furret",
   },
   hoothoot: {
+    no: "163",
     ko: "부우부",
     jp: "ホーホー",
     fr: "Hoothoot",
@@ -1477,6 +1641,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hoothoot",
   },
   noctowl: {
+    no: "164",
     ko: "야부엉",
     jp: "ヨルノズク",
     fr: "Noarfang",
@@ -1486,6 +1651,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Noctowl",
   },
   ledyba: {
+    no: "165",
     ko: "레디바",
     jp: "レディバ",
     fr: "Coxy",
@@ -1495,6 +1661,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ledyba",
   },
   ledian: {
+    no: "166",
     ko: "레디안",
     jp: "レディアン",
     fr: "Coxyclaque",
@@ -1504,6 +1671,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ledian",
   },
   spinarak: {
+    no: "167",
     ko: "페이검",
     jp: "イトマル",
     fr: "Mimigal",
@@ -1513,6 +1681,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Spinarak",
   },
   ariados: {
+    no: "168",
     ko: "아리아도스",
     jp: "アリアドス",
     fr: "Migalos",
@@ -1522,6 +1691,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ariados",
   },
   crobat: {
+    no: "169",
     ko: "크로뱃",
     jp: "クロバット",
     fr: "Nostenfer",
@@ -1531,6 +1701,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Crobat",
   },
   chinchou: {
+    no: "170",
     ko: "초라기",
     jp: "チョンチー",
     fr: "Loupio",
@@ -1540,6 +1711,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Chinchou",
   },
   lanturn: {
+    no: "171",
     ko: "랜턴",
     jp: "ランターン",
     fr: "Lanturn",
@@ -1549,6 +1721,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lanturn",
   },
   pichu: {
+    no: "172",
     ko: "피츄",
     jp: "ピチュー",
     fr: "Pichu",
@@ -1558,6 +1731,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pichu",
   },
   cleffa: {
+    no: "173",
     ko: "삐",
     jp: "ピィ",
     fr: "Mélo",
@@ -1567,6 +1741,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cleffa",
   },
   igglybuff: {
+    no: "174",
     ko: "푸푸린",
     jp: "ププリン",
     fr: "Toudoudou",
@@ -1576,6 +1751,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Igglybuff",
   },
   togepi: {
+    no: "175",
     ko: "토게피",
     jp: "トゲピー",
     fr: "Togepi",
@@ -1585,6 +1761,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Togepi",
   },
   togetic: {
+    no: "176",
     ko: "토게틱",
     jp: "トゲチック",
     fr: "Togetic",
@@ -1594,6 +1771,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Togetic",
   },
   natu: {
+    no: "177",
     ko: "네이티",
     jp: "ネイティ",
     fr: "Natu",
@@ -1603,6 +1781,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Natu",
   },
   xatu: {
+    no: "178",
     ko: "네이티오",
     jp: "ネイティオ",
     fr: "Xatu",
@@ -1612,6 +1791,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Xatu",
   },
   mareep: {
+    no: "179",
     ko: "메리프",
     jp: "メリープ",
     fr: "Wattouat",
@@ -1621,6 +1801,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mareep",
   },
   flaaffy: {
+    no: "180",
     ko: "보송송",
     jp: "モココ",
     fr: "Lainergie",
@@ -1630,6 +1811,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Flaaffy",
   },
   ampharos: {
+    no: "181",
     ko: "전룡",
     jp: "デンリュウ",
     fr: "Pharamp",
@@ -1639,6 +1821,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ampharos",
   },
   bellossom: {
+    no: "182",
     ko: "아르코",
     jp: "キレイハナ",
     fr: "Joliflor",
@@ -1648,6 +1831,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bellossom",
   },
   marill: {
+    no: "183",
     ko: "마릴",
     jp: "マリル",
     fr: "Marill",
@@ -1657,6 +1841,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Marill",
   },
   azumarill: {
+    no: "184",
     ko: "마릴리",
     jp: "マリルリ",
     fr: "Azumarill",
@@ -1666,6 +1851,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Azumarill",
   },
   sudowoodo: {
+    no: "185",
     ko: "꼬지모",
     jp: "ウソッキー",
     fr: "Simularbre",
@@ -1675,6 +1861,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sudowoodo",
   },
   politoed: {
+    no: "186",
     ko: "왕구리",
     jp: "ニョロトノ",
     fr: "Tarpaud",
@@ -1684,6 +1871,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Politoed",
   },
   hoppip: {
+    no: "187",
     ko: "통통코",
     jp: "ハネッコ",
     fr: "Granivol",
@@ -1693,6 +1881,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hoppip",
   },
   skiploom: {
+    no: "188",
     ko: "두코",
     jp: "ポポッコ",
     fr: "Floravol",
@@ -1702,6 +1891,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Skiploom",
   },
   jumpluff: {
+    no: "189",
     ko: "솜솜코",
     jp: "ワタッコ",
     fr: "Cotovol",
@@ -1711,6 +1901,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Jumpluff",
   },
   aipom: {
+    no: "190",
     ko: "에이팜",
     jp: "エイパム",
     fr: "Capumain",
@@ -1720,6 +1911,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Aipom",
   },
   sunkern: {
+    no: "191",
     ko: "해너츠",
     jp: "ヒマナッツ",
     fr: "Tournegrin",
@@ -1729,6 +1921,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sunkern",
   },
   sunflora: {
+    no: "192",
     ko: "해루미",
     jp: "キマワリ",
     fr: "Héliatronc",
@@ -1738,6 +1931,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sunflora",
   },
   yanma: {
+    no: "193",
     ko: "왕자리",
     jp: "ヤンヤンマ",
     fr: "Yanma",
@@ -1747,6 +1941,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Yanma",
   },
   wooper: {
+    no: "194",
     ko: "우파",
     jp: "ウパー",
     fr: "Axoloto",
@@ -1756,6 +1951,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Wooper",
   },
   quagsire: {
+    no: "195",
     ko: "누오",
     jp: "ヌオー",
     fr: "Maraiste",
@@ -1765,6 +1961,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Quagsire",
   },
   espeon: {
+    no: "196",
     ko: "에브이",
     jp: "エーフィ",
     fr: "Mentali",
@@ -1774,6 +1971,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Espeon",
   },
   umbreon: {
+    no: "197",
     ko: "블래키",
     jp: "ブラッキー",
     fr: "Noctali",
@@ -1783,6 +1981,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Umbreon",
   },
   murkrow: {
+    no: "198",
     ko: "니로우",
     jp: "ヤミカラス",
     fr: "Cornèbre",
@@ -1792,6 +1991,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Murkrow",
   },
   slowking: {
+    no: "199",
     ko: "야도킹",
     jp: "ヤドキング",
     fr: "Roigada",
@@ -1801,6 +2001,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Slowking",
   },
   misdreavus: {
+    no: "200",
     ko: "무우마",
     jp: "ムウマ",
     fr: "Feuforêve",
@@ -1810,6 +2011,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Misdreavus",
   },
   unown: {
+    no: "201",
     ko: "안농",
     jp: "アンノーン",
     fr: "Zarbi",
@@ -1819,6 +2021,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Unown",
   },
   wobbuffet: {
+    no: "202",
     ko: "마자용",
     jp: "ソーナンス",
     fr: "Qulbutoké",
@@ -1828,6 +2031,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Wobbuffet",
   },
   girafarig: {
+    no: "203",
     ko: "키링키",
     jp: "キリンリキ",
     fr: "Girafarig",
@@ -1837,6 +2041,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Girafarig",
   },
   pineco: {
+    no: "204",
     ko: "피콘",
     jp: "クヌギダマ",
     fr: "Pomdepik",
@@ -1846,6 +2051,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pineco",
   },
   forretress: {
+    no: "205",
     ko: "쏘콘",
     jp: "フォレトス",
     fr: "Foretress",
@@ -1855,6 +2061,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Forretress",
   },
   dunsparce: {
+    no: "206",
     ko: "노고치",
     jp: "ノコッチ",
     fr: "Insolourdo",
@@ -1864,6 +2071,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dunsparce",
   },
   gligar: {
+    no: "207",
     ko: "글라이거",
     jp: "グライガー",
     fr: "Scorplane",
@@ -1873,6 +2081,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gligar",
   },
   steelix: {
+    no: "208",
     ko: "강철톤",
     jp: "ハガネール",
     fr: "Steelix",
@@ -1882,6 +2091,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Steelix",
   },
   snubbull: {
+    no: "209",
     ko: "블루",
     jp: "ブルー",
     fr: "Snubbull",
@@ -1891,6 +2101,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Snubbull",
   },
   granbull: {
+    no: "210",
     ko: "그랑블루",
     jp: "グランブル",
     fr: "Granbull",
@@ -1900,6 +2111,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Granbull",
   },
   qwilfish: {
+    no: "211",
     ko: "침바루",
     jp: "ハリーセン",
     fr: "Qwilfish",
@@ -1909,6 +2121,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Qwilfish",
   },
   scizor: {
+    no: "212",
     ko: "핫삼",
     jp: "ハッサム",
     fr: "Cizayox",
@@ -1918,6 +2131,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Scizor",
   },
   shuckle: {
+    no: "213",
     ko: "단단지",
     jp: "ツボツボ",
     fr: "Caratroc",
@@ -1927,6 +2141,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Shuckle",
   },
   heracross: {
+    no: "214",
     ko: "헤라크로스",
     jp: "ヘラクロス",
     fr: "Scarhino",
@@ -1936,6 +2151,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Heracross",
   },
   sneasel: {
+    no: "215",
     ko: "포푸니",
     jp: "ニューラ",
     fr: "Farfuret",
@@ -1945,6 +2161,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sneasel",
   },
   teddiursa: {
+    no: "216",
     ko: "깜지곰",
     jp: "ヒメグマ",
     fr: "Teddiursa",
@@ -1954,6 +2171,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Teddiursa",
   },
   ursaring: {
+    no: "217",
     ko: "링곰",
     jp: "リングマ",
     fr: "Ursaring",
@@ -1963,6 +2181,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ursaring",
   },
   slugma: {
+    no: "218",
     ko: "마그마그",
     jp: "マグマッグ",
     fr: "Limagma",
@@ -1972,6 +2191,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Slugma",
   },
   magcargo: {
+    no: "219",
     ko: "마그카르고",
     jp: "マグカルゴ",
     fr: "Volcaropod",
@@ -1981,6 +2201,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Magcargo",
   },
   swinub: {
+    no: "220",
     ko: "꾸꾸리",
     jp: "ウリムー",
     fr: "Marcacrin",
@@ -1990,6 +2211,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Swinub",
   },
   piloswine: {
+    no: "221",
     ko: "메꾸리",
     jp: "イノムー",
     fr: "Cochignon",
@@ -1999,6 +2221,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Piloswine",
   },
   corsola: {
+    no: "222",
     ko: "코산호",
     jp: "サニーゴ",
     fr: "Corayon",
@@ -2008,6 +2231,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Corsola",
   },
   remoraid: {
+    no: "223",
     ko: "총어",
     jp: "テッポウオ",
     fr: "Rémoraid",
@@ -2017,6 +2241,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Remoraid",
   },
   octillery: {
+    no: "224",
     ko: "대포무노",
     jp: "オクタン",
     fr: "Octillery",
@@ -2026,6 +2251,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Octillery",
   },
   delibird: {
+    no: "225",
     ko: "딜리버드",
     jp: "デリバード",
     fr: "Cadoizo",
@@ -2035,6 +2261,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Delibird",
   },
   mantine: {
+    no: "226",
     ko: "만타인",
     jp: "マンタイン",
     fr: "Démanta",
@@ -2044,6 +2271,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mantine",
   },
   skarmory: {
+    no: "227",
     ko: "무장조",
     jp: "エアームド",
     fr: "Airmure",
@@ -2053,6 +2281,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Skarmory",
   },
   houndour: {
+    no: "228",
     ko: "델빌",
     jp: "デルビル",
     fr: "Malosse",
@@ -2062,6 +2291,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Houndour",
   },
   houndoom: {
+    no: "229",
     ko: "헬가",
     jp: "ヘルガー",
     fr: "Démolosse",
@@ -2071,6 +2301,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Houndoom",
   },
   kingdra: {
+    no: "230",
     ko: "킹드라",
     jp: "キングドラ",
     fr: "Hyporoi",
@@ -2080,6 +2311,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kingdra",
   },
   phanpy: {
+    no: "231",
     ko: "코코리",
     jp: "ゴマゾウ",
     fr: "Phanpy",
@@ -2089,6 +2321,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Phanpy",
   },
   donphan: {
+    no: "232",
     ko: "코리갑",
     jp: "ドンファン",
     fr: "Donphan",
@@ -2098,6 +2331,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Donphan",
   },
   porygon2: {
+    no: "233",
     ko: "폴리곤2",
     jp: "ポリゴン２",
     fr: "Porygon2",
@@ -2107,6 +2341,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Porygon2",
   },
   stantler: {
+    no: "234",
     ko: "노라키",
     jp: "オドシシ",
     fr: "Cerfrousse",
@@ -2116,6 +2351,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Stantler",
   },
   smeargle: {
+    no: "235",
     ko: "루브도",
     jp: "ドーブル",
     fr: "Queulorior",
@@ -2125,6 +2361,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Smeargle",
   },
   tyrogue: {
+    no: "236",
     ko: "배루키",
     jp: "バルキー",
     fr: "Debugant",
@@ -2134,6 +2371,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tyrogue",
   },
   hitmontop: {
+    no: "237",
     ko: "카포에라",
     jp: "カポエラー",
     fr: "Kapoera",
@@ -2143,6 +2381,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hitmontop",
   },
   smoochum: {
+    no: "238",
     ko: "뽀뽀라",
     jp: "ムチュール",
     fr: "Lippouti",
@@ -2152,6 +2391,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Smoochum",
   },
   elekid: {
+    no: "239",
     ko: "에레키드",
     jp: "エレキッド",
     fr: "Élekid",
@@ -2161,6 +2401,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Elekid",
   },
   magby: {
+    no: "240",
     ko: "마그비",
     jp: "ブビィ",
     fr: "Magby",
@@ -2170,6 +2411,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Magby",
   },
   miltank: {
+    no: "241",
     ko: "밀탱크",
     jp: "ミルタンク",
     fr: "Écrémeuh",
@@ -2179,6 +2421,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Miltank",
   },
   blissey: {
+    no: "242",
     ko: "해피너스",
     jp: "ハピナス",
     fr: "Leuphorie",
@@ -2188,6 +2431,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Blissey",
   },
   raikou: {
+    no: "243",
     ko: "라이코",
     jp: "ライコウ",
     fr: "Raikou",
@@ -2197,6 +2441,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Raikou",
   },
   entei: {
+    no: "244",
     ko: "앤테이",
     jp: "エンテイ",
     fr: "Entei",
@@ -2206,6 +2451,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Entei",
   },
   suicune: {
+    no: "245",
     ko: "스이쿤",
     jp: "スイクン",
     fr: "Suicune",
@@ -2215,6 +2461,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Suicune",
   },
   larvitar: {
+    no: "246",
     ko: "애버라스",
     jp: "ヨーギラス",
     fr: "Embrylex",
@@ -2224,6 +2471,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Larvitar",
   },
   pupitar: {
+    no: "247",
     ko: "데기라스",
     jp: "サナギラス",
     fr: "Ymphect",
@@ -2233,6 +2481,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pupitar",
   },
   tyranitar: {
+    no: "248",
     ko: "마기라스",
     jp: "バンギラス",
     fr: "Tyranocif",
@@ -2242,6 +2491,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tyranitar",
   },
   lugia: {
+    no: "249",
     ko: "루기아",
     jp: "ルギア",
     fr: "Lugia",
@@ -2251,6 +2501,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lugia",
   },
   "ho-oh": {
+    no: "250",
     ko: "칠색조",
     jp: "ホウオウ",
     fr: "Ho-Oh",
@@ -2260,6 +2511,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ho-Oh",
   },
   celebi: {
+    no: "251",
     ko: "세레비",
     jp: "セレビィ",
     fr: "Celebi",
@@ -2269,6 +2521,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Celebi",
   },
   treecko: {
+    no: "252",
     ko: "나무지기",
     jp: "キモリ",
     fr: "Arcko",
@@ -2278,6 +2531,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Treecko",
   },
   grovyle: {
+    no: "253",
     ko: "나무돌이",
     jp: "ジュプトル",
     fr: "Massko",
@@ -2287,6 +2541,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Grovyle",
   },
   sceptile: {
+    no: "254",
     ko: "나무킹",
     jp: "ジュカイン",
     fr: "Jungko",
@@ -2296,6 +2551,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sceptile",
   },
   torchic: {
+    no: "255",
     ko: "아차모",
     jp: "アチャモ",
     fr: "Poussifeu",
@@ -2305,6 +2561,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Torchic",
   },
   combusken: {
+    no: "256",
     ko: "영치코",
     jp: "ワカシャモ",
     fr: "Galifeu",
@@ -2314,6 +2571,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Combusken",
   },
   blaziken: {
+    no: "257",
     ko: "번치코",
     jp: "バシャーモ",
     fr: "Braségali",
@@ -2323,6 +2581,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Blaziken",
   },
   mudkip: {
+    no: "258",
     ko: "물짱이",
     jp: "ミズゴロウ",
     fr: "Gobou",
@@ -2332,6 +2591,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mudkip",
   },
   marshtomp: {
+    no: "259",
     ko: "늪짱이",
     jp: "ヌマクロー",
     fr: "Flobio",
@@ -2341,6 +2601,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Marshtomp",
   },
   swampert: {
+    no: "260",
     ko: "대짱이",
     jp: "ラグラージ",
     fr: "Laggron",
@@ -2350,6 +2611,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Swampert",
   },
   poochyena: {
+    no: "261",
     ko: "포챠나",
     jp: "ポチエナ",
     fr: "Medhyèna",
@@ -2359,6 +2621,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Poochyena",
   },
   mightyena: {
+    no: "262",
     ko: "그라에나",
     jp: "グラエナ",
     fr: "Grahyèna",
@@ -2368,6 +2631,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mightyena",
   },
   zigzagoon: {
+    no: "263",
     ko: "지그제구리",
     jp: "ジグザグマ",
     fr: "Zigzaton",
@@ -2377,6 +2641,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Zigzagoon",
   },
   linoone: {
+    no: "264",
     ko: "직구리",
     jp: "マッスグマ",
     fr: "Linéon",
@@ -2386,6 +2651,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Linoone",
   },
   wurmple: {
+    no: "265",
     ko: "개무소",
     jp: "ケムッソ",
     fr: "Chenipotte",
@@ -2395,6 +2661,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Wurmple",
   },
   silcoon: {
+    no: "266",
     ko: "실쿤",
     jp: "カラサリス",
     fr: "Armulys",
@@ -2404,6 +2671,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Silcoon",
   },
   beautifly: {
+    no: "267",
     ko: "뷰티플라이",
     jp: "アゲハント",
     fr: "Charmillon",
@@ -2413,6 +2681,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Beautifly",
   },
   cascoon: {
+    no: "268",
     ko: "카스쿤",
     jp: "マユルド",
     fr: "Blindalys",
@@ -2422,6 +2691,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cascoon",
   },
   dustox: {
+    no: "269",
     ko: "독케일",
     jp: "ドクケイル",
     fr: "Papinox",
@@ -2431,6 +2701,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dustox",
   },
   lotad: {
+    no: "270",
     ko: "연꽃몬",
     jp: "ハスボー",
     fr: "Nénupiot",
@@ -2440,6 +2711,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lotad",
   },
   lombre: {
+    no: "271",
     ko: "로토스",
     jp: "ハスブレロ",
     fr: "Lombre",
@@ -2449,6 +2721,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lombre",
   },
   ludicolo: {
+    no: "272",
     ko: "로파파",
     jp: "ルンパッパ",
     fr: "Ludicolo",
@@ -2458,6 +2731,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ludicolo",
   },
   seedot: {
+    no: "273",
     ko: "도토링",
     jp: "タネボー",
     fr: "Grainipiot",
@@ -2467,6 +2741,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Seedot",
   },
   nuzleaf: {
+    no: "274",
     ko: "잎새코",
     jp: "コノハナ",
     fr: "Pifeuil",
@@ -2476,6 +2751,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Nuzleaf",
   },
   shiftry: {
+    no: "275",
     ko: "다탱구",
     jp: "ダーテング",
     fr: "Tengalice",
@@ -2485,6 +2761,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Shiftry",
   },
   taillow: {
+    no: "276",
     ko: "테일로",
     jp: "スバメ",
     fr: "Nirondelle",
@@ -2494,6 +2771,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Taillow",
   },
   swellow: {
+    no: "277",
     ko: "스왈로",
     jp: "オオスバメ",
     fr: "Hélédelle",
@@ -2503,6 +2781,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Swellow",
   },
   wingull: {
+    no: "278",
     ko: "갈모매",
     jp: "キャモメ",
     fr: "Goélise",
@@ -2512,6 +2791,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Wingull",
   },
   pelipper: {
+    no: "279",
     ko: "패리퍼",
     jp: "ペリッパー",
     fr: "Bekipan",
@@ -2521,6 +2801,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pelipper",
   },
   ralts: {
+    no: "280",
     ko: "랄토스",
     jp: "ラルトス",
     fr: "Tarsal",
@@ -2530,6 +2811,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ralts",
   },
   kirlia: {
+    no: "281",
     ko: "킬리아",
     jp: "キルリア",
     fr: "Kirlia",
@@ -2539,6 +2821,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kirlia",
   },
   gardevoir: {
+    no: "282",
     ko: "가디안",
     jp: "サーナイト",
     fr: "Gardevoir",
@@ -2548,6 +2831,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gardevoir",
   },
   surskit: {
+    no: "283",
     ko: "비구술",
     jp: "アメタマ",
     fr: "Arakdo",
@@ -2557,6 +2841,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Surskit",
   },
   masquerain: {
+    no: "284",
     ko: "비나방",
     jp: "アメモース",
     fr: "Maskadra",
@@ -2566,6 +2851,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Masquerain",
   },
   shroomish: {
+    no: "285",
     ko: "버섯꼬",
     jp: "キノココ",
     fr: "Balignon",
@@ -2575,6 +2861,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Shroomish",
   },
   breloom: {
+    no: "286",
     ko: "버섯모",
     jp: "キノガッサ",
     fr: "Chapignon",
@@ -2584,6 +2871,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Breloom",
   },
   slakoth: {
+    no: "287",
     ko: "게을로",
     jp: "ナマケロ",
     fr: "Parecool",
@@ -2593,6 +2881,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Slakoth",
   },
   vigoroth: {
+    no: "288",
     ko: "발바로",
     jp: "ヤルキモノ",
     fr: "Vigoroth",
@@ -2602,6 +2891,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Vigoroth",
   },
   slaking: {
+    no: "289",
     ko: "게을킹",
     jp: "ケッキング",
     fr: "Monaflèmit",
@@ -2611,6 +2901,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Slaking",
   },
   nincada: {
+    no: "290",
     ko: "토중몬",
     jp: "ツチニン",
     fr: "Ningale",
@@ -2620,6 +2911,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Nincada",
   },
   ninjask: {
+    no: "291",
     ko: "아이스크",
     jp: "テッカニン",
     fr: "Ninjask",
@@ -2629,6 +2921,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ninjask",
   },
   shedinja: {
+    no: "292",
     ko: "껍질몬",
     jp: "ヌケニン",
     fr: "Munja",
@@ -2638,6 +2931,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Shedinja",
   },
   whismur: {
+    no: "293",
     ko: "소곤룡",
     jp: "ゴニョニョ",
     fr: "Chuchmur",
@@ -2647,6 +2941,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Whismur",
   },
   loudred: {
+    no: "294",
     ko: "노공룡",
     jp: "ドゴーム",
     fr: "Ramboum",
@@ -2656,6 +2951,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Loudred",
   },
   exploud: {
+    no: "295",
     ko: "폭음룡",
     jp: "バクオング",
     fr: "Brouhabam",
@@ -2665,6 +2961,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Exploud",
   },
   makuhita: {
+    no: "296",
     ko: "마크탕",
     jp: "マクノシタ",
     fr: "Makuhita",
@@ -2674,6 +2971,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Makuhita",
   },
   hariyama: {
+    no: "297",
     ko: "하리뭉",
     jp: "ハリテヤマ",
     fr: "Hariyama",
@@ -2683,6 +2981,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hariyama",
   },
   azurill: {
+    no: "298",
     ko: "루리리",
     jp: "ルリリ",
     fr: "Azurill",
@@ -2692,6 +2991,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Azurill",
   },
   nosepass: {
+    no: "299",
     ko: "코코파스",
     jp: "ノズパス",
     fr: "Tarinor",
@@ -2701,6 +3001,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Nosepass",
   },
   skitty: {
+    no: "300",
     ko: "에나비",
     jp: "エネコ",
     fr: "Skitty",
@@ -2710,6 +3011,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Skitty",
   },
   delcatty: {
+    no: "301",
     ko: "델케티",
     jp: "エネコロロ",
     fr: "Delcatty",
@@ -2719,6 +3021,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Delcatty",
   },
   sableye: {
+    no: "302",
     ko: "깜까미",
     jp: "ヤミラミ",
     fr: "Ténéfix",
@@ -2728,6 +3031,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sableye",
   },
   mawile: {
+    no: "303",
     ko: "입치트",
     jp: "クチート",
     fr: "Mysdibule",
@@ -2737,6 +3041,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mawile",
   },
   aron: {
+    no: "304",
     ko: "가보리",
     jp: "ココドラ",
     fr: "Galekid",
@@ -2746,6 +3051,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Aron",
   },
   lairon: {
+    no: "305",
     ko: "갱도라",
     jp: "コドラ",
     fr: "Galegon",
@@ -2755,6 +3061,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lairon",
   },
   aggron: {
+    no: "306",
     ko: "보스로라",
     jp: "ボスゴドラ",
     fr: "Galeking",
@@ -2764,6 +3071,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Aggron",
   },
   meditite: {
+    no: "307",
     ko: "요가랑",
     jp: "アサナン",
     fr: "Méditikka",
@@ -2773,6 +3081,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Meditite",
   },
   medicham: {
+    no: "308",
     ko: "요가램",
     jp: "チャーレム",
     fr: "Charmina",
@@ -2782,6 +3091,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Medicham",
   },
   electrike: {
+    no: "309",
     ko: "썬더라이",
     jp: "ラクライ",
     fr: "Dynavolt",
@@ -2791,6 +3101,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Electrike",
   },
   manectric: {
+    no: "310",
     ko: "썬더볼트",
     jp: "ライボルト",
     fr: "Élecsprint",
@@ -2800,6 +3111,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Manectric",
   },
   plusle: {
+    no: "311",
     ko: "플러시",
     jp: "プラスル",
     fr: "Posipi",
@@ -2809,6 +3121,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Plusle",
   },
   minun: {
+    no: "312",
     ko: "마이농",
     jp: "マイナン",
     fr: "Négapi",
@@ -2818,6 +3131,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Minun",
   },
   volbeat: {
+    no: "313",
     ko: "볼비트",
     jp: "バルビート",
     fr: "Muciole",
@@ -2827,6 +3141,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Volbeat",
   },
   illumise: {
+    no: "314",
     ko: "네오비트",
     jp: "イルミーゼ",
     fr: "Lumivole",
@@ -2836,6 +3151,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Illumise",
   },
   roselia: {
+    no: "315",
     ko: "로젤리아",
     jp: "ロゼリア",
     fr: "Rosélia",
@@ -2845,6 +3161,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Roselia",
   },
   gulpin: {
+    no: "316",
     ko: "꼴깍몬",
     jp: "ゴクリン",
     fr: "Gloupti",
@@ -2854,6 +3171,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gulpin",
   },
   swalot: {
+    no: "317",
     ko: "꿀꺽몬",
     jp: "マルノーム",
     fr: "Avaltout",
@@ -2863,6 +3181,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Swalot",
   },
   carvanha: {
+    no: "318",
     ko: "샤프니아",
     jp: "キバニア",
     fr: "Carvanha",
@@ -2872,6 +3191,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Carvanha",
   },
   sharpedo: {
+    no: "319",
     ko: "샤크니아",
     jp: "サメハダー",
     fr: "Sharpedo",
@@ -2881,6 +3201,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sharpedo",
   },
   wailmer: {
+    no: "320",
     ko: "고래왕자",
     jp: "ホエルコ",
     fr: "Wailmer",
@@ -2890,6 +3211,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Wailmer",
   },
   wailord: {
+    no: "321",
     ko: "고래왕",
     jp: "ホエルオー",
     fr: "Wailord",
@@ -2899,6 +3221,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Wailord",
   },
   numel: {
+    no: "322",
     ko: "둔타",
     jp: "ドンメル",
     fr: "Chamallot",
@@ -2908,6 +3231,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Numel",
   },
   camerupt: {
+    no: "323",
     ko: "폭타",
     jp: "バクーダ",
     fr: "Camérupt",
@@ -2917,6 +3241,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Camerupt",
   },
   torkoal: {
+    no: "324",
     ko: "코터스",
     jp: "コータス",
     fr: "Chartor",
@@ -2926,6 +3251,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Torkoal",
   },
   spoink: {
+    no: "325",
     ko: "피그점프",
     jp: "バネブー",
     fr: "Spoink",
@@ -2935,6 +3261,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Spoink",
   },
   grumpig: {
+    no: "326",
     ko: "피그킹",
     jp: "ブーピッグ",
     fr: "Groret",
@@ -2944,6 +3271,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Grumpig",
   },
   spinda: {
+    no: "327",
     ko: "얼루기",
     jp: "パッチール",
     fr: "Spinda",
@@ -2953,6 +3281,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Spinda",
   },
   trapinch: {
+    no: "328",
     ko: "톱치",
     jp: "ナックラー",
     fr: "Kraknoix",
@@ -2962,6 +3291,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Trapinch",
   },
   vibrava: {
+    no: "329",
     ko: "비브라바",
     jp: "ビブラーバ",
     fr: "Vibraninf",
@@ -2971,6 +3301,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Vibrava",
   },
   flygon: {
+    no: "330",
     ko: "플라이곤",
     jp: "フライゴン",
     fr: "Libégon",
@@ -2980,6 +3311,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Flygon",
   },
   cacnea: {
+    no: "331",
     ko: "선인왕",
     jp: "サボネア",
     fr: "Cacnea",
@@ -2989,6 +3321,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cacnea",
   },
   cacturne: {
+    no: "332",
     ko: "밤선인",
     jp: "ノクタス",
     fr: "Cacturne",
@@ -2998,6 +3331,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cacturne",
   },
   swablu: {
+    no: "333",
     ko: "파비코",
     jp: "チルット",
     fr: "Tylton",
@@ -3007,6 +3341,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Swablu",
   },
   altaria: {
+    no: "334",
     ko: "파비코리",
     jp: "チルタリス",
     fr: "Altaria",
@@ -3016,6 +3351,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Altaria",
   },
   zangoose: {
+    no: "335",
     ko: "쟝고",
     jp: "ザングース",
     fr: "Mangriff",
@@ -3025,6 +3361,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Zangoose",
   },
   seviper: {
+    no: "336",
     ko: "세비퍼",
     jp: "ハブネーク",
     fr: "Séviper",
@@ -3034,6 +3371,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Seviper",
   },
   lunatone: {
+    no: "337",
     ko: "루나톤",
     jp: "ルナトーン",
     fr: "Séléroc",
@@ -3043,6 +3381,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lunatone",
   },
   solrock: {
+    no: "338",
     ko: "솔록",
     jp: "ソルロック",
     fr: "Solaroc",
@@ -3052,6 +3391,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Solrock",
   },
   barboach: {
+    no: "339",
     ko: "미꾸리",
     jp: "ドジョッチ",
     fr: "Barloche",
@@ -3061,6 +3401,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Barboach",
   },
   whiscash: {
+    no: "340",
     ko: "메깅",
     jp: "ナマズン",
     fr: "Barbicha",
@@ -3070,6 +3411,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Whiscash",
   },
   corphish: {
+    no: "341",
     ko: "가재군",
     jp: "ヘイガニ",
     fr: "Écrapince",
@@ -3079,6 +3421,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Corphish",
   },
   crawdaunt: {
+    no: "342",
     ko: "가재장군",
     jp: "シザリガー",
     fr: "Colhomard",
@@ -3088,6 +3431,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Crawdaunt",
   },
   baltoy: {
+    no: "343",
     ko: "오뚝군",
     jp: "ヤジロン",
     fr: "Balbuto",
@@ -3097,6 +3441,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Baltoy",
   },
   claydol: {
+    no: "344",
     ko: "점토도리",
     jp: "ネンドール",
     fr: "Kaorine",
@@ -3106,6 +3451,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Claydol",
   },
   lileep: {
+    no: "345",
     ko: "릴링",
     jp: "リリーラ",
     fr: "Lilia",
@@ -3115,6 +3461,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lileep",
   },
   cradily: {
+    no: "346",
     ko: "릴리요",
     jp: "ユレイドル",
     fr: "Vacilys",
@@ -3124,6 +3471,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cradily",
   },
   anorith: {
+    no: "347",
     ko: "아노딥스",
     jp: "アノプス",
     fr: "Anorith",
@@ -3133,6 +3481,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Anorith",
   },
   armaldo: {
+    no: "348",
     ko: "아말도",
     jp: "アーマルド",
     fr: "Armaldo",
@@ -3142,6 +3491,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Armaldo",
   },
   feebas: {
+    no: "349",
     ko: "빈티나",
     jp: "ヒンバス",
     fr: "Barpau",
@@ -3151,6 +3501,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Feebas",
   },
   milotic: {
+    no: "350",
     ko: "밀로틱",
     jp: "ミロカロス",
     fr: "Milobellus",
@@ -3160,6 +3511,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Milotic",
   },
   castform: {
+    no: "351",
     ko: "캐스퐁",
     jp: "ポワルン",
     fr: "Morphéo",
@@ -3169,6 +3521,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Castform",
   },
   kecleon: {
+    no: "352",
     ko: "켈리몬",
     jp: "カクレオン",
     fr: "Kecleon",
@@ -3178,6 +3531,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kecleon",
   },
   shuppet: {
+    no: "353",
     ko: "어둠대신",
     jp: "カゲボウズ",
     fr: "Polichombr",
@@ -3187,6 +3541,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Shuppet",
   },
   banette: {
+    no: "354",
     ko: "다크펫",
     jp: "ジュペッタ",
     fr: "Branette",
@@ -3196,6 +3551,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Banette",
   },
   duskull: {
+    no: "355",
     ko: "해골몽",
     jp: "ヨマワル",
     fr: "Skelénox",
@@ -3205,6 +3561,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Duskull",
   },
   dusclops: {
+    no: "356",
     ko: "미라몽",
     jp: "サマヨール",
     fr: "Téraclope",
@@ -3214,6 +3571,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dusclops",
   },
   tropius: {
+    no: "357",
     ko: "트로피우스",
     jp: "トロピウス",
     fr: "Tropius",
@@ -3223,6 +3581,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tropius",
   },
   chimecho: {
+    no: "358",
     ko: "치렁",
     jp: "チリーン",
     fr: "Éoko",
@@ -3232,6 +3591,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Chimecho",
   },
   absol: {
+    no: "359",
     ko: "앱솔",
     jp: "アブソル",
     fr: "Absol",
@@ -3241,6 +3601,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Absol",
   },
   wynaut: {
+    no: "360",
     ko: "마자",
     jp: "ソーナノ",
     fr: "Okéoké",
@@ -3250,6 +3611,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Wynaut",
   },
   snorunt: {
+    no: "361",
     ko: "눈꼬마",
     jp: "ユキワラシ",
     fr: "Stalgamin",
@@ -3259,6 +3621,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Snorunt",
   },
   glalie: {
+    no: "362",
     ko: "얼음귀신",
     jp: "オニゴーリ",
     fr: "Oniglali",
@@ -3268,6 +3631,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Glalie",
   },
   spheal: {
+    no: "363",
     ko: "대굴레오",
     jp: "タマザラシ",
     fr: "Obalie",
@@ -3277,6 +3641,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Spheal",
   },
   sealeo: {
+    no: "364",
     ko: "씨레오",
     jp: "トドグラー",
     fr: "Phogleur",
@@ -3286,6 +3651,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sealeo",
   },
   walrein: {
+    no: "365",
     ko: "씨카이저",
     jp: "トドゼルガ",
     fr: "Kaimorse",
@@ -3295,6 +3661,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Walrein",
   },
   clamperl: {
+    no: "366",
     ko: "진주몽",
     jp: "パールル",
     fr: "Coquiperl",
@@ -3304,6 +3671,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Clamperl",
   },
   huntail: {
+    no: "367",
     ko: "헌테일",
     jp: "ハンテール",
     fr: "Serpang",
@@ -3313,6 +3681,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Huntail",
   },
   gorebyss: {
+    no: "368",
     ko: "분홍장이",
     jp: "サクラビス",
     fr: "Rosabyss",
@@ -3322,6 +3691,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gorebyss",
   },
   relicanth: {
+    no: "369",
     ko: "시라칸",
     jp: "ジーランス",
     fr: "Relicanth",
@@ -3331,6 +3701,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Relicanth",
   },
   luvdisc: {
+    no: "370",
     ko: "사랑동이",
     jp: "ラブカス",
     fr: "Lovdisc",
@@ -3340,6 +3711,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Luvdisc",
   },
   bagon: {
+    no: "371",
     ko: "아공이",
     jp: "タツベイ",
     fr: "Draby",
@@ -3349,6 +3721,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bagon",
   },
   shelgon: {
+    no: "372",
     ko: "쉘곤",
     jp: "コモルー",
     fr: "Drackhaus",
@@ -3358,6 +3731,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Shelgon",
   },
   salamence: {
+    no: "373",
     ko: "보만다",
     jp: "ボーマンダ",
     fr: "Drattak",
@@ -3367,6 +3741,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Salamence",
   },
   beldum: {
+    no: "374",
     ko: "메탕",
     jp: "ダンバル",
     fr: "Terhal",
@@ -3376,6 +3751,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Beldum",
   },
   metang: {
+    no: "375",
     ko: "메탕구",
     jp: "メタング",
     fr: "Métang",
@@ -3385,6 +3761,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Metang",
   },
   metagross: {
+    no: "376",
     ko: "메타그로스",
     jp: "メタグロス",
     fr: "Métalosse",
@@ -3394,6 +3771,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Metagross",
   },
   regirock: {
+    no: "377",
     ko: "레지락",
     jp: "レジロック",
     fr: "Regirock",
@@ -3403,6 +3781,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Regirock",
   },
   regice: {
+    no: "378",
     ko: "레지아이스",
     jp: "レジアイス",
     fr: "Regice",
@@ -3412,6 +3791,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Regice",
   },
   registeel: {
+    no: "379",
     ko: "레지스틸",
     jp: "レジスチル",
     fr: "Registeel",
@@ -3421,6 +3801,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Registeel",
   },
   latias: {
+    no: "380",
     ko: "라티아스",
     jp: "ラティアス",
     fr: "Latias",
@@ -3430,6 +3811,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Latias",
   },
   latios: {
+    no: "381",
     ko: "라티오스",
     jp: "ラティオス",
     fr: "Latios",
@@ -3439,6 +3821,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Latios",
   },
   kyogre: {
+    no: "382",
     ko: "가이오가",
     jp: "カイオーガ",
     fr: "Kyogre",
@@ -3448,6 +3831,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kyogre",
   },
   groudon: {
+    no: "383",
     ko: "그란돈",
     jp: "グラードン",
     fr: "Groudon",
@@ -3457,6 +3841,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Groudon",
   },
   rayquaza: {
+    no: "384",
     ko: "레쿠쟈",
     jp: "レックウザ",
     fr: "Rayquaza",
@@ -3466,6 +3851,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Rayquaza",
   },
   jirachi: {
+    no: "385",
     ko: "지라치",
     jp: "ジラーチ",
     fr: "Jirachi",
@@ -3475,6 +3861,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Jirachi",
   },
   deoxys: {
+    no: "386",
     ko: "테오키스",
     jp: "デオキシス",
     fr: "Deoxys",
@@ -3484,6 +3871,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Deoxys",
   },
   turtwig: {
+    no: "387",
     ko: "모부기",
     jp: "ナエトル",
     fr: "Tortipouss",
@@ -3493,6 +3881,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Turtwig",
   },
   grotle: {
+    no: "388",
     ko: "수풀부기",
     jp: "ハヤシガメ",
     fr: "Boskara",
@@ -3502,6 +3891,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Grotle",
   },
   torterra: {
+    no: "389",
     ko: "토대부기",
     jp: "ドダイトス",
     fr: "Torterra",
@@ -3511,6 +3901,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Torterra",
   },
   chimchar: {
+    no: "390",
     ko: "불꽃숭이",
     jp: "ヒコザル",
     fr: "Ouisticram",
@@ -3520,6 +3911,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Chimchar",
   },
   monferno: {
+    no: "391",
     ko: "파이숭이",
     jp: "モウカザル",
     fr: "Chimpenfeu",
@@ -3529,6 +3921,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Monferno",
   },
   infernape: {
+    no: "392",
     ko: "초염몽",
     jp: "ゴウカザル",
     fr: "Simiabraz",
@@ -3538,6 +3931,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Infernape",
   },
   piplup: {
+    no: "393",
     ko: "팽도리",
     jp: "ポッチャマ",
     fr: "Tiplouf",
@@ -3547,6 +3941,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Piplup",
   },
   prinplup: {
+    no: "394",
     ko: "팽태자",
     jp: "ポッタイシ",
     fr: "Prinplouf",
@@ -3556,6 +3951,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Prinplup",
   },
   empoleon: {
+    no: "395",
     ko: "엠페르트",
     jp: "エンペルト",
     fr: "Pingoléon",
@@ -3565,6 +3961,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Empoleon",
   },
   starly: {
+    no: "396",
     ko: "찌르꼬",
     jp: "ムックル",
     fr: "Étourmi",
@@ -3574,6 +3971,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Starly",
   },
   staravia: {
+    no: "397",
     ko: "찌르버드",
     jp: "ムクバード",
     fr: "Étourvol",
@@ -3583,6 +3981,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Staravia",
   },
   staraptor: {
+    no: "398",
     ko: "찌르호크",
     jp: "ムクホーク",
     fr: "Étouraptor",
@@ -3592,6 +3991,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Staraptor",
   },
   bidoof: {
+    no: "399",
     ko: "비버니",
     jp: "ビッパ",
     fr: "Keunotor",
@@ -3601,6 +4001,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bidoof",
   },
   bibarel: {
+    no: "400",
     ko: "비버통",
     jp: "ビーダル",
     fr: "Castorno",
@@ -3610,6 +4011,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bibarel",
   },
   kricketot: {
+    no: "401",
     ko: "귀뚤뚜기",
     jp: "コロボーシ",
     fr: "Crikzik",
@@ -3619,6 +4021,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kricketot",
   },
   kricketune: {
+    no: "402",
     ko: "귀뚤톡크",
     jp: "コロトック",
     fr: "Mélokrik",
@@ -3628,6 +4031,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kricketune",
   },
   shinx: {
+    no: "403",
     ko: "꼬링크",
     jp: "コリンク",
     fr: "Lixy",
@@ -3637,6 +4041,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Shinx",
   },
   luxio: {
+    no: "404",
     ko: "럭시오",
     jp: "ルクシオ",
     fr: "Luxio",
@@ -3646,6 +4051,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Luxio",
   },
   luxray: {
+    no: "405",
     ko: "렌트라",
     jp: "レントラー",
     fr: "Luxray",
@@ -3655,6 +4061,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Luxray",
   },
   budew: {
+    no: "406",
     ko: "꼬몽울",
     jp: "スボミー",
     fr: "Rozbouton",
@@ -3664,6 +4071,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Budew",
   },
   roserade: {
+    no: "407",
     ko: "로즈레이드",
     jp: "ロズレイド",
     fr: "Roserade",
@@ -3673,6 +4081,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Roserade",
   },
   cranidos: {
+    no: "408",
     ko: "두개도스",
     jp: "ズガイドス",
     fr: "Kranidos",
@@ -3682,6 +4091,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cranidos",
   },
   rampardos: {
+    no: "409",
     ko: "램펄드",
     jp: "ラムパルド",
     fr: "Charkos",
@@ -3691,6 +4101,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Rampardos",
   },
   shieldon: {
+    no: "410",
     ko: "방패톱스",
     jp: "タテトプス",
     fr: "Dinoclier",
@@ -3700,6 +4111,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Shieldon",
   },
   bastiodon: {
+    no: "411",
     ko: "바리톱스",
     jp: "トリデプス",
     fr: "Bastiodon",
@@ -3709,6 +4121,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bastiodon",
   },
   burmy: {
+    no: "412",
     ko: "도롱충이",
     jp: "ミノムッチ",
     fr: "Cheniti",
@@ -3718,6 +4131,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Burmy",
   },
   wormadam: {
+    no: "413",
     ko: "도롱마담",
     jp: "ミノマダム",
     fr: "Cheniselle",
@@ -3727,6 +4141,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Wormadam",
   },
   mothim: {
+    no: "414",
     ko: "나메일",
     jp: "ガーメイル",
     fr: "Papilord",
@@ -3736,6 +4151,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mothim",
   },
   combee: {
+    no: "415",
     ko: "세꿀버리",
     jp: "ミツハニー",
     fr: "Apitrini",
@@ -3745,6 +4161,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Combee",
   },
   vespiquen: {
+    no: "416",
     ko: "비퀸",
     jp: "ビークイン",
     fr: "Apireine",
@@ -3754,6 +4171,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Vespiquen",
   },
   pachirisu: {
+    no: "417",
     ko: "파치리스",
     jp: "パチリス",
     fr: "Pachirisu",
@@ -3763,6 +4181,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pachirisu",
   },
   buizel: {
+    no: "418",
     ko: "브이젤",
     jp: "ブイゼル",
     fr: "Mustébouée",
@@ -3772,6 +4191,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Buizel",
   },
   floatzel: {
+    no: "419",
     ko: "플로젤",
     jp: "フローゼル",
     fr: "Mustéflott",
@@ -3781,6 +4201,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Floatzel",
   },
   cherubi: {
+    no: "420",
     ko: "체리버",
     jp: "チェリンボ",
     fr: "Ceribou",
@@ -3790,6 +4211,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cherubi",
   },
   cherrim: {
+    no: "421",
     ko: "체리꼬",
     jp: "チェリム",
     fr: "Ceriflor",
@@ -3799,6 +4221,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cherrim",
   },
   shellos: {
+    no: "422",
     ko: "깝질무",
     jp: "カラナクシ",
     fr: "Sancoki",
@@ -3808,6 +4231,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Shellos",
   },
   gastrodon: {
+    no: "423",
     ko: "트리토돈",
     jp: "トリトドン",
     fr: "Tritosor",
@@ -3817,6 +4241,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gastrodon",
   },
   ambipom: {
+    no: "424",
     ko: "겟핸보숭",
     jp: "エテボース",
     fr: "Capidextre",
@@ -3826,6 +4251,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ambipom",
   },
   drifloon: {
+    no: "425",
     ko: "흔들풍손",
     jp: "フワンテ",
     fr: "Baudrive",
@@ -3835,6 +4261,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Drifloon",
   },
   drifblim: {
+    no: "426",
     ko: "둥실라이드",
     jp: "フワライド",
     fr: "Grodrive",
@@ -3844,6 +4271,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Drifblim",
   },
   buneary: {
+    no: "427",
     ko: "이어롤",
     jp: "ミミロル",
     fr: "Laporeille",
@@ -3853,6 +4281,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Buneary",
   },
   lopunny: {
+    no: "428",
     ko: "이어롭",
     jp: "ミミロップ",
     fr: "Lockpin",
@@ -3862,6 +4291,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lopunny",
   },
   mismagius: {
+    no: "429",
     ko: "무우마직",
     jp: "ムウマージ",
     fr: "Magirêve",
@@ -3871,6 +4301,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mismagius",
   },
   honchkrow: {
+    no: "430",
     ko: "돈크로우",
     jp: "ドンカラス",
     fr: "Corboss",
@@ -3880,6 +4311,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Honchkrow",
   },
   glameow: {
+    no: "431",
     ko: "나옹마",
     jp: "ニャルマー",
     fr: "Chaglam",
@@ -3889,6 +4321,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Glameow",
   },
   purugly: {
+    no: "432",
     ko: "몬냥이",
     jp: "ブニャット",
     fr: "Chaffreux",
@@ -3898,6 +4331,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Purugly",
   },
   chingling: {
+    no: "433",
     ko: "랑딸랑",
     jp: "リーシャン",
     fr: "Korillon",
@@ -3907,6 +4341,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Chingling",
   },
   stunky: {
+    no: "434",
     ko: "스컹뿡",
     jp: "スカンプー",
     fr: "Moufouette",
@@ -3916,6 +4351,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Stunky",
   },
   skuntank: {
+    no: "435",
     ko: "스컹탱크",
     jp: "スカタンク",
     fr: "Moufflair",
@@ -3925,6 +4361,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Skuntank",
   },
   bronzor: {
+    no: "436",
     ko: "동미러",
     jp: "ドーミラー",
     fr: "Archéomire",
@@ -3934,6 +4371,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bronzor",
   },
   bronzong: {
+    no: "437",
     ko: "동탁군",
     jp: "ドータクン",
     fr: "Archéodong",
@@ -3943,6 +4381,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bronzong",
   },
   bonsly: {
+    no: "438",
     ko: "꼬지지",
     jp: "ウソハチ",
     fr: "Manzaï",
@@ -3952,6 +4391,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bonsly",
   },
   "mime jr.": {
+    no: "439",
     ko: "흉내내",
     jp: "マネネ",
     fr: "Mime Jr.",
@@ -3961,6 +4401,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mime Jr.",
   },
   happiny: {
+    no: "440",
     ko: "핑복",
     jp: "ピンプク",
     fr: "Ptiravi",
@@ -3970,6 +4411,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Happiny",
   },
   chatot: {
+    no: "441",
     ko: "페라페",
     jp: "ペラップ",
     fr: "Pijako",
@@ -3979,6 +4421,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Chatot",
   },
   spiritomb: {
+    no: "442",
     ko: "화강돌",
     jp: "ミカルゲ",
     fr: "Spiritomb",
@@ -3988,6 +4431,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Spiritomb",
   },
   gible: {
+    no: "443",
     ko: "딥상어동",
     jp: "フカマル",
     fr: "Griknot",
@@ -3997,6 +4441,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gible",
   },
   gabite: {
+    no: "444",
     ko: "한바이트",
     jp: "ガバイト",
     fr: "Carmache",
@@ -4006,6 +4451,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gabite",
   },
   garchomp: {
+    no: "445",
     ko: "한카리아스",
     jp: "ガブリアス",
     fr: "Carchacrok",
@@ -4015,6 +4461,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Garchomp",
   },
   munchlax: {
+    no: "446",
     ko: "먹고자",
     jp: "ゴンベ",
     fr: "Goinfrex",
@@ -4024,6 +4471,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Munchlax",
   },
   riolu: {
+    no: "447",
     ko: "리오르",
     jp: "リオル",
     fr: "Riolu",
@@ -4033,6 +4481,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Riolu",
   },
   lucario: {
+    no: "448",
     ko: "루카리오",
     jp: "ルカリオ",
     fr: "Lucario",
@@ -4042,6 +4491,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lucario",
   },
   hippopotas: {
+    no: "449",
     ko: "히포포타스",
     jp: "ヒポポタス",
     fr: "Hippopotas",
@@ -4051,6 +4501,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hippopotas",
   },
   hippowdon: {
+    no: "450",
     ko: "하마돈",
     jp: "カバルドン",
     fr: "Hippodocus",
@@ -4060,6 +4511,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hippowdon",
   },
   skorupi: {
+    no: "451",
     ko: "스콜피",
     jp: "スコルピ",
     fr: "Rapion",
@@ -4069,6 +4521,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Skorupi",
   },
   drapion: {
+    no: "452",
     ko: "드래피온",
     jp: "ドラピオン",
     fr: "Drascore",
@@ -4078,6 +4531,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Drapion",
   },
   croagunk: {
+    no: "453",
     ko: "삐딱구리",
     jp: "グレッグル",
     fr: "Cradopaud",
@@ -4087,6 +4541,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Croagunk",
   },
   toxicroak: {
+    no: "454",
     ko: "독개굴",
     jp: "ドクロッグ",
     fr: "Coatox",
@@ -4096,6 +4551,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Toxicroak",
   },
   carnivine: {
+    no: "455",
     ko: "무스틈니",
     jp: "マスキッパ",
     fr: "Vortente",
@@ -4105,6 +4561,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Carnivine",
   },
   finneon: {
+    no: "456",
     ko: "형광어",
     jp: "ケイコウオ",
     fr: "Écayon",
@@ -4114,6 +4571,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Finneon",
   },
   lumineon: {
+    no: "457",
     ko: "네오라이트",
     jp: "ネオラント",
     fr: "Luminéon",
@@ -4123,6 +4581,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lumineon",
   },
   mantyke: {
+    no: "458",
     ko: "타만타",
     jp: "タマンタ",
     fr: "Babimanta",
@@ -4132,6 +4591,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mantyke",
   },
   snover: {
+    no: "459",
     ko: "눈쓰개",
     jp: "ユキカブリ",
     fr: "Blizzi",
@@ -4141,6 +4601,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Snover",
   },
   abomasnow: {
+    no: "460",
     ko: "눈설왕",
     jp: "ユキノオー",
     fr: "Blizzaroi",
@@ -4150,6 +4611,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Abomasnow",
   },
   weavile: {
+    no: "461",
     ko: "포푸니라",
     jp: "マニューラ",
     fr: "Dimoret",
@@ -4159,6 +4621,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Weavile",
   },
   magnezone: {
+    no: "462",
     ko: "자포코일",
     jp: "ジバコイル",
     fr: "Magnézone",
@@ -4168,6 +4631,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Magnezone",
   },
   lickilicky: {
+    no: "463",
     ko: "내룸벨트",
     jp: "ベロベルト",
     fr: "Coudlangue",
@@ -4177,6 +4641,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lickilicky",
   },
   rhyperior: {
+    no: "464",
     ko: "거대코뿌리",
     jp: "ドサイドン",
     fr: "Rhinastoc",
@@ -4186,6 +4651,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Rhyperior",
   },
   tangrowth: {
+    no: "465",
     ko: "덩쿠림보",
     jp: "モジャンボ",
     fr: "Bouldeneu",
@@ -4195,6 +4661,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tangrowth",
   },
   electivire: {
+    no: "466",
     ko: "에레키블",
     jp: "エレキブル",
     fr: "Élekable",
@@ -4204,6 +4671,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Electivire",
   },
   magmortar: {
+    no: "467",
     ko: "마그마번",
     jp: "ブーバーン",
     fr: "Maganon",
@@ -4213,6 +4681,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Magmortar",
   },
   togekiss: {
+    no: "468",
     ko: "토게키스",
     jp: "トゲキッス",
     fr: "Togekiss",
@@ -4222,6 +4691,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Togekiss",
   },
   yanmega: {
+    no: "469",
     ko: "메가자리",
     jp: "メガヤンマ",
     fr: "Yanméga",
@@ -4231,6 +4701,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Yanmega",
   },
   leafeon: {
+    no: "470",
     ko: "리피아",
     jp: "リーフィア",
     fr: "Phyllali",
@@ -4240,6 +4711,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Leafeon",
   },
   glaceon: {
+    no: "471",
     ko: "글레이시아",
     jp: "グレイシア",
     fr: "Givrali",
@@ -4249,6 +4721,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Glaceon",
   },
   gliscor: {
+    no: "472",
     ko: "글라이온",
     jp: "グライオン",
     fr: "Scorvol",
@@ -4258,6 +4731,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gliscor",
   },
   mamoswine: {
+    no: "473",
     ko: "맘모꾸리",
     jp: "マンムー",
     fr: "Mammochon",
@@ -4267,6 +4741,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mamoswine",
   },
   "porygon-z": {
+    no: "474",
     ko: "폴리곤Z",
     jp: "ポリゴンＺ",
     fr: "Porygon-Z",
@@ -4276,6 +4751,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Porygon-Z",
   },
   gallade: {
+    no: "475",
     ko: "엘레이드",
     jp: "エルレイド",
     fr: "Gallame",
@@ -4285,6 +4761,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gallade",
   },
   probopass: {
+    no: "476",
     ko: "대코파스",
     jp: "ダイノーズ",
     fr: "Tarinorme",
@@ -4294,6 +4771,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Probopass",
   },
   dusknoir: {
+    no: "477",
     ko: "야느와르몽",
     jp: "ヨノワール",
     fr: "Noctunoir",
@@ -4303,6 +4781,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dusknoir",
   },
   froslass: {
+    no: "478",
     ko: "눈여아",
     jp: "ユキメノコ",
     fr: "Momartik",
@@ -4312,6 +4791,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Froslass",
   },
   rotom: {
+    no: "479",
     ko: "로토무",
     jp: "ロトム",
     fr: "Motisma",
@@ -4321,6 +4801,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Rotom",
   },
   uxie: {
+    no: "480",
     ko: "유크시",
     jp: "ユクシー",
     fr: "Créhelf",
@@ -4330,6 +4811,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Uxie",
   },
   mesprit: {
+    no: "481",
     ko: "엠라이트",
     jp: "エムリット",
     fr: "Créfollet",
@@ -4339,6 +4821,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mesprit",
   },
   azelf: {
+    no: "482",
     ko: "아그놈",
     jp: "アグノム",
     fr: "Créfadet",
@@ -4348,6 +4831,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Azelf",
   },
   dialga: {
+    no: "483",
     ko: "디아루가",
     jp: "ディアルガ",
     fr: "Dialga",
@@ -4357,6 +4841,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dialga",
   },
   palkia: {
+    no: "484",
     ko: "펄기아",
     jp: "パルキア",
     fr: "Palkia",
@@ -4366,6 +4851,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Palkia",
   },
   heatran: {
+    no: "485",
     ko: "히드런",
     jp: "ヒードラン",
     fr: "Heatran",
@@ -4375,6 +4861,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Heatran",
   },
   regigigas: {
+    no: "486",
     ko: "레지기가스",
     jp: "レジギガス",
     fr: "Regigigas",
@@ -4384,6 +4871,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Regigigas",
   },
   giratina: {
+    no: "487",
     ko: "기라티나",
     jp: "ギラティナ",
     fr: "Giratina",
@@ -4393,6 +4881,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Giratina",
   },
   cresselia: {
+    no: "488",
     ko: "크레세리아",
     jp: "クレセリア",
     fr: "Cresselia",
@@ -4402,6 +4891,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cresselia",
   },
   phione: {
+    no: "489",
     ko: "피오네",
     jp: "フィオネ",
     fr: "Phione",
@@ -4411,6 +4901,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Phione",
   },
   manaphy: {
+    no: "490",
     ko: "마나피",
     jp: "マナフィ",
     fr: "Manaphy",
@@ -4420,6 +4911,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Manaphy",
   },
   darkrai: {
+    no: "491",
     ko: "다크라이",
     jp: "ダークライ",
     fr: "Darkrai",
@@ -4429,6 +4921,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Darkrai",
   },
   shaymin: {
+    no: "492",
     ko: "쉐이미",
     jp: "シェイミ",
     fr: "Shaymin",
@@ -4438,6 +4931,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Shaymin",
   },
   arceus: {
+    no: "493",
     ko: "아르세우스",
     jp: "アルセウス",
     fr: "Arceus",
@@ -4447,6 +4941,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Arceus",
   },
   victini: {
+    no: "494",
     ko: "비크티니",
     jp: "ビクティニ",
     fr: "Victini",
@@ -4456,6 +4951,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Victini",
   },
   snivy: {
+    no: "495",
     ko: "주리비얀",
     jp: "ツタージャ",
     fr: "Vipélierre",
@@ -4465,6 +4961,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Snivy",
   },
   servine: {
+    no: "496",
     ko: "샤비",
     jp: "ジャノビー",
     fr: "Lianaja",
@@ -4474,6 +4971,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Servine",
   },
   serperior: {
+    no: "497",
     ko: "샤로다",
     jp: "ジャローダ",
     fr: "Majaspic",
@@ -4483,6 +4981,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Serperior",
   },
   tepig: {
+    no: "498",
     ko: "뚜꾸리",
     jp: "ポカブ",
     fr: "Gruikui",
@@ -4492,6 +4991,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tepig",
   },
   pignite: {
+    no: "499",
     ko: "챠오꿀",
     jp: "チャオブー",
     fr: "Grotichon",
@@ -4501,6 +5001,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pignite",
   },
   emboar: {
+    no: "500",
     ko: "염무왕",
     jp: "エンブオー",
     fr: "Roitiflam",
@@ -4510,6 +5011,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Emboar",
   },
   oshawott: {
+    no: "501",
     ko: "수댕이",
     jp: "ミジュマル",
     fr: "Moustillon",
@@ -4519,6 +5021,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Oshawott",
   },
   dewott: {
+    no: "502",
     ko: "쌍검자비",
     jp: "フタチマル",
     fr: "Mateloutre",
@@ -4528,6 +5031,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dewott",
   },
   samurott: {
+    no: "503",
     ko: "대검귀",
     jp: "ダイケンキ",
     fr: "Clamiral",
@@ -4537,6 +5041,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Samurott",
   },
   patrat: {
+    no: "504",
     ko: "보르쥐",
     jp: "ミネズミ",
     fr: "Ratentif",
@@ -4546,6 +5051,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Patrat",
   },
   watchog: {
+    no: "505",
     ko: "보르그",
     jp: "ミルホッグ",
     fr: "Miradar",
@@ -4555,6 +5061,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Watchog",
   },
   lillipup: {
+    no: "506",
     ko: "요테리",
     jp: "ヨーテリー",
     fr: "Ponchiot",
@@ -4564,6 +5071,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lillipup",
   },
   herdier: {
+    no: "507",
     ko: "하데리어",
     jp: "ハーデリア",
     fr: "Ponchien",
@@ -4573,6 +5081,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Herdier",
   },
   stoutland: {
+    no: "508",
     ko: "바랜드",
     jp: "ムーランド",
     fr: "Mastouffe",
@@ -4582,6 +5091,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Stoutland",
   },
   purrloin: {
+    no: "509",
     ko: "쌔비냥",
     jp: "チョロネコ",
     fr: "Chacripan",
@@ -4591,6 +5101,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Purrloin",
   },
   liepard: {
+    no: "510",
     ko: "레파르다스",
     jp: "レパルダス",
     fr: "Léopardus",
@@ -4600,6 +5111,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Liepard",
   },
   pansage: {
+    no: "511",
     ko: "야나프",
     jp: "ヤナップ",
     fr: "Feuillajou",
@@ -4609,6 +5121,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pansage",
   },
   simisage: {
+    no: "512",
     ko: "야나키",
     jp: "ヤナッキー",
     fr: "Feuiloutan",
@@ -4618,6 +5131,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Simisage",
   },
   pansear: {
+    no: "513",
     ko: "바오프",
     jp: "バオップ",
     fr: "Flamajou",
@@ -4627,6 +5141,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pansear",
   },
   simisear: {
+    no: "514",
     ko: "바오키",
     jp: "バオッキー",
     fr: "Flamoutan",
@@ -4636,6 +5151,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Simisear",
   },
   panpour: {
+    no: "515",
     ko: "앗차프",
     jp: "ヒヤップ",
     fr: "Flotajou",
@@ -4645,6 +5161,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Panpour",
   },
   simipour: {
+    no: "516",
     ko: "앗차키",
     jp: "ヒヤッキー",
     fr: "Flotoutan",
@@ -4654,6 +5171,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Simipour",
   },
   munna: {
+    no: "517",
     ko: "몽나",
     jp: "ムンナ",
     fr: "Munna",
@@ -4663,6 +5181,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Munna",
   },
   musharna: {
+    no: "518",
     ko: "몽얌나",
     jp: "ムシャーナ",
     fr: "Mushana",
@@ -4672,6 +5191,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Musharna",
   },
   pidove: {
+    no: "519",
     ko: "콩둘기",
     jp: "マメパト",
     fr: "Poichigeon",
@@ -4681,6 +5201,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pidove",
   },
   tranquill: {
+    no: "520",
     ko: "유토브",
     jp: "ハトーボー",
     fr: "Colombeau",
@@ -4690,6 +5211,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tranquill",
   },
   unfezant: {
+    no: "521",
     ko: "켄호로우",
     jp: "ケンホロウ",
     fr: "Déflaisan",
@@ -4699,6 +5221,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Unfezant",
   },
   blitzle: {
+    no: "522",
     ko: "줄뮤마",
     jp: "シママ",
     fr: "Zébribon",
@@ -4708,6 +5231,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Blitzle",
   },
   zebstrika: {
+    no: "523",
     ko: "제브라이카",
     jp: "ゼブライカ",
     fr: "Zéblitz",
@@ -4717,6 +5241,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Zebstrika",
   },
   roggenrola: {
+    no: "524",
     ko: "단굴",
     jp: "ダンゴロ",
     fr: "Nodulithe",
@@ -4726,6 +5251,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Roggenrola",
   },
   boldore: {
+    no: "525",
     ko: "암트르",
     jp: "ガントル",
     fr: "Géolithe",
@@ -4735,6 +5261,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Boldore",
   },
   gigalith: {
+    no: "526",
     ko: "기가이어스",
     jp: "ギガイアス",
     fr: "Gigalithe",
@@ -4744,6 +5271,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gigalith",
   },
   woobat: {
+    no: "527",
     ko: "또르박쥐",
     jp: "コロモリ",
     fr: "Chovsourir",
@@ -4753,6 +5281,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Woobat",
   },
   swoobat: {
+    no: "528",
     ko: "맘박쥐",
     jp: "ココロモリ",
     fr: "Rhinolove",
@@ -4762,6 +5291,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Swoobat",
   },
   drilbur: {
+    no: "529",
     ko: "두더류",
     jp: "モグリュー",
     fr: "Rototaupe",
@@ -4771,6 +5301,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Drilbur",
   },
   excadrill: {
+    no: "530",
     ko: "몰드류",
     jp: "ドリュウズ",
     fr: "Minotaupe",
@@ -4780,6 +5311,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Excadrill",
   },
   audino: {
+    no: "531",
     ko: "다부니",
     jp: "タブンネ",
     fr: "Nanméouïe",
@@ -4789,6 +5321,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Audino",
   },
   timburr: {
+    no: "532",
     ko: "으랏차",
     jp: "ドッコラー",
     fr: "Charpenti",
@@ -4798,6 +5331,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Timburr",
   },
   gurdurr: {
+    no: "533",
     ko: "토쇠골",
     jp: "ドテッコツ",
     fr: "Ouvrifier",
@@ -4807,6 +5341,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gurdurr",
   },
   conkeldurr: {
+    no: "534",
     ko: "노보청",
     jp: "ローブシン",
     fr: "Bétochef",
@@ -4816,6 +5351,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Conkeldurr",
   },
   tympole: {
+    no: "535",
     ko: "동챙이",
     jp: "オタマロ",
     fr: "Tritonde",
@@ -4825,6 +5361,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tympole",
   },
   palpitoad: {
+    no: "536",
     ko: "두까비",
     jp: "ガマガル",
     fr: "Batracné",
@@ -4834,6 +5371,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Palpitoad",
   },
   seismitoad: {
+    no: "537",
     ko: "두빅굴",
     jp: "ガマゲロゲ",
     fr: "Crapustule",
@@ -4843,6 +5381,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Seismitoad",
   },
   throh: {
+    no: "538",
     ko: "던지미",
     jp: "ナゲキ",
     fr: "Judokrak",
@@ -4852,6 +5391,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Throh",
   },
   sawk: {
+    no: "539",
     ko: "타격귀",
     jp: "ダゲキ",
     fr: "Karaclée",
@@ -4861,6 +5401,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sawk",
   },
   sewaddle: {
+    no: "540",
     ko: "두르보",
     jp: "クルミル",
     fr: "Larveyette",
@@ -4870,6 +5411,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sewaddle",
   },
   swadloon: {
+    no: "541",
     ko: "두르쿤",
     jp: "クルマユ",
     fr: "Couverdure",
@@ -4879,6 +5421,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Swadloon",
   },
   leavanny: {
+    no: "542",
     ko: "모아머",
     jp: "ハハコモリ",
     fr: "Manternel",
@@ -4888,6 +5431,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Leavanny",
   },
   venipede: {
+    no: "543",
     ko: "마디네",
     jp: "フシデ",
     fr: "Venipatte",
@@ -4897,6 +5441,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Venipede",
   },
   whirlipede: {
+    no: "544",
     ko: "휠구",
     jp: "ホイーガ",
     fr: "Scobolide",
@@ -4906,6 +5451,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Whirlipede",
   },
   scolipede: {
+    no: "545",
     ko: "펜드라",
     jp: "ペンドラー",
     fr: "Brutapode",
@@ -4915,6 +5461,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Scolipede",
   },
   cottonee: {
+    no: "546",
     ko: "소미안",
     jp: "モンメン",
     fr: "Doudouvet",
@@ -4924,6 +5471,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cottonee",
   },
   whimsicott: {
+    no: "547",
     ko: "엘풍",
     jp: "エルフーン",
     fr: "Farfaduvet",
@@ -4933,6 +5481,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Whimsicott",
   },
   petilil: {
+    no: "548",
     ko: "치릴리",
     jp: "チュリネ",
     fr: "Chlorobule",
@@ -4942,6 +5491,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Petilil",
   },
   lilligant: {
+    no: "549",
     ko: "드레디어",
     jp: "ドレディア",
     fr: "Fragilady",
@@ -4951,6 +5501,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lilligant",
   },
   basculin: {
+    no: "550",
     ko: "배쓰나이",
     jp: "バスラオ",
     fr: "Bargantua",
@@ -4960,6 +5511,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Basculin",
   },
   sandile: {
+    no: "551",
     ko: "깜눈크",
     jp: "メグロコ",
     fr: "Mascaïman",
@@ -4969,6 +5521,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sandile",
   },
   krokorok: {
+    no: "552",
     ko: "악비르",
     jp: "ワルビル",
     fr: "Escroco",
@@ -4978,6 +5531,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Krokorok",
   },
   krookodile: {
+    no: "553",
     ko: "악비아르",
     jp: "ワルビアル",
     fr: "Crocorible",
@@ -4987,6 +5541,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Krookodile",
   },
   darumaka: {
+    no: "554",
     ko: "달막화",
     jp: "ダルマッカ",
     fr: "Darumarond",
@@ -4996,6 +5551,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Darumaka",
   },
   darmanitan: {
+    no: "555",
     ko: "불비달마",
     jp: "ヒヒダルマ",
     fr: "Darumacho",
@@ -5005,6 +5561,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Darmanitan",
   },
   maractus: {
+    no: "556",
     ko: "마라카치",
     jp: "マラカッチ",
     fr: "Maracachi",
@@ -5014,6 +5571,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Maractus",
   },
   dwebble: {
+    no: "557",
     ko: "돌살이",
     jp: "イシズマイ",
     fr: "Crabicoque",
@@ -5023,6 +5581,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dwebble",
   },
   crustle: {
+    no: "558",
     ko: "암팰리스",
     jp: "イワパレス",
     fr: "Crabaraque",
@@ -5032,6 +5591,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Crustle",
   },
   scraggy: {
+    no: "559",
     ko: "곤율랭",
     jp: "ズルッグ",
     fr: "Baggiguane",
@@ -5041,6 +5601,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Scraggy",
   },
   scrafty: {
+    no: "560",
     ko: "곤율거니",
     jp: "ズルズキン",
     fr: "Baggaïd",
@@ -5050,6 +5611,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Scrafty",
   },
   sigilyph: {
+    no: "561",
     ko: "심보러",
     jp: "シンボラー",
     fr: "Cryptéro",
@@ -5059,6 +5621,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sigilyph",
   },
   yamask: {
+    no: "562",
     ko: "데스마스",
     jp: "デスマス",
     fr: "Tutafeh",
@@ -5068,6 +5631,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Yamask",
   },
   cofagrigus: {
+    no: "563",
     ko: "데스니칸",
     jp: "デスカーン",
     fr: "Tutankafer",
@@ -5077,6 +5641,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cofagrigus",
   },
   tirtouga: {
+    no: "564",
     ko: "프로토가",
     jp: "プロトーガ",
     fr: "Carapagos",
@@ -5086,6 +5651,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tirtouga",
   },
   carracosta: {
+    no: "565",
     ko: "늑골라",
     jp: "アバゴーラ",
     fr: "Mégapagos",
@@ -5095,6 +5661,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Carracosta",
   },
   archen: {
+    no: "566",
     ko: "아켄",
     jp: "アーケン",
     fr: "Arkéapti",
@@ -5104,6 +5671,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Archen",
   },
   archeops: {
+    no: "567",
     ko: "아케오스",
     jp: "アーケオス",
     fr: "Aéroptéryx",
@@ -5113,6 +5681,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Archeops",
   },
   trubbish: {
+    no: "568",
     ko: "깨봉이",
     jp: "ヤブクロン",
     fr: "Miamiasme",
@@ -5122,6 +5691,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Trubbish",
   },
   garbodor: {
+    no: "569",
     ko: "더스트나",
     jp: "ダストダス",
     fr: "Miasmax",
@@ -5131,6 +5701,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Garbodor",
   },
   zorua: {
+    no: "570",
     ko: "조로아",
     jp: "ゾロア",
     fr: "Zorua",
@@ -5140,6 +5711,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Zorua",
   },
   zoroark: {
+    no: "571",
     ko: "조로아크",
     jp: "ゾロアーク",
     fr: "Zoroark",
@@ -5149,6 +5721,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Zoroark",
   },
   minccino: {
+    no: "572",
     ko: "치라미",
     jp: "チラーミィ",
     fr: "Chinchidou",
@@ -5158,6 +5731,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Minccino",
   },
   cinccino: {
+    no: "573",
     ko: "치라치노",
     jp: "チラチーノ",
     fr: "Pashmilla",
@@ -5167,6 +5741,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cinccino",
   },
   gothita: {
+    no: "574",
     ko: "고디탱",
     jp: "ゴチム",
     fr: "Scrutella",
@@ -5176,6 +5751,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gothita",
   },
   gothorita: {
+    no: "575",
     ko: "고디보미",
     jp: "ゴチミル",
     fr: "Mesmérella",
@@ -5185,6 +5761,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gothorita",
   },
   gothitelle: {
+    no: "576",
     ko: "고디모아젤",
     jp: "ゴチルゼル",
     fr: "Sidérella",
@@ -5194,6 +5771,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gothitelle",
   },
   solosis: {
+    no: "577",
     ko: "유니란",
     jp: "ユニラン",
     fr: "Nucléos",
@@ -5203,6 +5781,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Solosis",
   },
   duosion: {
+    no: "578",
     ko: "듀란",
     jp: "ダブラン",
     fr: "Méios",
@@ -5212,6 +5791,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Duosion",
   },
   reuniclus: {
+    no: "579",
     ko: "란쿨루스",
     jp: "ランクルス",
     fr: "Symbios",
@@ -5221,6 +5801,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Reuniclus",
   },
   ducklett: {
+    no: "580",
     ko: "꼬지보리",
     jp: "コアルヒー",
     fr: "Couaneton",
@@ -5230,6 +5811,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ducklett",
   },
   swanna: {
+    no: "581",
     ko: "스완나",
     jp: "スワンナ",
     fr: "Lakmécygne",
@@ -5239,6 +5821,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Swanna",
   },
   vanillite: {
+    no: "582",
     ko: "바닐프티",
     jp: "バニプッチ",
     fr: "Sorbébé",
@@ -5248,6 +5831,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Vanillite",
   },
   vanillish: {
+    no: "583",
     ko: "바닐리치",
     jp: "バニリッチ",
     fr: "Sorboul",
@@ -5257,6 +5841,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Vanillish",
   },
   vanilluxe: {
+    no: "584",
     ko: "배바닐라",
     jp: "バイバニラ",
     fr: "Sorbouboul",
@@ -5266,6 +5851,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Vanilluxe",
   },
   deerling: {
+    no: "585",
     ko: "사철록",
     jp: "シキジカ",
     fr: "Vivaldaim",
@@ -5275,6 +5861,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Deerling",
   },
   sawsbuck: {
+    no: "586",
     ko: "바라철록",
     jp: "メブキジカ",
     fr: "Haydaim",
@@ -5284,6 +5871,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sawsbuck",
   },
   emolga: {
+    no: "587",
     ko: "에몽가",
     jp: "エモンガ",
     fr: "Emolga",
@@ -5293,6 +5881,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Emolga",
   },
   karrablast: {
+    no: "588",
     ko: "딱정곤",
     jp: "カブルモ",
     fr: "Carabing",
@@ -5302,6 +5891,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Karrablast",
   },
   escavalier: {
+    no: "589",
     ko: "슈바르고",
     jp: "シュバルゴ",
     fr: "Lançargot",
@@ -5311,6 +5901,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Escavalier",
   },
   foongus: {
+    no: "590",
     ko: "깜놀버슬",
     jp: "タマゲタケ",
     fr: "Trompignon",
@@ -5320,6 +5911,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Foongus",
   },
   amoonguss: {
+    no: "591",
     ko: "뽀록나",
     jp: "モロバレル",
     fr: "Gaulet",
@@ -5329,6 +5921,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Amoonguss",
   },
   frillish: {
+    no: "592",
     ko: "탱그릴",
     jp: "プルリル",
     fr: "Viskuse",
@@ -5338,6 +5931,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Frillish",
   },
   jellicent: {
+    no: "593",
     ko: "탱탱겔",
     jp: "ブルンゲル",
     fr: "Moyade",
@@ -5347,6 +5941,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Jellicent",
   },
   alomomola: {
+    no: "594",
     ko: "맘복치",
     jp: "ママンボウ",
     fr: "Mamanbo",
@@ -5356,6 +5951,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Alomomola",
   },
   joltik: {
+    no: "595",
     ko: "파쪼옥",
     jp: "バチュル",
     fr: "Statitik",
@@ -5365,6 +5961,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Joltik",
   },
   galvantula: {
+    no: "596",
     ko: "전툴라",
     jp: "デンチュラ",
     fr: "Mygavolt",
@@ -5374,6 +5971,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Galvantula",
   },
   ferroseed: {
+    no: "597",
     ko: "철시드",
     jp: "テッシード",
     fr: "Grindur",
@@ -5383,6 +5981,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ferroseed",
   },
   ferrothorn: {
+    no: "598",
     ko: "너트령",
     jp: "ナットレイ",
     fr: "Noacier",
@@ -5392,6 +5991,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ferrothorn",
   },
   klink: {
+    no: "599",
     ko: "기어르",
     jp: "ギアル",
     fr: "Tic",
@@ -5401,6 +6001,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Klink",
   },
   klang: {
+    no: "600",
     ko: "기기어르",
     jp: "ギギアル",
     fr: "Clic",
@@ -5410,6 +6011,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Klang",
   },
   klinklang: {
+    no: "601",
     ko: "기기기어르",
     jp: "ギギギアル",
     fr: "Cliticlic",
@@ -5419,6 +6021,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Klinklang",
   },
   tynamo: {
+    no: "602",
     ko: "저리어",
     jp: "シビシラス",
     fr: "Anchwatt",
@@ -5428,6 +6031,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tynamo",
   },
   eelektrik: {
+    no: "603",
     ko: "저리릴",
     jp: "シビビール",
     fr: "Lampéroie",
@@ -5437,6 +6041,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Eelektrik",
   },
   eelektross: {
+    no: "604",
     ko: "저리더프",
     jp: "シビルドン",
     fr: "Ohmassacre",
@@ -5446,6 +6051,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Eelektross",
   },
   elgyem: {
+    no: "605",
     ko: "리그레",
     jp: "リグレー",
     fr: "Lewsor",
@@ -5455,6 +6061,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Elgyem",
   },
   beheeyem: {
+    no: "606",
     ko: "벰크",
     jp: "オーベム",
     fr: "Neitram",
@@ -5464,6 +6071,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Beheeyem",
   },
   litwick: {
+    no: "607",
     ko: "불켜미",
     jp: "ヒトモシ",
     fr: "Funécire",
@@ -5473,6 +6081,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Litwick",
   },
   lampent: {
+    no: "608",
     ko: "램프라",
     jp: "ランプラー",
     fr: "Mélancolux",
@@ -5482,6 +6091,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lampent",
   },
   chandelure: {
+    no: "609",
     ko: "샹델라",
     jp: "シャンデラ",
     fr: "Lugulabre",
@@ -5491,6 +6101,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Chandelure",
   },
   axew: {
+    no: "610",
     ko: "터검니",
     jp: "キバゴ",
     fr: "Coupenotte",
@@ -5500,6 +6111,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Axew",
   },
   fraxure: {
+    no: "611",
     ko: "액슨도",
     jp: "オノンド",
     fr: "Incisache",
@@ -5509,6 +6121,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Fraxure",
   },
   haxorus: {
+    no: "612",
     ko: "액스라이즈",
     jp: "オノノクス",
     fr: "Tranchodon",
@@ -5518,6 +6131,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Haxorus",
   },
   cubchoo: {
+    no: "613",
     ko: "코고미",
     jp: "クマシュン",
     fr: "Polarhume",
@@ -5527,6 +6141,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cubchoo",
   },
   beartic: {
+    no: "614",
     ko: "툰베어",
     jp: "ツンベアー",
     fr: "Polagriffe",
@@ -5536,6 +6151,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Beartic",
   },
   cryogonal: {
+    no: "615",
     ko: "프리지오",
     jp: "フリージオ",
     fr: "Hexagel",
@@ -5545,6 +6161,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cryogonal",
   },
   shelmet: {
+    no: "616",
     ko: "쪼마리",
     jp: "チョボマキ",
     fr: "Escargaume",
@@ -5554,6 +6171,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Shelmet",
   },
   accelgor: {
+    no: "617",
     ko: "어지리더",
     jp: "アギルダー",
     fr: "Limaspeed",
@@ -5563,6 +6181,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Accelgor",
   },
   stunfisk: {
+    no: "618",
     ko: "메더",
     jp: "マッギョ",
     fr: "Limonde",
@@ -5572,6 +6191,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Stunfisk",
   },
   mienfoo: {
+    no: "619",
     ko: "비조푸",
     jp: "コジョフー",
     fr: "Kungfouine",
@@ -5581,6 +6201,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mienfoo",
   },
   mienshao: {
+    no: "620",
     ko: "비조도",
     jp: "コジョンド",
     fr: "Shaofouine",
@@ -5590,6 +6211,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mienshao",
   },
   druddigon: {
+    no: "621",
     ko: "크리만",
     jp: "クリムガン",
     fr: "Drakkarmin",
@@ -5599,6 +6221,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Druddigon",
   },
   golett: {
+    no: "622",
     ko: "골비람",
     jp: "ゴビット",
     fr: "Gringolem",
@@ -5608,6 +6231,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Golett",
   },
   golurk: {
+    no: "623",
     ko: "골루그",
     jp: "ゴルーグ",
     fr: "Golemastoc",
@@ -5617,6 +6241,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Golurk",
   },
   pawniard: {
+    no: "624",
     ko: "자망칼",
     jp: "コマタナ",
     fr: "Scalpion",
@@ -5626,6 +6251,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pawniard",
   },
   bisharp: {
+    no: "625",
     ko: "절각참",
     jp: "キリキザン",
     fr: "Scalproie",
@@ -5635,6 +6261,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bisharp",
   },
   bouffalant: {
+    no: "626",
     ko: "버프론",
     jp: "バッフロン",
     fr: "Frison",
@@ -5644,6 +6271,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bouffalant",
   },
   rufflet: {
+    no: "627",
     ko: "수리둥보",
     jp: "ワシボン",
     fr: "Furaiglon",
@@ -5653,6 +6281,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Rufflet",
   },
   braviary: {
+    no: "628",
     ko: "워글",
     jp: "ウォーグル",
     fr: "Gueriaigle",
@@ -5662,6 +6291,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Braviary",
   },
   vullaby: {
+    no: "629",
     ko: "벌차이",
     jp: "バルチャイ",
     fr: "Vostourno",
@@ -5671,6 +6301,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Vullaby",
   },
   mandibuzz: {
+    no: "630",
     ko: "버랜지나",
     jp: "バルジーナ",
     fr: "Vaututrice",
@@ -5680,6 +6311,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mandibuzz",
   },
   heatmor: {
+    no: "631",
     ko: "앤티골",
     jp: "クイタラン",
     fr: "Aflamanoir",
@@ -5689,6 +6321,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Heatmor",
   },
   durant: {
+    no: "632",
     ko: "아이앤트",
     jp: "アイアント",
     fr: "Fermite",
@@ -5698,6 +6331,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Durant",
   },
   deino: {
+    no: "633",
     ko: "모노두",
     jp: "モノズ",
     fr: "Solochi",
@@ -5707,6 +6341,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Deino",
   },
   zweilous: {
+    no: "634",
     ko: "디헤드",
     jp: "ジヘッド",
     fr: "Diamat",
@@ -5716,6 +6351,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Zweilous",
   },
   hydreigon: {
+    no: "635",
     ko: "삼삼드래",
     jp: "サザンドラ",
     fr: "Trioxhydre",
@@ -5725,6 +6361,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hydreigon",
   },
   larvesta: {
+    no: "636",
     ko: "활화르바",
     jp: "メラルバ",
     fr: "Pyronille",
@@ -5734,6 +6371,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Larvesta",
   },
   volcarona: {
+    no: "637",
     ko: "불카모스",
     jp: "ウルガモス",
     fr: "Pyrax",
@@ -5743,6 +6381,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Volcarona",
   },
   cobalion: {
+    no: "638",
     ko: "코바르온",
     jp: "コバルオン",
     fr: "Cobaltium",
@@ -5752,6 +6391,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cobalion",
   },
   terrakion: {
+    no: "639",
     ko: "테라키온",
     jp: "テラキオン",
     fr: "Terrakium",
@@ -5761,6 +6401,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Terrakion",
   },
   virizion: {
+    no: "640",
     ko: "비리디온",
     jp: "ビリジオン",
     fr: "Viridium",
@@ -5770,6 +6411,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Virizion",
   },
   tornadus: {
+    no: "641",
     ko: "토네로스",
     jp: "トルネロス",
     fr: "Boréas",
@@ -5779,6 +6421,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tornadus",
   },
   thundurus: {
+    no: "642",
     ko: "볼트로스",
     jp: "ボルトロス",
     fr: "Fulguris",
@@ -5788,6 +6431,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Thundurus",
   },
   reshiram: {
+    no: "643",
     ko: "레시라무",
     jp: "レシラム",
     fr: "Reshiram",
@@ -5797,6 +6441,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Reshiram",
   },
   zekrom: {
+    no: "644",
     ko: "제크로무",
     jp: "ゼクロム",
     fr: "Zekrom",
@@ -5806,6 +6451,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Zekrom",
   },
   landorus: {
+    no: "645",
     ko: "랜드로스",
     jp: "ランドロス",
     fr: "Démétéros",
@@ -5815,6 +6461,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Landorus",
   },
   kyurem: {
+    no: "646",
     ko: "큐레무",
     jp: "キュレム",
     fr: "Kyurem",
@@ -5824,6 +6471,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kyurem",
   },
   keldeo: {
+    no: "647",
     ko: "케르디오",
     jp: "ケルディオ",
     fr: "Keldeo",
@@ -5833,6 +6481,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Keldeo",
   },
   meloetta: {
+    no: "648",
     ko: "메로엣타",
     jp: "メロエッタ",
     fr: "Meloetta",
@@ -5842,6 +6491,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Meloetta",
   },
   genesect: {
+    no: "649",
     ko: "게노세크트",
     jp: "ゲノセクト",
     fr: "Genesect",
@@ -5851,6 +6501,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Genesect",
   },
   chespin: {
+    no: "650",
     ko: "도치마론",
     jp: "ハリマロン",
     fr: "Marisson",
@@ -5860,6 +6511,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Chespin",
   },
   quilladin: {
+    no: "651",
     ko: "도치보구",
     jp: "ハリボーグ",
     fr: "Boguérisse",
@@ -5869,6 +6521,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Quilladin",
   },
   chesnaught: {
+    no: "652",
     ko: "브리가론",
     jp: "ブリガロン",
     fr: "Blindépique",
@@ -5878,6 +6531,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Chesnaught",
   },
   fennekin: {
+    no: "653",
     ko: "푸호꼬",
     jp: "フォッコ",
     fr: "Feunnec",
@@ -5887,6 +6541,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Fennekin",
   },
   braixen: {
+    no: "654",
     ko: "테르나",
     jp: "テールナー",
     fr: "Roussil",
@@ -5896,6 +6551,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Braixen",
   },
   delphox: {
+    no: "655",
     ko: "마폭시",
     jp: "マフォクシー",
     fr: "Goupelin",
@@ -5905,6 +6561,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Delphox",
   },
   froakie: {
+    no: "656",
     ko: "개구마르",
     jp: "ケロマツ",
     fr: "Grenousse",
@@ -5914,6 +6571,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Froakie",
   },
   frogadier: {
+    no: "657",
     ko: "개굴반장",
     jp: "ゲコガシラ",
     fr: "Croâporal",
@@ -5923,6 +6581,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Frogadier",
   },
   greninja: {
+    no: "658",
     ko: "개굴닌자",
     jp: "ゲッコウガ",
     fr: "Amphinobi",
@@ -5932,6 +6591,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Greninja",
   },
   bunnelby: {
+    no: "659",
     ko: "파르빗",
     jp: "ホルビー",
     fr: "Sapereau",
@@ -5941,6 +6601,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bunnelby",
   },
   diggersby: {
+    no: "660",
     ko: "파르토",
     jp: "ホルード",
     fr: "Excavarenne",
@@ -5950,6 +6611,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Diggersby",
   },
   fletchling: {
+    no: "661",
     ko: "화살꼬빈",
     jp: "ヤヤコマ",
     fr: "Passerouge",
@@ -5959,6 +6621,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Fletchling",
   },
   fletchinder: {
+    no: "662",
     ko: "불화살빈",
     jp: "ヒノヤコマ",
     fr: "Braisillon",
@@ -5968,6 +6631,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Fletchinder",
   },
   talonflame: {
+    no: "663",
     ko: "파이어로",
     jp: "ファイアロー",
     fr: "Flambusard",
@@ -5977,6 +6641,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Talonflame",
   },
   scatterbug: {
+    no: "664",
     ko: "분이벌레",
     jp: "コフキムシ",
     fr: "Lépidonille",
@@ -5986,6 +6651,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Scatterbug",
   },
   spewpa: {
+    no: "665",
     ko: "분떠도리",
     jp: "コフーライ",
     fr: "Pérégrain",
@@ -5995,6 +6661,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Spewpa",
   },
   vivillon: {
+    no: "666",
     ko: "비비용",
     jp: "ビビヨン",
     fr: "Prismillon",
@@ -6004,6 +6671,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Vivillon",
   },
   litleo: {
+    no: "667",
     ko: "레오꼬",
     jp: "シシコ",
     fr: "Hélionceau",
@@ -6013,6 +6681,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Litleo",
   },
   pyroar: {
+    no: "668",
     ko: "화염레오",
     jp: "カエンジシ",
     fr: "Némélios",
@@ -6022,6 +6691,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pyroar",
   },
   flabébé: {
+    no: "669",
     ko: "플라베베",
     jp: "フラベベ",
     fr: "Flabébé",
@@ -6031,6 +6701,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Flabébé",
   },
   floette: {
+    no: "670",
     ko: "플라엣테",
     jp: "フラエッテ",
     fr: "Floette",
@@ -6040,6 +6711,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Floette",
   },
   florges: {
+    no: "671",
     ko: "플라제스",
     jp: "フラージェス",
     fr: "Florges",
@@ -6049,6 +6721,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Florges",
   },
   skiddo: {
+    no: "672",
     ko: "메이클",
     jp: "メェークル",
     fr: "Cabriolaine",
@@ -6058,6 +6731,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Skiddo",
   },
   gogoat: {
+    no: "673",
     ko: "고고트",
     jp: "ゴーゴート",
     fr: "Chevroum",
@@ -6067,6 +6741,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gogoat",
   },
   pancham: {
+    no: "674",
     ko: "판짱",
     jp: "ヤンチャム",
     fr: "Pandespiègle",
@@ -6076,6 +6751,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pancham",
   },
   pangoro: {
+    no: "675",
     ko: "부란다",
     jp: "ゴロンダ",
     fr: "Pandarbare",
@@ -6085,6 +6761,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pangoro",
   },
   furfrou: {
+    no: "676",
     ko: "트리미앙",
     jp: "トリミアン",
     fr: "Couafarel",
@@ -6094,6 +6771,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Furfrou",
   },
   espurr: {
+    no: "677",
     ko: "냐스퍼",
     jp: "ニャスパー",
     fr: "Psystigri",
@@ -6103,6 +6781,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Espurr",
   },
   meowstic: {
+    no: "678",
     ko: "냐오닉스",
     jp: "ニャオニクス",
     fr: "Mistigrix",
@@ -6112,6 +6791,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Meowstic",
   },
   honedge: {
+    no: "679",
     ko: "단칼빙",
     jp: "ヒトツキ",
     fr: "Monorpale",
@@ -6121,6 +6801,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Honedge",
   },
   doublade: {
+    no: "680",
     ko: "쌍검킬",
     jp: "ニダンギル",
     fr: "Dimoclès",
@@ -6130,6 +6811,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Doublade",
   },
   aegislash: {
+    no: "681",
     ko: "킬가르도",
     jp: "ギルガルド",
     fr: "Exagide",
@@ -6139,6 +6821,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Aegislash",
   },
   spritzee: {
+    no: "682",
     ko: "슈쁘",
     jp: "シュシュプ",
     fr: "Fluvetin",
@@ -6148,6 +6831,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Spritzee",
   },
   aromatisse: {
+    no: "683",
     ko: "프레프티르",
     jp: "フレフワン",
     fr: "Cocotine",
@@ -6157,6 +6841,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Aromatisse",
   },
   swirlix: {
+    no: "684",
     ko: "나룸퍼프",
     jp: "ペロッパフ",
     fr: "Sucroquin",
@@ -6166,6 +6851,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Swirlix",
   },
   slurpuff: {
+    no: "685",
     ko: "나루림",
     jp: "ペロリーム",
     fr: "Cupcanaille",
@@ -6175,6 +6861,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Slurpuff",
   },
   inkay: {
+    no: "686",
     ko: "오케이징",
     jp: "マーイーカ",
     fr: "Sepiatop",
@@ -6184,6 +6871,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Inkay",
   },
   malamar: {
+    no: "687",
     ko: "칼라마네로",
     jp: "カラマネロ",
     fr: "Sepiatroce",
@@ -6193,6 +6881,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Malamar",
   },
   binacle: {
+    no: "688",
     ko: "거북손손",
     jp: "カメテテ",
     fr: "Opermine",
@@ -6202,6 +6891,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Binacle",
   },
   barbaracle: {
+    no: "689",
     ko: "거북손데스",
     jp: "ガメノデス",
     fr: "Golgopathe",
@@ -6211,6 +6901,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Barbaracle",
   },
   skrelp: {
+    no: "690",
     ko: "수레기",
     jp: "クズモー",
     fr: "Venalgue",
@@ -6220,6 +6911,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Skrelp",
   },
   dragalge: {
+    no: "691",
     ko: "드래캄",
     jp: "ドラミドロ",
     fr: "Kravarech",
@@ -6229,6 +6921,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dragalge",
   },
   clauncher: {
+    no: "692",
     ko: "완철포",
     jp: "ウデッポウ",
     fr: "Flingouste",
@@ -6238,6 +6931,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Clauncher",
   },
   clawitzer: {
+    no: "693",
     ko: "블로스터",
     jp: "ブロスター",
     fr: "Gamblast",
@@ -6247,6 +6941,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Clawitzer",
   },
   helioptile: {
+    no: "694",
     ko: "목도리키텔",
     jp: "エリキテル",
     fr: "Galvaran",
@@ -6256,6 +6951,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Helioptile",
   },
   heliolisk: {
+    no: "695",
     ko: "일레도리자드",
     jp: "エレザード",
     fr: "Iguolta",
@@ -6265,6 +6961,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Heliolisk",
   },
   tyrunt: {
+    no: "696",
     ko: "티고라스",
     jp: "チゴラス",
     fr: "Ptyranidur",
@@ -6274,6 +6971,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tyrunt",
   },
   tyrantrum: {
+    no: "697",
     ko: "견고라스",
     jp: "ガチゴラス",
     fr: "Rexillius",
@@ -6283,6 +6981,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tyrantrum",
   },
   amaura: {
+    no: "698",
     ko: "아마루스",
     jp: "アマルス",
     fr: "Amagara",
@@ -6292,6 +6991,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Amaura",
   },
   aurorus: {
+    no: "699",
     ko: "아마루르가",
     jp: "アマルルガ",
     fr: "Dragmara",
@@ -6301,6 +7001,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Aurorus",
   },
   sylveon: {
+    no: "700",
     ko: "님피아",
     jp: "ニンフィア",
     fr: "Nymphali",
@@ -6310,6 +7011,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sylveon",
   },
   hawlucha: {
+    no: "701",
     ko: "루차불",
     jp: "ルチャブル",
     fr: "Brutalibré",
@@ -6319,6 +7021,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hawlucha",
   },
   dedenne: {
+    no: "702",
     ko: "데덴네",
     jp: "デデンネ",
     fr: "Dedenne",
@@ -6328,6 +7031,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dedenne",
   },
   carbink: {
+    no: "703",
     ko: "멜리시",
     jp: "メレシー",
     fr: "Strassie",
@@ -6337,6 +7041,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Carbink",
   },
   goomy: {
+    no: "704",
     ko: "미끄메라",
     jp: "ヌメラ",
     fr: "Mucuscule",
@@ -6346,6 +7051,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Goomy",
   },
   sliggoo: {
+    no: "705",
     ko: "미끄네일",
     jp: "ヌメイル",
     fr: "Colimucus",
@@ -6355,6 +7061,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sliggoo",
   },
   goodra: {
+    no: "706",
     ko: "미끄래곤",
     jp: "ヌメルゴン",
     fr: "Muplodocus",
@@ -6364,6 +7071,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Goodra",
   },
   klefki: {
+    no: "707",
     ko: "클레피",
     jp: "クレッフィ",
     fr: "Trousselin",
@@ -6373,6 +7081,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Klefki",
   },
   phantump: {
+    no: "708",
     ko: "나목령",
     jp: "ボクレー",
     fr: "Brocélôme",
@@ -6382,6 +7091,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Phantump",
   },
   trevenant: {
+    no: "709",
     ko: "대로트",
     jp: "オーロット",
     fr: "Desséliande",
@@ -6391,6 +7101,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Trevenant",
   },
   pumpkaboo: {
+    no: "710",
     ko: "호바귀",
     jp: "バケッチャ",
     fr: "Pitrouille",
@@ -6400,6 +7111,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pumpkaboo",
   },
   gourgeist: {
+    no: "711",
     ko: "펌킨인",
     jp: "パンプジン",
     fr: "Banshitrouye",
@@ -6409,6 +7121,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gourgeist",
   },
   bergmite: {
+    no: "712",
     ko: "꽁어름",
     jp: "カチコール",
     fr: "Grelaçon",
@@ -6418,6 +7131,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bergmite",
   },
   avalugg: {
+    no: "713",
     ko: "크레베이스",
     jp: "クレベース",
     fr: "Séracrawl",
@@ -6427,6 +7141,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Avalugg",
   },
   noibat: {
+    no: "714",
     ko: "음뱃",
     jp: "オンバット",
     fr: "Sonistrelle",
@@ -6436,6 +7151,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Noibat",
   },
   noivern: {
+    no: "715",
     ko: "음번",
     jp: "オンバーン",
     fr: "Bruyverne",
@@ -6445,6 +7161,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Noivern",
   },
   xerneas: {
+    no: "716",
     ko: "제르네아스",
     jp: "ゼルネアス",
     fr: "Xerneas",
@@ -6454,6 +7171,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Xerneas",
   },
   yveltal: {
+    no: "717",
     ko: "이벨타르",
     jp: "イベルタル",
     fr: "Yveltal",
@@ -6463,6 +7181,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Yveltal",
   },
   zygarde: {
+    no: "718",
     ko: "지가르데",
     jp: "ジガルデ",
     fr: "Zygarde",
@@ -6472,6 +7191,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Zygarde",
   },
   diancie: {
+    no: "719",
     ko: "디안시",
     jp: "ディアンシー",
     fr: "Diancie",
@@ -6481,6 +7201,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Diancie",
   },
   hoopa: {
+    no: "720",
     ko: "후파",
     jp: "フーパ",
     fr: "Hoopa",
@@ -6490,6 +7211,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hoopa",
   },
   volcanion: {
+    no: "721",
     ko: "볼케니온",
     jp: "ボルケニオン",
     fr: "Volcanion",
@@ -6499,6 +7221,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Volcanion",
   },
   rowlet: {
+    no: "722",
     ko: "나몰빼미",
     jp: "モクロー",
     fr: "Brindibou",
@@ -6508,6 +7231,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Rowlet",
   },
   dartrix: {
+    no: "723",
     ko: "빼미스로우",
     jp: "フクスロー",
     fr: "Efflèche",
@@ -6517,6 +7241,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dartrix",
   },
   decidueye: {
+    no: "724",
     ko: "모크나이퍼",
     jp: "ジュナイパー",
     fr: "Archéduc",
@@ -6526,6 +7251,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Decidueye",
   },
   litten: {
+    no: "725",
     ko: "냐오불",
     jp: "ニャビー",
     fr: "Flamiaou",
@@ -6535,6 +7261,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Litten",
   },
   torracat: {
+    no: "726",
     ko: "냐오히트",
     jp: "ニャヒート",
     fr: "Matoufeu",
@@ -6544,6 +7271,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Torracat",
   },
   incineroar: {
+    no: "727",
     ko: "어흥염",
     jp: "ガオガエン",
     fr: "Félinferno",
@@ -6553,6 +7281,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Incineroar",
   },
   popplio: {
+    no: "728",
     ko: "누리공",
     jp: "アシマリ",
     fr: "Otaquin",
@@ -6562,6 +7291,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Popplio",
   },
   brionne: {
+    no: "729",
     ko: "키요공",
     jp: "オシャマリ",
     fr: "Otarlette",
@@ -6571,6 +7301,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Brionne",
   },
   primarina: {
+    no: "730",
     ko: "누리레느",
     jp: "アシレーヌ",
     fr: "Oratoria",
@@ -6580,6 +7311,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Primarina",
   },
   pikipek: {
+    no: "731",
     ko: "콕코구리",
     jp: "ツツケラ",
     fr: "Picassaut",
@@ -6589,6 +7321,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pikipek",
   },
   trumbeak: {
+    no: "732",
     ko: "크라파",
     jp: "ケララッパ",
     fr: "Piclairon",
@@ -6598,6 +7331,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Trumbeak",
   },
   toucannon: {
+    no: "733",
     ko: "왕큰부리",
     jp: "ドデカバシ",
     fr: "Bazoucan",
@@ -6607,6 +7341,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Toucannon",
   },
   yungoos: {
+    no: "734",
     ko: "영구스",
     jp: "ヤングース",
     fr: "Manglouton",
@@ -6616,6 +7351,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Yungoos",
   },
   gumshoos: {
+    no: "735",
     ko: "형사구스",
     jp: "デカグース",
     fr: "Argouste",
@@ -6625,6 +7361,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gumshoos",
   },
   grubbin: {
+    no: "736",
     ko: "턱지충이",
     jp: "アゴジムシ",
     fr: "Larvibule",
@@ -6634,6 +7371,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Grubbin",
   },
   charjabug: {
+    no: "737",
     ko: "전지충이",
     jp: "デンヂムシ",
     fr: "Chrysapile",
@@ -6643,6 +7381,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Charjabug",
   },
   vikavolt: {
+    no: "738",
     ko: "투구뿌논",
     jp: "クワガノン",
     fr: "Lucanon",
@@ -6652,6 +7391,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Vikavolt",
   },
   crabrawler: {
+    no: "739",
     ko: "오기지게",
     jp: "マケンカニ",
     fr: "Crabagarre",
@@ -6661,6 +7401,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Crabrawler",
   },
   crabominable: {
+    no: "740",
     ko: "모단단게",
     jp: "ケケンカニ",
     fr: "Crabominable",
@@ -6670,6 +7411,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Crabominable",
   },
   oricorio: {
+    no: "741",
     ko: "춤추새",
     jp: "オドリドリ",
     fr: "Plumeline",
@@ -6679,6 +7421,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Oricorio",
   },
   cutiefly: {
+    no: "742",
     ko: "에블리",
     jp: "アブリー",
     fr: "Bombydou",
@@ -6688,6 +7431,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cutiefly",
   },
   ribombee: {
+    no: "743",
     ko: "에리본",
     jp: "アブリボン",
     fr: "Rubombelle",
@@ -6697,6 +7441,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Ribombee",
   },
   rockruff: {
+    no: "744",
     ko: "암멍이",
     jp: "イワンコ",
     fr: "Rocabot",
@@ -6706,6 +7451,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Rockruff",
   },
   lycanroc: {
+    no: "745",
     ko: "루가루암",
     jp: "ルガルガン",
     fr: "Lougaroc",
@@ -6715,6 +7461,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lycanroc",
   },
   wishiwashi: {
+    no: "746",
     ko: "약어리",
     jp: "ヨワシ",
     fr: "Froussardine",
@@ -6724,6 +7471,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Wishiwashi",
   },
   mareanie: {
+    no: "747",
     ko: "시마사리",
     jp: "ヒドイデ",
     fr: "Vorastérie",
@@ -6733,6 +7481,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mareanie",
   },
   toxapex: {
+    no: "748",
     ko: "더시마사리",
     jp: "ドヒドイデ",
     fr: "Prédastérie",
@@ -6742,6 +7491,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Toxapex",
   },
   mudbray: {
+    no: "749",
     ko: "머드나기",
     jp: "ドロバンコ",
     fr: "Tiboudet",
@@ -6751,6 +7501,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mudbray",
   },
   mudsdale: {
+    no: "750",
     ko: "만마드",
     jp: "バンバドロ",
     fr: "Bourrinos",
@@ -6760,6 +7511,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mudsdale",
   },
   dewpider: {
+    no: "751",
     ko: "물거미",
     jp: "シズクモ",
     fr: "Araqua",
@@ -6769,6 +7521,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dewpider",
   },
   araquanid: {
+    no: "752",
     ko: "깨비물거미",
     jp: "オニシズクモ",
     fr: "Tarenbulle",
@@ -6778,6 +7531,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Araquanid",
   },
   fomantis: {
+    no: "753",
     ko: "짜랑랑",
     jp: "カリキリ",
     fr: "Mimantis",
@@ -6787,6 +7541,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Fomantis",
   },
   lurantis: {
+    no: "754",
     ko: "라란티스",
     jp: "ラランテス",
     fr: "Floramantis",
@@ -6796,6 +7551,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lurantis",
   },
   morelull: {
+    no: "755",
     ko: "자마슈",
     jp: "ネマシュ",
     fr: "Spododo",
@@ -6805,6 +7561,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Morelull",
   },
   shiinotic: {
+    no: "756",
     ko: "마셰이드",
     jp: "マシェード",
     fr: "Lampignon",
@@ -6814,6 +7571,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Shiinotic",
   },
   salandit: {
+    no: "757",
     ko: "야도뇽",
     jp: "ヤトウモリ",
     fr: "Tritox",
@@ -6823,6 +7581,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Salandit",
   },
   salazzle: {
+    no: "758",
     ko: "염뉴트",
     jp: "エンニュート",
     fr: "Malamandre",
@@ -6832,6 +7591,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Salazzle",
   },
   stufful: {
+    no: "759",
     ko: "포곰곰",
     jp: "ヌイコグマ",
     fr: "Nounourson",
@@ -6841,6 +7601,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Stufful",
   },
   bewear: {
+    no: "760",
     ko: "이븐곰",
     jp: "キテルグマ",
     fr: "Chelours",
@@ -6850,6 +7611,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bewear",
   },
   bounsweet: {
+    no: "761",
     ko: "달콤아",
     jp: "アマカジ",
     fr: "Croquine",
@@ -6859,6 +7621,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bounsweet",
   },
   steenee: {
+    no: "762",
     ko: "달무리나",
     jp: "アママイコ",
     fr: "Candine",
@@ -6868,6 +7631,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Steenee",
   },
   tsareena: {
+    no: "763",
     ko: "달코퀸",
     jp: "アマージョ",
     fr: "Sucreine",
@@ -6877,6 +7641,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tsareena",
   },
   comfey: {
+    no: "764",
     ko: "큐아링",
     jp: "キュワワー",
     fr: "Guérilande",
@@ -6886,6 +7651,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Comfey",
   },
   oranguru: {
+    no: "765",
     ko: "하랑우탄",
     jp: "ヤレユータン",
     fr: "Gouroutan",
@@ -6895,6 +7661,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Oranguru",
   },
   passimian: {
+    no: "766",
     ko: "내던숭이",
     jp: "ナゲツケサル",
     fr: "Quartermac",
@@ -6904,6 +7671,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Passimian",
   },
   wimpod: {
+    no: "767",
     ko: "꼬시레",
     jp: "コソクムシ",
     fr: "Sovkipou",
@@ -6913,6 +7681,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Wimpod",
   },
   golisopod: {
+    no: "768",
     ko: "갑주무사",
     jp: "グソクムシャ",
     fr: "Sarmuraï",
@@ -6922,6 +7691,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Golisopod",
   },
   sandygast: {
+    no: "769",
     ko: "모래꿍",
     jp: "スナバァ",
     fr: "Bacabouh",
@@ -6931,6 +7701,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sandygast",
   },
   palossand: {
+    no: "770",
     ko: "모래성이당",
     jp: "シロデスナ",
     fr: "Trépassable",
@@ -6940,6 +7711,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Palossand",
   },
   pyukumuku: {
+    no: "771",
     ko: "해무기",
     jp: "ナマコブシ",
     fr: "Concombaffe",
@@ -6949,6 +7721,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pyukumuku",
   },
   "type: null": {
+    no: "772",
     ko: "타입:널",
     jp: "タイプ：ヌル",
     fr: "Type:0",
@@ -6958,6 +7731,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tipo Zero",
   },
   silvally: {
+    no: "773",
     ko: "실버디",
     jp: "シルヴァディ",
     fr: "Silvallié",
@@ -6967,6 +7741,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Silvally",
   },
   minior: {
+    no: "774",
     ko: "메테노",
     jp: "メテノ",
     fr: "Météno",
@@ -6976,6 +7751,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Minior",
   },
   komala: {
+    no: "775",
     ko: "자말라",
     jp: "ネッコアラ",
     fr: "Dodoala",
@@ -6985,6 +7761,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Komala",
   },
   turtonator: {
+    no: "776",
     ko: "폭거북스",
     jp: "バクガメス",
     fr: "Boumata",
@@ -6994,6 +7771,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Turtonator",
   },
   togedemaru: {
+    no: "777",
     ko: "토게데마루",
     jp: "トゲデマル",
     fr: "Togedemaru",
@@ -7003,6 +7781,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Togedemaru",
   },
   mimikyu: {
+    no: "778",
     ko: "따라큐",
     jp: "ミミッキュ",
     fr: "Mimiqui",
@@ -7012,6 +7791,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mimikyu",
   },
   bruxish: {
+    no: "779",
     ko: "치갈기",
     jp: "ハギギシリ",
     fr: "Denticrisse",
@@ -7021,6 +7801,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Bruxish",
   },
   drampa: {
+    no: "780",
     ko: "할비롱",
     jp: "ジジーロン",
     fr: "Draïeul",
@@ -7030,6 +7811,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Drampa",
   },
   dhelmise: {
+    no: "781",
     ko: "타타륜",
     jp: "ダダリン",
     fr: "Sinistrail",
@@ -7039,6 +7821,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dhelmise",
   },
   "jangmo-o": {
+    no: "782",
     ko: "짜랑꼬",
     jp: "ジャラコ",
     fr: "Bébécaille",
@@ -7048,6 +7831,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Jangmo-o",
   },
   "hakamo-o": {
+    no: "783",
     ko: "짜랑고우",
     jp: "ジャランゴ",
     fr: "Écaïd",
@@ -7057,6 +7841,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hakamo-o",
   },
   "kommo-o": {
+    no: "784",
     ko: "짜랑고우거",
     jp: "ジャラランガ",
     fr: "Ékaïser",
@@ -7066,6 +7851,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kommo-o",
   },
   "tapu koko": {
+    no: "785",
     ko: "카푸꼬꼬꼭",
     jp: "カプ・コケコ",
     fr: "Tokorico",
@@ -7075,6 +7861,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tapu Koko",
   },
   "tapu lele": {
+    no: "786",
     ko: "카푸나비나",
     jp: "カプ・テテフ",
     fr: "Tokopiyon",
@@ -7084,6 +7871,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tapu Lele",
   },
   "tapu bulu": {
+    no: "787",
     ko: "카푸브루루",
     jp: "カプ・ブルル",
     fr: "Tokotoro",
@@ -7093,6 +7881,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tapu Bulu",
   },
   "tapu fini": {
+    no: "788",
     ko: "카푸느지느",
     jp: "カプ・レヒレ",
     fr: "Tokopisco",
@@ -7102,6 +7891,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Tapu Fini",
   },
   cosmog: {
+    no: "789",
     ko: "코스모그",
     jp: "コスモッグ",
     fr: "Cosmog",
@@ -7111,6 +7901,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cosmog",
   },
   cosmoem: {
+    no: "790",
     ko: "코스모움",
     jp: "コスモウム",
     fr: "Cosmovum",
@@ -7120,6 +7911,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cosmoem",
   },
   solgaleo: {
+    no: "791",
     ko: "솔가레오",
     jp: "ソルガレオ",
     fr: "Solgaleo",
@@ -7129,6 +7921,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Solgaleo",
   },
   lunala: {
+    no: "792",
     ko: "루나아라",
     jp: "ルナアーラ",
     fr: "Lunala",
@@ -7138,6 +7931,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Lunala",
   },
   nihilego: {
+    no: "793",
     ko: "텅비드",
     jp: "ウツロイド",
     fr: "Zéroïd",
@@ -7147,6 +7941,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Nihilego",
   },
   buzzwole: {
+    no: "794",
     ko: "매시붕",
     jp: "マッシブーン",
     fr: "Mouscoto",
@@ -7156,6 +7951,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Buzzwole",
   },
   pheromosa: {
+    no: "795",
     ko: "페로코체",
     jp: "フェローチェ",
     fr: "Cancrelove",
@@ -7165,6 +7961,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pheromosa",
   },
   xurkitree: {
+    no: "796",
     ko: "전수목",
     jp: "デンジュモク",
     fr: "Câblifère",
@@ -7174,6 +7971,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Xurkitree",
   },
   celesteela: {
+    no: "797",
     ko: "철화구야",
     jp: "テッカグヤ",
     fr: "Bamboiselle",
@@ -7183,6 +7981,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Celesteela",
   },
   kartana: {
+    no: "798",
     ko: "종이신도",
     jp: "カミツルギ",
     fr: "Katagami",
@@ -7192,6 +7991,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kartana",
   },
   guzzlord: {
+    no: "799",
     ko: "악식킹",
     jp: "アクジキング",
     fr: "Engloutyran",
@@ -7201,6 +8001,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Guzzlord",
   },
   necrozma: {
+    no: "800",
     ko: "네크로즈마",
     jp: "ネクロズマ",
     fr: "Necrozma",
@@ -7210,6 +8011,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Necrozma",
   },
   magearna: {
+    no: "801",
     ko: "마기아나",
     jp: "マギアナ",
     fr: "Magearna",
@@ -7219,6 +8021,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Magearna",
   },
   marshadow: {
+    no: "802",
     ko: "마샤도",
     jp: "マーシャドー",
     fr: "Marshadow",
@@ -7228,6 +8031,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Marshadow",
   },
   poipole: {
+    no: "803",
     ko: "베베놈",
     jp: "ベベノム",
     fr: "Vémini",
@@ -7237,6 +8041,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Poipole",
   },
   naganadel: {
+    no: "804",
     ko: "아고용",
     jp: "アーゴヨン",
     fr: "Mandrillon",
@@ -7246,6 +8051,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Naganadel",
   },
   stakataka: {
+    no: "805",
     ko: "차곡차곡",
     jp: "ツンデツンデ",
     fr: "Ama-Ama",
@@ -7255,6 +8061,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Stakataka",
   },
   blacephalon: {
+    no: "806",
     ko: "두파팡",
     jp: "ズガドーン",
     fr: "Pierroteknik",
@@ -7264,6 +8071,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Blacephalon",
   },
   zeraora: {
+    no: "807",
     ko: "제라오라",
     jp: "ゼラオラ",
     fr: "Zeraora",
@@ -7273,6 +8081,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Zeraora",
   },
   meltan: {
+    no: "808",
     ko: "멜탄",
     jp: "メルタン",
     fr: "Meltan",
@@ -7282,6 +8091,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Meltan",
   },
   melmetal: {
+    no: "809",
     ko: "멜메탈",
     jp: "メルメタル",
     fr: "Melmetal",
@@ -7291,6 +8101,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Melmetal",
   },
   grookey: {
+    no: "810",
     ko: "흥나숭",
     jp: "サルノリ",
     fr: "Ouistempo",
@@ -7300,6 +8111,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Grookey",
   },
   thwackey: {
+    no: "811",
     ko: "채키몽",
     jp: "バチンキー",
     fr: "Badabouin",
@@ -7309,6 +8121,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Thwackey",
   },
   rillaboom: {
+    no: "812",
     ko: "고릴타",
     jp: "ゴリランダー",
     fr: "Gorythmic",
@@ -7318,6 +8131,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Rillaboom",
   },
   scorbunny: {
+    no: "813",
     ko: "염버니",
     jp: "ヒバニー",
     fr: "Flambino",
@@ -7327,6 +8141,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Scorbunny",
   },
   raboot: {
+    no: "814",
     ko: "래비풋",
     jp: "ラビフット",
     fr: "Lapyro",
@@ -7336,6 +8151,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Raboot",
   },
   cinderace: {
+    no: "815",
     ko: "에이스번",
     jp: "エースバーン",
     fr: "Pyrobut",
@@ -7345,6 +8161,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cinderace",
   },
   sobble: {
+    no: "816",
     ko: "울머기",
     jp: "メッソン",
     fr: "Larméléon",
@@ -7354,6 +8171,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sobble",
   },
   drizzile: {
+    no: "817",
     ko: "누겔레온",
     jp: "ジメレオン",
     fr: "Arrozard",
@@ -7363,6 +8181,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Drizzile",
   },
   inteleon: {
+    no: "818",
     ko: "인텔리레온",
     jp: "インテレオン",
     fr: "Lézargus",
@@ -7372,6 +8191,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Inteleon",
   },
   skwovet: {
+    no: "819",
     ko: "탐리스",
     jp: "ホシガリス",
     fr: "Rongourmand",
@@ -7381,6 +8201,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Skwovet",
   },
   greedent: {
+    no: "820",
     ko: "요씽리스",
     jp: "ヨクバリス",
     fr: "Rongrigou",
@@ -7390,6 +8211,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Greedent",
   },
   rookiedee: {
+    no: "821",
     ko: "파라꼬",
     jp: "ココガラ",
     fr: "Minisange",
@@ -7399,6 +8221,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Rookidee",
   },
   corvisquire: {
+    no: "822",
     ko: "파크로우",
     jp: "アオガラス",
     fr: "Bleuseille",
@@ -7408,6 +8231,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Corvisquire",
   },
   corviknight: {
+    no: "823",
     ko: "아머까오",
     jp: "アーマーガア",
     fr: "Corvaillus",
@@ -7417,6 +8241,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Corviknight",
   },
   blipbug: {
+    no: "824",
     ko: "두루지벌레",
     jp: "サッチムシ",
     fr: "Larvadar",
@@ -7426,6 +8251,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Blipbug",
   },
   dottler: {
+    no: "825",
     ko: "레돔벌레",
     jp: "レドームシ",
     fr: "Coléodôme",
@@ -7435,6 +8261,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dottler",
   },
   orbeetle: {
+    no: "826",
     ko: "이올브",
     jp: "イオルブ",
     fr: "Astronelle",
@@ -7444,6 +8271,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Orbeetle",
   },
   nickit: {
+    no: "827",
     ko: "훔처우",
     jp: "クスネ",
     fr: "Goupilou",
@@ -7453,6 +8281,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Nickit",
   },
   thievul: {
+    no: "828",
     ko: "폭슬라이",
     jp: "フォクスライ",
     fr: "Roublenard",
@@ -7462,6 +8291,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Thievul",
   },
   gossifleur: {
+    no: "829",
     ko: "꼬모카",
     jp: "ヒメンカ",
     fr: "Tournicoton",
@@ -7471,6 +8301,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Gossifleur",
   },
   eldegoss: {
+    no: "830",
     ko: "백솜모카",
     jp: "ワタシラガ",
     fr: "Blancoton",
@@ -7480,6 +8311,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Eldegoss",
   },
   wooloo: {
+    no: "831",
     ko: "우르",
     jp: "ウールー",
     fr: "Moumouton",
@@ -7489,6 +8321,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Wooloo",
   },
   dubwool: {
+    no: "832",
     ko: "배우르",
     jp: "バイウールー",
     fr: "Moumouflon",
@@ -7498,6 +8331,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dubwool",
   },
   chewtle: {
+    no: "833",
     ko: "깨물부기",
     jp: "カムカメ",
     fr: "Khélocrok",
@@ -7507,6 +8341,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Chewtle",
   },
   drednaw: {
+    no: "834",
     ko: "갈가부기",
     jp: "カジリガメ",
     fr: "Torgamord",
@@ -7516,6 +8351,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Drednaw",
   },
   yamper: {
+    no: "835",
     ko: "멍파치",
     jp: "ワンパチ",
     fr: "Voltoutou",
@@ -7525,6 +8361,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Yamper",
   },
   boltund: {
+    no: "836",
     ko: "펄스멍",
     jp: "パルスワン",
     fr: "Fulgudog",
@@ -7534,6 +8371,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Boltund",
   },
   rolycoly: {
+    no: "837",
     ko: "탄동",
     jp: "タンドン",
     fr: "Charbi",
@@ -7543,6 +8381,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Rolycoly",
   },
   carkol: {
+    no: "838",
     ko: "탄차곤",
     jp: "トロッゴン",
     fr: "Wagomine",
@@ -7552,6 +8391,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Carkol",
   },
   coalossal: {
+    no: "839",
     ko: "석탄산",
     jp: "セキタンザン",
     fr: "Monthracite",
@@ -7561,6 +8401,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Coalossal",
   },
   applin: {
+    no: "840",
     ko: "과사삭벌레",
     jp: "カジッチュ",
     fr: "Verpom",
@@ -7570,6 +8411,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Applin",
   },
   flapple: {
+    no: "841",
     ko: "애프룡",
     jp: "アップリュー",
     fr: "Pomdrapi",
@@ -7579,6 +8421,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Flapple",
   },
   appletun: {
+    no: "842",
     ko: "단지래플",
     jp: "タルップル",
     fr: "Dratatin",
@@ -7588,6 +8431,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Appletun",
   },
   silicobra: {
+    no: "843",
     ko: "모래뱀",
     jp: "スナヘビ",
     fr: "Dunaja",
@@ -7597,6 +8441,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Silicobra",
   },
   sandaconda: {
+    no: "844",
     ko: "사다이사",
     jp: "サダイジャ",
     fr: "Dunaconda",
@@ -7606,6 +8451,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sandaconda",
   },
   cramorant: {
+    no: "845",
     ko: "윽우지",
     jp: "ウッウ",
     fr: "Nigosier",
@@ -7615,6 +8461,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cramorant",
   },
   arrokuda: {
+    no: "846",
     ko: "찌로꼬치",
     jp: "サシカマス",
     fr: "Embrochet",
@@ -7624,6 +8471,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Arrokuda",
   },
   barraskewda: {
+    no: "847",
     ko: "꼬치조",
     jp: "カマスジョー",
     fr: "Hastacuda",
@@ -7633,6 +8481,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Barraskewda",
   },
   toxel: {
+    no: "848",
     ko: "일레즌",
     jp: "エレズン",
     fr: "Toxizap",
@@ -7642,6 +8491,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Toxel",
   },
   toxtricity: {
+    no: "849",
     ko: "스트린더",
     jp: "ストリンダー",
     fr: "Salarsen",
@@ -7651,6 +8501,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Toxtricity",
   },
   sizzlipede: {
+    no: "850",
     ko: "태우지네",
     jp: "ヤクデ",
     fr: "Grillepattes",
@@ -7660,6 +8511,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sizzlipede",
   },
   centiskorch: {
+    no: "851",
     ko: "다태우지네",
     jp: "マルヤクデ",
     fr: "Scolocendre",
@@ -7669,6 +8521,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Centiskorch",
   },
   clobbopus: {
+    no: "852",
     ko: "때때무노",
     jp: "タタッコ",
     fr: "Poulpaf",
@@ -7678,6 +8531,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Clobbopus",
   },
   grapploct: {
+    no: "853",
     ko: "케오퍼스",
     jp: "オトスパス",
     fr: "Krakos",
@@ -7687,6 +8541,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Grapploct",
   },
   sinistea: {
+    no: "854",
     ko: "데인차",
     jp: "ヤバチャ",
     fr: "Théffroi",
@@ -7696,6 +8551,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sinistea",
   },
   polteageist: {
+    no: "855",
     ko: "포트데스",
     jp: "ポットデス",
     fr: "Polthégeist",
@@ -7705,6 +8561,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Polteageist",
   },
   hatenna: {
+    no: "856",
     ko: "몸지브림",
     jp: "ミブリム",
     fr: "Bibichut",
@@ -7714,6 +8571,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hatenna",
   },
   hattrem: {
+    no: "857",
     ko: "손지브림",
     jp: "テブリム",
     fr: "Chapotus",
@@ -7723,6 +8581,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hattrem",
   },
   hatterene: {
+    no: "858",
     ko: "브리무음",
     jp: "ブリムオン",
     fr: "Sorcilence",
@@ -7732,6 +8591,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Hatterene",
   },
   impidimp: {
+    no: "859",
     ko: "메롱꿍",
     jp: "ベロバー",
     fr: "Grimalin",
@@ -7741,6 +8601,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Impidimp",
   },
   morgrem: {
+    no: "860",
     ko: "쏘겨모",
     jp: "ギモー",
     fr: "Fourbelin",
@@ -7750,6 +8611,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Morgrem",
   },
   grimmsnarl: {
+    no: "861",
     ko: "오롱털",
     jp: "オーロンゲ",
     fr: "Angoliath",
@@ -7759,6 +8621,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Grimmsnarl",
   },
   obstagoon: {
+    no: "862",
     ko: "가로막구리",
     jp: "タチフサグマ",
     fr: "Ixon",
@@ -7768,6 +8631,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Obstagoon",
   },
   perrserker: {
+    no: "863",
     ko: "나이킹",
     jp: "ニャイキング",
     fr: "Berserkatt",
@@ -7777,6 +8641,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Perrserker",
   },
   cursola: {
+    no: "864",
     ko: "산호르곤",
     jp: "サニゴーン",
     fr: "Corayôme",
@@ -7786,6 +8651,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cursola",
   },
   "sirfetch'd": {
+    no: "865",
     ko: "창파나이트",
     jp: "ネギガナイト",
     fr: "Palarticho",
@@ -7795,6 +8661,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Sirfetch'd",
   },
   "mr. rime": {
+    no: "866",
     ko: "마임꽁꽁",
     jp: "バリコオル",
     fr: "M. Glaquette",
@@ -7804,6 +8671,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Mr. Rime",
   },
   runerigus: {
+    no: "867",
     ko: "데스판",
     jp: "デスバーン",
     fr: "Tutétékri",
@@ -7813,6 +8681,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Runerigus",
   },
   milcery: {
+    no: "868",
     ko: "마빌크",
     jp: "マホミル",
     fr: "Crèmy",
@@ -7822,6 +8691,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Milcery",
   },
   alcremie: {
+    no: "869",
     ko: "마휘핑",
     jp: "マホイップ",
     fr: "Charmilly",
@@ -7831,6 +8701,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Alcremie",
   },
   falinks: {
+    no: "870",
     ko: "대여르",
     jp: "タイレーツ",
     fr: "Hexadron",
@@ -7840,6 +8711,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Falinks",
   },
   pincurchin: {
+    no: "871",
     ko: "찌르성게",
     jp: "バチンウニ",
     fr: "Wattapik",
@@ -7849,6 +8721,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Pincurchin",
   },
   snom: {
+    no: "872",
     ko: "누니머기",
     jp: "ユキハミ",
     fr: "Frissonille",
@@ -7858,6 +8731,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Snom",
   },
   frosmoth: {
+    no: "873",
     ko: "모스노우",
     jp: "モスノウ",
     fr: "Beldeneige",
@@ -7867,6 +8741,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Frosmoth",
   },
   stonjourner: {
+    no: "874",
     ko: "돌헨진",
     jp: "イシヘンジン",
     fr: "Dolman",
@@ -7876,6 +8751,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Stonjourner",
   },
   eiscue: {
+    no: "875",
     ko: "빙큐보",
     jp: "コオリッポ",
     fr: "Bekaglaçon",
@@ -7885,6 +8761,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Eiscue",
   },
   indeedee: {
+    no: "876",
     ko: "에써르",
     jp: "イエッサン",
     fr: "Wimessir",
@@ -7894,6 +8771,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Indeedee",
   },
   morpeko: {
+    no: "877",
     ko: "모르페코",
     jp: "モルペコ",
     fr: "Morpeko",
@@ -7903,6 +8781,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Morpeko",
   },
   cufant: {
+    no: "878",
     ko: "끼리동",
     jp: "ゾウドウ",
     fr: "Charibari",
@@ -7912,6 +8791,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Cufant",
   },
   copperajah: {
+    no: "879",
     ko: "대왕끼리동",
     jp: "ダイオウドウ",
     fr: "Pachyradjah",
@@ -7921,6 +8801,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Copperajah",
   },
   dracozolt: {
+    no: "880",
     ko: "파치래곤",
     jp: "パッチラゴン",
     fr: "Galvagon",
@@ -7930,6 +8811,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dracozolt",
   },
   arctozolt: {
+    no: "881",
     ko: "파치르돈",
     jp: "パッチルドン",
     fr: "Galvagla",
@@ -7939,6 +8821,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Arctozolt",
   },
   dracovish: {
+    no: "882",
     ko: "어래곤",
     jp: "ウオノラゴン",
     fr: "Hydragon",
@@ -7948,6 +8831,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dracovish",
   },
   arctovish: {
+    no: "883",
     ko: "어치르돈",
     jp: "ウオチルドン",
     fr: "Hydragla",
@@ -7957,6 +8841,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Arctovish",
   },
   duraludon: {
+    no: "884",
     ko: "두랄루돈",
     jp: "ジュラルドン",
     fr: "Duralugon",
@@ -7966,6 +8851,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Duraludon",
   },
   dreepy: {
+    no: "885",
     ko: "드라꼰",
     jp: "ドラメシヤ",
     fr: "Fantyrm",
@@ -7975,6 +8861,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dreepy",
   },
   drakloak: {
+    no: "886",
     ko: "드래런치",
     jp: "ドロンチ",
     fr: "Dispareptil",
@@ -7984,6 +8871,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Drakloak",
   },
   dragapult: {
+    no: "887",
     ko: "드래펄트",
     jp: "ドラパルト",
     fr: "Lanssorien",
@@ -7993,6 +8881,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Dragapult",
   },
   zacian: {
+    no: "888",
     ko: "자시안",
     jp: "ザシアン",
     fr: "Zacian",
@@ -8002,6 +8891,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Zacian",
   },
   zamazenta: {
+    no: "889",
     ko: "자마젠타",
     jp: "ザマゼンタ",
     fr: "Zamazenta",
@@ -8011,6 +8901,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Zamazenta",
   },
   eternatus: {
+    no: "890",
     ko: "무한다이노",
     jp: "ムゲンダイナ",
     fr: "Éthernatos",
@@ -8020,6 +8911,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Eternatus",
   },
   kubfu: {
+    no: "???",
     ko: "치고마",
     jp: "ダクマ",
     fr: "Wushours",
@@ -8029,6 +8921,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Kubfu",
   },
   urshifu: {
+    no: "???",
     ko: "우라오스",
     jp: "ウーラオス",
     fr: "Shifours",
@@ -8038,6 +8931,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Urshifu",
   },
   calyrex: {
+    no: "???",
     ko: "버드렉스",
     jp: "バドレックス",
     fr: "Sylveroy",
@@ -8047,6 +8941,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Calyrex",
   },
   zarude: {
+    no: "???",
     ko: "자루도",
     jp: "ザルード",
     fr: "Zarude",
@@ -8056,6 +8951,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "Zarude",
   },
   regieleki: {
+    no: "???",
     ko: "레지에레키",
     jp: "レジエレキ",
     fr: "",
@@ -8065,6 +8961,7 @@ export const PokemonNames: { [pokename: string]: NationalPokeName } = {
     it: "",
   },
   regidrago: {
+    no: "???",
     ko: "레지드래고",
     jp: "レジドラゴ",
     fr: "",
