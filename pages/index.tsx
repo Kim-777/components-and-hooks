@@ -9,6 +9,7 @@ import Link from "next/link";
 import { getSortedPostsData } from "../lib/posts";
 import Date from "../components/date";
 import Script from "next/script";
+import ThemeToggleBtn from "../components/btns/ThemeToggleBtn";
 
 export type PostData = {
   id: any;
@@ -27,6 +28,7 @@ const Home: NextPage<HomeProps> = ({ allPostsData }) => {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <ThemeToggleBtn />
       <section className={utilStyles.headingMd}>
         <p>[넥스트 하는 kim-777]</p>
         <Link href="/animal/dogs">

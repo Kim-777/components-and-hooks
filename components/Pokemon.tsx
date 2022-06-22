@@ -25,7 +25,7 @@ const Pokemon: FC<PokemonProps> = ({ name, url }) => {
 
   return (
     <div className={cx({ wrapper: true })} onClick={handleGoToDetail}>
-      {name} {PokemonNames[name]?.ko}
+      {PokemonNames[name]?.ko}
       <Image
         src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${PokemonNumber}.png`}
         alt="포켓몬 이미지"
