@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/Layouts/BasicLayout";
@@ -10,6 +11,8 @@ import { getSortedPostsData } from "../lib/posts";
 import Date from "../components/date";
 import Script from "next/script";
 import ThemeToggleBtn from "../components/btns/ThemeToggleBtn";
+import useTest from "../hooks/testhook";
+import Test from "../components/Test";
 
 export type PostData = {
   id: any;
@@ -23,6 +26,11 @@ type HomeProps = {
 };
 
 const Home: NextPage<HomeProps> = ({ allPostsData }) => {
+  const numRef = React.useRef<number>(1);
+  const [test, setTest] = useTest(numRef.current);
+
+  console.log("rendering :::: ", numRef.current);
+
   return (
     <Layout home>
       <Head>
@@ -54,6 +62,16 @@ const Home: NextPage<HomeProps> = ({ allPostsData }) => {
         <Link href="/pokemons">
           <a>포켓몬 보러가기!</a>
         </Link>
+        <button
+          onClick={() => {
+            console.log("onClicked!!");
+            numRef.current = numRef.current + 1;
+            console.log("numRef.current!!!! ::::  ", numRef.current);
+          }}
+        >
+          눌러 보셈
+        </button>
+        <Test num={numRef.current} />
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>

@@ -24,7 +24,7 @@ export function MockTodo(): Todo {
   };
 }
 
-export function MockTodos(
+export function getMockTodos(
   offset: number,
   limit: number
 ): Promise<TodoResponse> {

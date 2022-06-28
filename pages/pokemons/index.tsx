@@ -30,7 +30,6 @@ const Pokemons = () => {
   );
 
   const [num, setNum] = React.useState<number>(0);
-  const [test, setTest] = useTest(num);
 
   const loadMoreButtonRef = React.useRef<HTMLDivElement | undefined>();
 
