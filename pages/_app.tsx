@@ -17,8 +17,6 @@ const MyApp: NextComponentType<AppContext, AppInitialProps, AppProps> = ({
     qyeryClientRef.current = new QueryClient();
   }
 
-  console.log("app ::::::::");
-
   return (
     <QueryClientProvider client={qyeryClientRef.current}>
       <Hydrate state={pageProps.dehydratedState}>
