@@ -1,10 +1,14 @@
 import React from "react";
 import Pokemon from "../../components/Pokemon";
-import { QueryClient, useInfiniteQuery } from "react-query";
+import { QueryClient, useInfiniteQuery, useQueries } from "react-query";
 import { getPoke } from "../../apis/index";
 import { dehydrate } from "react-query";
 import useIntersectionObserver from "../../hooks/useIntersectionObserver";
+import classNames from "classnames/bind";
 import useTest from "../../hooks/testhook";
+import styles from "./pokemons.module.less";
+
+const cx = classNames.bind(styles);
 
 const Pokemons = () => {
   const { data, hasNextPage, fetchNextPage } = useInfiniteQuery(
@@ -26,7 +30,6 @@ const Pokemons = () => {
   );
 
   const [num, setNum] = React.useState<number>(0);
-  const [test, setTest] = useTest(num);
 
   const loadMoreButtonRef = React.useRef<HTMLDivElement | undefined>();
 
@@ -41,16 +44,11 @@ const Pokemons = () => {
 
   return (
     <>
-      <div>hui</div>
-      <ul>
+      <div className={cx({ wrapper: true })}>
         {(data as any).pages.map((page: any) =>
-          page.results.map((poke: any) => (
-            <li key={poke.name} style={{ padding: "20px", fontWeight: "bold" }}>
-              {poke.name}
-            </li>
-          ))
+          page.results.map((poke: any) => <Pokemon key={poke.name} {...poke} />)
         )}
-      </ul>
+      </div>
       <button
         onClick={() => {
           setNum((prev) => prev + 1);

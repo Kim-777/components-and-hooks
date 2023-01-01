@@ -5,7 +5,7 @@ export default function useIntersectionObserver({
   target,
   onIntersect,
   threshold = 1.0,
-  rootMargin = "0px",
+  rootMargin = "10px",
   enabled = true,
 }: {
   root: any;
@@ -20,8 +20,9 @@ export default function useIntersectionObserver({
       return;
     }
     const observer = new IntersectionObserver(
-      (entries) =>
-        entries.forEach((entry) => entry.isIntersecting && onIntersect()),
+      (entries) => {
+        entries.forEach((entry) => entry.isIntersecting && onIntersect());
+      },
       {
         root: root && root.current,
         rootMargin,

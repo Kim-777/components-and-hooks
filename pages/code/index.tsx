@@ -10,7 +10,7 @@ const CodesPage = () => {
   const [selectedCode, setSelectedCode] = React.useState("AntdMenu");
 
   return (
-    <div className={cx({ hi: true })}>
+    <div className={cx({ wrapper: true })}>
       <AntdMenu />
     </div>
   );

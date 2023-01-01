@@ -1,48 +1,39 @@
-import React from "react";
-import { useInfiniteQuery, useQuery } from "react-query";
-import { getPoke } from "../apis";
-import useIntersectionObserver from "../hooks/useIntersectionObserver";
+import Link from "next/link";
+import classNames from "classnames/bind";
+import { useRouter } from "next/router";
+import React, { FC } from "react";
+import { PokemonNames } from "../constants";
 
-const Pokemon = () => {
-  const { data, hasNextPage, fetchNextPage } = useInfiniteQuery(
-    "poke",
-    ({ pageParam = "" }) => getPoke(pageParam),
-    {
-      getNextPageParam: (lastPage) => {
-        const lastOffset =
-          lastPage.results[lastPage.results.length - 1].url.split("/")[6];
-        if (lastOffset > 1118) {
-          return undefined;
-        }
-        return lastOffset;
-      },
-      staleTime: 1000,
-    }
-  );
+import styles from "./Pokemon.module.less";
+import Image from "next/image";
 
-  const loadMoreButtonRef = React.useRef<HTMLDivElement | undefined>();
+const cx = classNames.bind(styles);
+interface PokemonProps {
+  name: string;
+  url: string;
+}
 
-  useIntersectionObserver({
-    root: null,
-    target: loadMoreButtonRef,
-    onIntersect: fetchNextPage,
-    enabled: hasNextPage,
-  });
+const Pokemon: FC<PokemonProps> = ({ name, url }) => {
+  const router = useRouter();
+
+  const PokemonNumber = React.useMemo(() => url.split("/")[6], [url]);
+
+  const handleGoToDetail = React.useCallback(() => {
+    console.log("handleGoToDetail clicked ! ", PokemonNumber);
+    router.push(`/pokemons/${PokemonNumber}`);
+  }, [PokemonNumber, router]);
 
   return (
-    <>
-      <ul>
-        {(data as any).pages.map((page: any) =>
-          page.results.map((poke: any) => (
-            <li key={poke.name} style={{ padding: "20px", fontWeight: "bold" }}>
-              {poke.name}
-            </li>
-          ))
-        )}
-      </ul>
-      <button onClick={() => fetchNextPage()}>Load More</button>
-      <div ref={loadMoreButtonRef as any} />
-    </>
+    <div className={cx({ wrapper: true })} onClick={handleGoToDetail}>
+      {PokemonNames[name]?.ko}
+      <Image
+        src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${PokemonNumber}.png`}
+        alt="포켓몬 이미지"
+        width={100}
+        height={100}
+        layout="intrinsic"
+      />
+    </div>
   );
 };
 

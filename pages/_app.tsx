@@ -6,6 +6,7 @@ import { ReactQueryDevtools } from "react-query/devtools";
 import { QueryClient, QueryClientProvider } from "react-query";
 import "../styles/antd.less";
 import { NextComponentType } from "next";
+import { ThemeProvider } from "../contexts/ThemeProvider";
 
 const MyApp: NextComponentType<AppContext, AppInitialProps, AppProps> = ({
   Component,
@@ -19,9 +20,11 @@ const MyApp: NextComponentType<AppContext, AppInitialProps, AppProps> = ({
 
   return (
     <QueryClientProvider client={qyeryClientRef.current}>
-      <Hydrate state={pageProps.dehydratedState}>
-        <Component {...pageProps} />
-      </Hydrate>
+      <ThemeProvider>
+        <Hydrate state={pageProps.dehydratedState}>
+          <Component {...pageProps} />
+        </Hydrate>
+      </ThemeProvider>
       <ReactQueryDevtools />
     </QueryClientProvider>
   );
