@@ -54,20 +54,22 @@ const Slider = () => {
   const newItemWidth = getNewItemWidth();
   const transitionTime = 500;
   const transitionStyle = `transform ${transitionTime}ms ease 0s`;
-  const 양끝에_추가될_데이터수 = 2;
-  const [currentIndex, setCurrentIndex] = useState(양끝에_추가될_데이터수);
-  const [slideTransition, setTransition] = useState(transitionStyle);
+  const numbersToAddEdge = 2;
+  const [currentIndex, setCurrentIndex] = useState(numbersToAddEdge);
+  const [slideTransition, setSlideTransition] = useState(transitionStyle);
   const [isSwiping, setIsSwiping] = useState(false);
   const [slideX, setSlideX] = useState<number | null>(null);
   const [prevSlideX, setPrevSlideX] = useState<number | null>(null);
   let isResizing = useRef(false);
+
+  console.log("prevSlideX :::: ", prevSlideX);
 
   let slides = setSlides();
   function setSlides() {
     let addedFront = [];
     let addedLast = [];
     var index = 0;
-    while (index < 양끝에_추가될_데이터수) {
+    while (index < numbersToAddEdge) {
       addedLast.push(items[index % items.length]);
       addedFront.unshift(items[items.length - 1 - (index % items.length)]);
       index++;
@@ -78,7 +80,7 @@ const Slider = () => {
   React.useEffect(() => {
     isResizing.current = true;
     setIsSwiping(true);
-    setTransition("");
+    setSlideTransition("");
     setTimeout(() => {
       isResizing.current = false;
       if (!isResizing.current) setIsSwiping(false);
@@ -94,21 +96,21 @@ const Slider = () => {
 
   function replaceSlide(index: number) {
     setTimeout(() => {
-      setTransition("");
+      setSlideTransition("");
       setCurrentIndex(index);
     }, transitionTime);
   }
 
   function handleSlide(index: number) {
     setCurrentIndex(index);
-    if (index - 양끝에_추가될_데이터수 < 0) {
+    if (index - numbersToAddEdge < 0) {
       index += itemSize;
       replaceSlide(index);
-    } else if (index - 양끝에_추가될_데이터수 >= itemSize) {
+    } else if (index - numbersToAddEdge >= itemSize) {
       index -= itemSize;
       replaceSlide(index);
     }
-    setTransition(transitionStyle);
+    setSlideTransition(transitionStyle);
   }
 
   function handleSwipe(direction: number) {
@@ -117,22 +119,13 @@ const Slider = () => {
   }
 
   function getItemIndex(index: number) {
-    index -= 양끝에_추가될_데이터수;
+    index -= numbersToAddEdge;
     if (index < 0) {
       index += itemSize;
     } else if (index >= itemSize) {
       index -= itemSize;
     }
     return index;
-  }
-
-  function getClientX(event: any) {
-    console.log("event ::: ", event);
-    return event.type == "touchstart"
-      ? event.touches[0].clientX
-      : event.type == "touchmove" || event.type == "touchend"
-      ? event.changedTouches[0].clientX
-      : event.clientX;
   }
 
   const handleMouseDown: React.MouseEventHandler<HTMLDivElement> = (e) => {
@@ -145,7 +138,7 @@ const Slider = () => {
 
   const handleTouchMove: React.TouchEventHandler<HTMLDivElement> = (e) => {
     if (typeof prevSlideX === "number" && prevSlideX) {
-      setSlideX((slideX) => e.changedTouches[0].clientX - prevSlideX);
+      setSlideX(e.changedTouches[0].clientX - prevSlideX);
     }
   };
 
@@ -182,9 +175,9 @@ const Slider = () => {
       ) {
         handleSlide(currentIndex - 1);
       }
-      setSlideX((slideX) => null);
+      setSlideX(null);
     }
-    setPrevSlideX((prevSlideX) => null);
+    setPrevSlideX(null);
   };
   const handleMouseLeave: React.MouseEventHandler<HTMLDivElement> = (e) => {
     if (typeof slideX === "number") {
@@ -239,7 +232,7 @@ const Slider = () => {
                   onTouchEnd={handleTouchEnd}
                   onMouseLeave={handleMouseLeave}
                 >
-                  {slide}
+                  {itemIndex}/{slideIndex}
                 </div>
               );
             })}
