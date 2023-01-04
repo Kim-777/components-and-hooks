@@ -63,7 +63,7 @@ const Home: NextPage<HomeProps> = ({ allPostsData }) => {
         <Pagination
           onChangePage={setPageNow}
           pageNow={pageNow}
-          itemsLength={55}
+          itemsLength={222}
           itemsPerPage={10}
           paginationLength={5}
         />

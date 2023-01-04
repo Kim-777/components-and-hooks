@@ -41,7 +41,7 @@ const Pagination = ({
     <div>
       <li
         onClick={() => {
-          if (pageNow > 2) {
+          if (pageNow >= 2) {
             onChangePage(pageNow - 1);
           }
         }}
