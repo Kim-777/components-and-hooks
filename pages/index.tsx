@@ -9,6 +9,7 @@ import Link from "next/link";
 import { getSortedPostsData } from "../lib/posts";
 import Date from "../components/date";
 import ThemeToggleBtn from "../components/btns/ThemeToggleBtn";
+import Pagination from "components/pagination";
 
 export type PostData = {
   id: any;
@@ -22,13 +23,15 @@ type HomeProps = {
 };
 
 const Home: NextPage<HomeProps> = ({ allPostsData }) => {
+  const [pageNow, setPageNow] = React.useState<number>(1);
+
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <ThemeToggleBtn />
-      <section className={utilStyles.headingMd}>
+      {/* <section className={utilStyles.headingMd}>
         <p>[넥스트 하는 kim-777]</p>
         <Link href="/animal/dogs">강아지 보러가기!</Link>
         <br />
@@ -55,6 +58,15 @@ const Home: NextPage<HomeProps> = ({ allPostsData }) => {
             </li>
           ))}
         </ul>
+      </section> */}
+      <section>
+        <Pagination
+          onChangePage={setPageNow}
+          pageNow={pageNow}
+          itemsLength={55}
+          itemsPerPage={10}
+          paginationLength={5}
+        />
       </section>
     </Layout>
   );

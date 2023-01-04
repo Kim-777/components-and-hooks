@@ -24,4 +24,10 @@ export const getPokemonImgById = async (id = 1) => {
   return data;
 };
 
+const returnPromise: () => Promise<string> = () => {
+  return new Promise((resolve, reject) => {
+    resolve("3");
+  });
+};
+
 // https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png pokemon image

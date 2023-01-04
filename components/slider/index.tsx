@@ -78,12 +78,13 @@ const Slider = () => {
   }
 
   React.useEffect(() => {
-    isResizing.current = true;
+    // isResizing.current = true;
     setIsSwiping(true);
     setSlideTransition("");
     setTimeout(() => {
-      isResizing.current = false;
-      if (!isResizing.current) setIsSwiping(false);
+      // isResizing.current = false;
+      // if (!isResizing.current)
+      setIsSwiping(false);
     }, 1000);
   }, [windowWidth]);
 
@@ -201,7 +202,7 @@ const Slider = () => {
         <SlideButton direction="next" onClick={() => handleSwipe(1)} />
         <div
           className={cx({ "slider-list": true })}
-          style={{ padding: sliderPaddingStyle }}
+          // style={{ padding: sliderPaddingStyle }}
         >
           <div
             className={cx({ "slider-track": true })}
