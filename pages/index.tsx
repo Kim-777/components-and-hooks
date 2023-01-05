@@ -11,6 +11,7 @@ import Date from "../components/date";
 import ThemeToggleBtn from "../components/btns/ThemeToggleBtn";
 import Pagination from "components/pagination";
 import ShowBox from "components/showBox";
+import { useModal } from "contexts/ModalContext";
 
 export type PostData = {
   id: any;
@@ -24,6 +25,7 @@ type HomeProps = {
 };
 
 const Home: NextPage<HomeProps> = ({ allPostsData }) => {
+  const { setModal, closeModal } = useModal();
   const [pageNow, setPageNow] = React.useState<number>(1);
 
   return (
@@ -71,6 +73,15 @@ const Home: NextPage<HomeProps> = ({ allPostsData }) => {
       </section>
       <section>
         <ShowBox />
+      </section>
+      <section>
+        <button
+          onClick={() => {
+            setModal(<div style={{ backgroundColor: "white" }}>안녕</div>);
+          }}
+        >
+          모달을 열어!
+        </button>
       </section>
     </Layout>
   );

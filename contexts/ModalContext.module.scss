@@ -1,0 +1,14 @@
+.wrapper {
+  position: fixed;
+  background-color: blue; 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 9999;
+}

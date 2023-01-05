@@ -7,6 +7,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import "../styles/antd.less";
 import { NextComponentType } from "next";
 import { ThemeProvider } from "../contexts/ThemeProvider";
+import { ModalProvider } from "contexts/ModalContext";
 
 const MyApp: NextComponentType<AppContext, AppInitialProps, AppProps> = ({
   Component,
@@ -20,11 +21,13 @@ const MyApp: NextComponentType<AppContext, AppInitialProps, AppProps> = ({
 
   return (
     <QueryClientProvider client={qyeryClientRef.current}>
-      <ThemeProvider>
-        <Hydrate state={pageProps.dehydratedState}>
-          <Component {...pageProps} />
-        </Hydrate>
-      </ThemeProvider>
+      <ModalProvider>
+        <ThemeProvider>
+          <Hydrate state={pageProps.dehydratedState}>
+            <Component {...pageProps} />
+          </Hydrate>
+        </ThemeProvider>
+      </ModalProvider>
       <ReactQueryDevtools />
     </QueryClientProvider>
   );
