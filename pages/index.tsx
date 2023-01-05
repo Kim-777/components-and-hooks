@@ -10,6 +10,7 @@ import { getSortedPostsData } from "../lib/posts";
 import Date from "../components/date";
 import ThemeToggleBtn from "../components/btns/ThemeToggleBtn";
 import Pagination from "components/pagination";
+import ShowBox from "components/showBox";
 
 export type PostData = {
   id: any;
@@ -67,6 +68,9 @@ const Home: NextPage<HomeProps> = ({ allPostsData }) => {
           itemsPerPage={10}
           paginationLength={5}
         />
+      </section>
+      <section>
+        <ShowBox />
       </section>
     </Layout>
   );

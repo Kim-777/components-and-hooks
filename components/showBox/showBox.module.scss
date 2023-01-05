@@ -1,0 +1,72 @@
+.wrapper {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  background-color: pink;
+}
+
+.text {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transition: all 1s ease;
+  z-index: 10;
+  text-align: center;
+  line-height: 50px;
+
+  &:hover {
+    background-color: rgb(248, 248, 248);
+    & + .itemBox > .triangle {
+      transform:translateY(30px) rotate(0.3turn);
+    }
+
+    & + .itemBox > .rectangle {
+      transform:translateY(-30px) rotate(0.3turn);
+    }
+
+    & + .itemBox > .circle {
+      transform:translateY(30px) rotate(0.3turn);
+    }
+  }
+}
+
+.itemBox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  top: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .triangle {
+  
+    // background-color: ;
+    width: 0px;
+    height: 0px;
+    border-bottom: calc( 15px * 1.732 ) solid rgb(130, 130, 255);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    transition:  all 2s ease;
+  }
+  
+  .rectangle {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(152, 152, 255);
+    transition:  all 2s ease;
+  }
+  
+  .circle {
+    border-radius: 15px;;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(54, 54, 255);
+    transition:  all 2s ease;
+  }
+
+}
+
