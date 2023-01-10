@@ -1,45 +1,52 @@
-import React from "react";
+import * as React from "react";
 
 export default function useIntersectionObserver({
-  root,
-  target,
+  rootRef,
+  targetRef,
   onIntersect,
   threshold = 1.0,
-  rootMargin = "10px",
+  rootMargin = "150px",
   enabled = true,
+  ready,
 }: {
-  root: any;
-  target: React.MutableRefObject<any>;
-  onIntersect: any;
+  targetRef: React.RefObject<HTMLElement>;
+  onIntersect: () => void;
+  rootRef?: React.RefObject<HTMLElement>;
   threshold?: number;
   rootMargin?: string;
-  enabled: boolean | undefined;
+  enabled?: boolean;
+  ready?: boolean;
 }) {
   React.useEffect(() => {
-    if (!enabled) {
-      return;
+    const root = rootRef?.current;
+    const target = targetRef?.current;
+
+    if (!enabled || !target) {
+      return () => {
+        return;
+      };
     }
+
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => entry.isIntersecting && onIntersect());
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // console.log('isIntersecting !!!!!');
+            onIntersect();
+          }
+        });
       },
       {
-        root: root && root.current,
+        root,
         rootMargin,
         threshold,
       }
     );
 
-    const el = target && target.current;
-
-    if (!el) {
-      return;
-    }
-
-    observer.observe(el);
+    observer.observe(target);
 
     return () => {
-      observer.unobserve(el);
+      observer.unobserve(target);
     };
-  }, [target, enabled, root, threshold, rootMargin, onIntersect]);
+  }, [enabled, targetRef, rootRef, rootMargin, threshold, onIntersect, ready]);
 }
