@@ -12,6 +12,7 @@ import ThemeToggleBtn from "../components/btns/ThemeToggleBtn";
 import Pagination from "components/pagination";
 import ShowBox from "components/showBox";
 import { useModal } from "contexts/ModalContext";
+import { useCalendar } from "hooks/useCalendar";
 
 export type PostData = {
   id: any;
@@ -27,6 +28,16 @@ type HomeProps = {
 const Home: NextPage<HomeProps> = ({ allPostsData }) => {
   const { setModal, closeModal } = useModal();
   const [pageNow, setPageNow] = React.useState<number>(1);
+
+  const { calendar } = useCalendar({
+    renderer(data) {
+      return (
+        <div key={data.format("YYYY. MM. DD")}>
+          {data.format("YYYY. MM. DD")}
+        </div>
+      );
+    },
+  });
 
   return (
     <Layout home>
@@ -83,6 +94,7 @@ const Home: NextPage<HomeProps> = ({ allPostsData }) => {
           모달을 열어!
         </button>
       </section>
+      <section>{calendar}</section>
     </Layout>
   );
 };

@@ -5,7 +5,6 @@ import { getPoke } from "../../apis/index";
 import { dehydrate } from "react-query";
 import useIntersectionObserver from "../../hooks/useIntersectionObserver";
 import classNames from "classnames/bind";
-import useTest from "../../hooks/testhook";
 import styles from "./pokemons.module.less";
 
 const cx = classNames.bind(styles);
@@ -32,13 +31,6 @@ const Pokemons = () => {
   const [num, setNum] = React.useState<number>(0);
 
   const loadMoreButtonRef = React.useRef<HTMLDivElement | undefined>();
-
-  useIntersectionObserver({
-    root: null,
-    target: loadMoreButtonRef,
-    onIntersect: fetchNextPage,
-    enabled: hasNextPage,
-  });
 
   // console.log("number in test :::: ", test);
 

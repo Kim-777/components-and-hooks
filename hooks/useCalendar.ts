@@ -19,18 +19,38 @@ export const useCalendar = ({
   defaultDate?: Dayjs;
   renderer?: (date: Dayjs) => React.ReactNode | Dayjs;
 }) => {
-  const [viewDate, setViewDate] = React.useState<Dayjs>(defaultDate || dayjs());
+  const [viewDate, setViewDate] = React.useState<Dayjs>(
+    defaultDate || dayjs("2022.12.1")
+  );
   const [calendar, setCalendar] = React.useState<any[]>();
 
   const createCalendar = React.useCallback(() => {
     const calendar = [];
     const startWeek = viewDate.startOf("month").week();
+
+    // console.log("viewDate :::: ", viewDate.format("YYYY. MM. DD"));
+
+    // console.log(
+    //   'viewDate.endOf("month").week() ::: ',
+    //   viewDate.endOf("month").week()
+    // );
+
+    console.log(
+      'viewDate.format("MM") === "12" :::: ',
+      viewDate.format("MM") === "12"
+    );
+
+    console.log(
+      'viewDate.startOf("week") ::::: ',
+      viewDate.startOf("week").format("YYYY. MM.DD")
+    );
     const endWeek =
       viewDate.endOf("month").week() === 1
         ? 53
         : viewDate.endOf("month").week();
 
     for (let week = startWeek; week <= endWeek; week++) {
+      console.log("week :::: ", week);
       calendar.push(
         Array(7)
           .fill(0)
